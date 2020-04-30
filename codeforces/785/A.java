@@ -1,10 +1,10 @@
 import java.util.*;
 import java.io.*;
 
-public class Problem_404A {
+public class Submitting {
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		Problem_404A program = new Problem_404A();
+		Submitting program = new Submitting();
 		program.Begin();
 	}
 	void Begin() throws IOException{
