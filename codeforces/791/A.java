@@ -21,7 +21,7 @@ public class Problem_791A {
 			b*=2;
 			ans++;
 		}
-		pw.println(ans); 
+		pw.println(ans);
 		pw.close();
 		br.close();
 	}
