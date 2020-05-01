@@ -1481,6 +1481,22 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF78660824": {
+    "contest_id": 282,
+    "language": "Java 11",
+    "path": "codeforces\\282\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bit++",
+    "problem_url": "https://codeforces.com/contest/282/problem/A",
+    "submission_id": "CF78660824",
+    "submission_url": "https://codeforces.com/contest/282/submission/78660824",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/01/2020 07:14"
+  },
   "CF78669699": {
     "contest_id": 1348,
     "language": "Java 11",
