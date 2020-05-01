@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF78732141": {
+    "contest_id": 1348,
+    "language": "Java 11",
+    "path": "codeforces\\1348\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Phoenix and Beauty",
+    "problem_url": "https://codeforces.com/contest/1348/problem/B",
+    "submission_id": "CF78732141",
+    "submission_url": "https://codeforces.com/contest/1348/submission/78732141",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "May/01/2020 09:33"
+  },
   "CF78735955": {
     "contest_id": 1348,
     "language": "Java 11",
