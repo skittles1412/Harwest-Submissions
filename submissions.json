@@ -1760,6 +1760,25 @@
     ],
     "timestamp": "May/06/2020 07:07"
   },
+  "CF79158136": {
+    "contest_id": 1345,
+    "language": "Java 11",
+    "path": "codeforces\\1345\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Card Constructions",
+    "problem_url": "https://codeforces.com/contest/1345/problem/B",
+    "submission_id": "CF79158136",
+    "submission_url": "https://codeforces.com/contest/1345/submission/79158136",
+    "tags": [
+      "binary search",
+      "brute force",
+      "dp",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "May/06/2020 07:49"
+  },
   "CF79186273": {
     "contest_id": 1345,
     "language": "Java 8",
