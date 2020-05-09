@@ -1760,6 +1760,24 @@
     ],
     "timestamp": "May/06/2020 07:07"
   },
+  "CF79517392": {
+    "contest_id": 1352,
+    "language": "Java 11",
+    "path": "codeforces\\1352\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Special Elements",
+    "problem_url": "https://codeforces.com/contest/1352/problem/E",
+    "submission_id": "CF79517392",
+    "submission_url": "https://codeforces.com/contest/1352/submission/79517392",
+    "tags": [
+      "brute force",
+      "implementation",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "May/09/2020 08:24"
+  },
   "CF79530615": {
     "contest_id": 1352,
     "language": "Java 11",
