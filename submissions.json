@@ -1760,6 +1760,24 @@
     ],
     "timestamp": "May/06/2020 07:07"
   },
+  "CF79530615": {
+    "contest_id": 1352,
+    "language": "Java 11",
+    "path": "codeforces\\1352\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Binary String Reconstruction",
+    "problem_url": "https://codeforces.com/contest/1352/problem/F",
+    "submission_id": "CF79530615",
+    "submission_url": "https://codeforces.com/contest/1352/submission/79530615",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "May/09/2020 08:41"
+  },
   "CF79542554": {
     "contest_id": 1352,
     "language": "Java 11",
