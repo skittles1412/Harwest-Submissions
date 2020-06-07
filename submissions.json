@@ -1760,6 +1760,24 @@
     ],
     "timestamp": "May/06/2020 07:07"
   },
+  "CF82890997": {
+    "contest_id": 1365,
+    "language": "Java 11",
+    "path": "codeforces\\1365\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Swaps Again",
+    "problem_url": "https://codeforces.com/contest/1365/problem/F",
+    "submission_id": "CF82890997",
+    "submission_url": "https://codeforces.com/contest/1365/submission/82890997",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Jun/07/2020 14:33"
+  },
   "CF83627759": {
     "contest_id": 1364,
     "language": "Java 11",
