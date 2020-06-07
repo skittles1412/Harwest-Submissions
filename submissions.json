@@ -1760,6 +1760,28 @@
     ],
     "timestamp": "May/06/2020 07:07"
   },
+  "CF82876278": {
+    "contest_id": 1365,
+    "language": "Java 11",
+    "path": "codeforces\\1365\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Solve The Maze",
+    "problem_url": "https://codeforces.com/contest/1365/problem/D",
+    "submission_id": "CF82876278",
+    "submission_url": "https://codeforces.com/contest/1365/submission/82876278",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "implementation",
+      "shortest paths",
+      "*1700"
+    ],
+    "timestamp": "Jun/07/2020 11:22"
+  },
   "CF82890997": {
     "contest_id": 1365,
     "language": "Java 11",
