@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF83636322": {
+    "contest_id": 1364,
+    "language": "Java 11",
+    "path": "codeforces\\1364\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Most socially-distanced subsequence",
+    "problem_url": "https://codeforces.com/contest/1364/problem/B",
+    "submission_id": "CF83636322",
+    "submission_url": "https://codeforces.com/contest/1364/submission/83636322",
+    "tags": [
+      "greedy",
+      "two pointers",
+      "*1300"
+    ],
+    "timestamp": "Jun/13/2020 08:26"
+  },
   "CF83649211": {
     "contest_id": 1364,
     "language": "Java 11",
