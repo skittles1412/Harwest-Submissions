@@ -2285,6 +2285,25 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF86004268": {
+    "contest_id": 1375,
+    "language": "Java 11",
+    "path": "codeforces\\1375\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Integer Game",
+    "problem_url": "https://codeforces.com/contest/1375/problem/F",
+    "submission_id": "CF86004268",
+    "submission_url": "https://codeforces.com/contest/1375/submission/86004268",
+    "tags": [
+      "constructive algorithms",
+      "games",
+      "interactive",
+      "math",
+      "*2600"
+    ],
+    "timestamp": "Jul/04/2020 11:48"
+  },
   "CF86016652": {
     "contest_id": 1367,
     "language": "Java 11",
