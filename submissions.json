@@ -2285,6 +2285,22 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF86018153": {
+    "contest_id": 344,
+    "language": "Java 11",
+    "path": "codeforces\\344\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Magnets",
+    "problem_url": "https://codeforces.com/contest/344/problem/A",
+    "submission_id": "CF86018153",
+    "submission_url": "https://codeforces.com/contest/344/submission/86018153",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/04/2020 19:13"
+  },
   "CF86021111": {
     "contest_id": 1366,
     "language": "Java 11",
