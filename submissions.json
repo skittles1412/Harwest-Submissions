@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF86021111": {
+    "contest_id": 1366,
+    "language": "Java 11",
+    "path": "codeforces\\1366\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Two Divisors",
+    "problem_url": "https://codeforces.com/contest/1366/problem/D",
+    "submission_id": "CF86021111",
+    "submission_url": "https://codeforces.com/contest/1366/submission/86021111",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*2000"
+    ],
+    "timestamp": "Jul/04/2020 20:41"
+  },
   "CF86067432": {
     "contest_id": 1360,
     "language": "Java 11",
