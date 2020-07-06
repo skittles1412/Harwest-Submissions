@@ -2285,6 +2285,22 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF86144564": {
+    "contest_id": 1373,
+    "language": "Java 11",
+    "path": "codeforces\\1373\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "01 Game",
+    "problem_url": "https://codeforces.com/contest/1373/problem/B",
+    "submission_id": "CF86144564",
+    "submission_url": "https://codeforces.com/contest/1373/submission/86144564",
+    "tags": [
+      "games",
+      "*900"
+    ],
+    "timestamp": "Jul/06/2020 09:59"
+  },
   "CF86144855": {
     "contest_id": 1373,
     "language": "Java 11",
