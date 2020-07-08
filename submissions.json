@@ -1,4 +1,20 @@
 {
+  "AC15094500": {
+    "contest_id": "abc173",
+    "language": "Java (OpenJDK 11.0.6)",
+    "path": "atcoder/abc173/A.java",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Payment",
+    "problem_url": "https://atcoder.jp/contests/abc173/tasks/abc173_a",
+    "submission_id": "AC15094500",
+    "submission_url": "https://atcoder.jp/contests/abc173/submissions/15094500",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/08/2020 16:35"
+  },
   "AC15094515": {
     "contest_id": "abc173",
     "language": "Java (OpenJDK 11.0.6)",
