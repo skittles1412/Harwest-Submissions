@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF86512996": {
+    "contest_id": 1365,
+    "language": "Java 11",
+    "path": "codeforces\\1365\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Maximum Subsequence Value",
+    "problem_url": "https://codeforces.com/contest/1365/problem/E",
+    "submission_id": "CF86512996",
+    "submission_url": "https://codeforces.com/contest/1365/submission/86512996",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "*1900"
+    ],
+    "timestamp": "Jul/11/2020 07:59"
+  },
   "CF86517365": {
     "contest_id": 1372,
     "language": "Java 11",
