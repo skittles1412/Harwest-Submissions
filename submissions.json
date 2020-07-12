@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF86669187": {
+    "contest_id": 1380,
+    "language": "Java 11",
+    "path": "codeforces\\1380\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Three Indices",
+    "problem_url": "https://codeforces.com/contest/1380/problem/A",
+    "submission_id": "CF86669187",
+    "submission_url": "https://codeforces.com/contest/1380/submission/86669187",
+    "tags": [
+      "brute force",
+      "data structures",
+      "*900"
+    ],
+    "timestamp": "Jul/12/2020 08:20"
+  },
   "CF86671823": {
     "contest_id": 1380,
     "language": "Java 11",
