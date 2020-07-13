@@ -2285,6 +2285,26 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF86714545": {
+    "contest_id": 1380,
+    "language": "Java 11",
+    "path": "codeforces\\1380\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Berserk And Fireball",
+    "problem_url": "https://codeforces.com/contest/1380/problem/D",
+    "submission_id": "CF86714545",
+    "submission_url": "https://codeforces.com/contest/1380/submission/86714545",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Jul/12/2020 20:23"
+  },
   "CF86785940": {
     "contest_id": 679,
     "language": "Java 11",
