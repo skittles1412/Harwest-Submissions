@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF86953402": {
+    "contest_id": 1197,
+    "language": "Java 11",
+    "path": "codeforces\\1197\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "DIY Wooden Ladder",
+    "problem_url": "https://codeforces.com/contest/1197/problem/A",
+    "submission_id": "CF86953402",
+    "submission_url": "https://codeforces.com/contest/1197/submission/86953402",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Jul/15/2020 20:16"
+  },
   "CF86953674": {
     "contest_id": 1344,
     "language": "Java 11",
