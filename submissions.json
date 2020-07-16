@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF86951832": {
+    "contest_id": 1355,
+    "language": "Java 11",
+    "path": "codeforces\\1355\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Young Explorers",
+    "problem_url": "https://codeforces.com/contest/1355/problem/B",
+    "submission_id": "CF86951832",
+    "submission_url": "https://codeforces.com/contest/1355/submission/86951832",
+    "tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jul/15/2020 19:31"
+  },
   "CF86952367": {
     "contest_id": 600,
     "language": "Java 11",
