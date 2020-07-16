@@ -2285,6 +2285,26 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87015442": {
+    "contest_id": 1343,
+    "language": "Java 11",
+    "path": "codeforces\\1343\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Weights Distributing",
+    "problem_url": "https://codeforces.com/contest/1343/problem/E",
+    "submission_id": "CF87015442",
+    "submission_url": "https://codeforces.com/contest/1343/submission/87015442",
+    "tags": [
+      "brute force",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Jul/16/2020 11:13"
+  },
   "CF87023432": {
     "contest_id": 1343,
     "language": "Java 11",
