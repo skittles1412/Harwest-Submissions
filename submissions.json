@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87029541": {
+    "contest_id": 717,
+    "language": "Java 11",
+    "path": "codeforces\\717\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Potions Homework",
+    "problem_url": "https://codeforces.com/contest/717/problem/C",
+    "submission_id": "CF87029541",
+    "submission_url": "https://codeforces.com/contest/717/submission/87029541",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jul/16/2020 16:31"
+  },
   "CF87029945": {
     "contest_id": 858,
     "language": "Java 11",
