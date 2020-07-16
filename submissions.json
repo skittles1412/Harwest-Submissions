@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87029945": {
+    "contest_id": 858,
+    "language": "Java 11",
+    "path": "codeforces\\858\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Polycarp's phone book",
+    "problem_url": "https://codeforces.com/contest/858/problem/D",
+    "submission_id": "CF87029945",
+    "submission_url": "https://codeforces.com/contest/858/submission/87029945",
+    "tags": [
+      "data structures",
+      "implementation",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Jul/16/2020 16:54"
+  },
   "CF87080820": {
     "contest_id": 1385,
     "language": "Java 11",
