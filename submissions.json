@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF86999039": {
+    "contest_id": 56,
+    "language": "Java 11",
+    "path": "codeforces\\56\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Domino Principle",
+    "problem_url": "https://codeforces.com/contest/56/problem/E",
+    "submission_id": "CF86999039",
+    "submission_url": "https://codeforces.com/contest/56/submission/86999039",
+    "tags": [
+      "binary search",
+      "data structures",
+      "sortings",
+      "*2200"
+    ],
+    "timestamp": "Jul/16/2020 07:47"
+  },
   "CF86999770": {
     "contest_id": 597,
     "language": "Java 11",
