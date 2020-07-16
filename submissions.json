@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF86999770": {
+    "contest_id": 597,
+    "language": "Java 11",
+    "path": "codeforces\\597\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Restaurant",
+    "problem_url": "https://codeforces.com/contest/597/problem/B",
+    "submission_id": "CF86999770",
+    "submission_url": "https://codeforces.com/contest/597/submission/86999770",
+    "tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Jul/16/2020 07:54"
+  },
   "CF87000493": {
     "contest_id": 1106,
     "language": "Java 11",
