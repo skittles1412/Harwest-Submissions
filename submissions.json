@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87029271": {
+    "contest_id": 909,
+    "language": "Java 11",
+    "path": "codeforces\\909\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Generate Login",
+    "problem_url": "https://codeforces.com/contest/909/problem/A",
+    "submission_id": "CF87029271",
+    "submission_url": "https://codeforces.com/contest/909/submission/87029271",
+    "tags": [
+      "brute force",
+      "greedy",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Jul/16/2020 16:17"
+  },
   "CF87029541": {
     "contest_id": 717,
     "language": "Java 11",
