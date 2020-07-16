@@ -2285,6 +2285,26 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87023432": {
+    "contest_id": 1343,
+    "language": "Java 11",
+    "path": "codeforces\\1343\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Restore the Permutation by Sorted Segments",
+    "problem_url": "https://codeforces.com/contest/1343/problem/F",
+    "submission_id": "CF87023432",
+    "submission_url": "https://codeforces.com/contest/1343/submission/87023432",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "implementation",
+      "*2400"
+    ],
+    "timestamp": "Jul/16/2020 13:23"
+  },
   "CF87029062": {
     "contest_id": 1312,
     "language": "Java 11",
