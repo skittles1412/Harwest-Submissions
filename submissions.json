@@ -2285,6 +2285,22 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87080820": {
+    "contest_id": 1385,
+    "language": "Java 11",
+    "path": "codeforces\\1385\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Three Pairwise Maximums",
+    "problem_url": "https://codeforces.com/contest/1385/problem/A",
+    "submission_id": "CF87080820",
+    "submission_url": "https://codeforces.com/contest/1385/submission/87080820",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/17/2020 07:39"
+  },
   "CF87082881": {
     "contest_id": 1385,
     "language": "Java 11",
