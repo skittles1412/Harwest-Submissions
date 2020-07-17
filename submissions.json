@@ -2285,6 +2285,26 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87111132": {
+    "contest_id": 1385,
+    "language": "Java 11",
+    "path": "codeforces\\1385\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "a-Good String",
+    "problem_url": "https://codeforces.com/contest/1385/problem/D",
+    "submission_id": "CF87111132",
+    "submission_url": "https://codeforces.com/contest/1385/submission/87111132",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "divide and conquer",
+      "dp",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jul/17/2020 08:08"
+  },
   "CF87142950": {
     "contest_id": 1385,
     "language": "Java 11",
