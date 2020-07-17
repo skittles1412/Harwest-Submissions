@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87182513": {
+    "contest_id": 1173,
+    "language": "Java 11",
+    "path": "codeforces\\1173\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nauuo and Chess",
+    "problem_url": "https://codeforces.com/contest/1173/problem/B",
+    "submission_id": "CF87182513",
+    "submission_url": "https://codeforces.com/contest/1173/submission/87182513",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Jul/17/2020 14:47"
+  },
   "CF87187359": {
     "contest_id": 1202,
     "language": "Java 11",
