@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87180197": {
+    "contest_id": 1174,
+    "language": "Java 11",
+    "path": "codeforces\\1174\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Ehab and a Special Coloring Problem",
+    "problem_url": "https://codeforces.com/contest/1174/problem/C",
+    "submission_id": "CF87180197",
+    "submission_url": "https://codeforces.com/contest/1174/submission/87180197",
+    "tags": [
+      "constructive algorithms",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Jul/17/2020 13:44"
+  },
   "CF87182513": {
     "contest_id": 1173,
     "language": "Java 11",
