@@ -2285,6 +2285,22 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87193498": {
+    "contest_id": 1180,
+    "language": "Java 11",
+    "path": "codeforces\\1180\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Tolik and His Uncle",
+    "problem_url": "https://codeforces.com/contest/1180/problem/D",
+    "submission_id": "CF87193498",
+    "submission_url": "https://codeforces.com/contest/1180/submission/87193498",
+    "tags": [
+      "constructive algorithms",
+      "*1800"
+    ],
+    "timestamp": "Jul/17/2020 20:59"
+  },
   "CF87195758": {
     "contest_id": 1178,
     "language": "Java 11",
