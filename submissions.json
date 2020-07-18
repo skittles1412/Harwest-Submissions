@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87195852": {
+    "contest_id": 1385,
+    "language": "Java 11",
+    "path": "codeforces\\1385\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Directing Edges",
+    "problem_url": "https://codeforces.com/contest/1385/problem/E",
+    "submission_id": "CF87195852",
+    "submission_url": "https://codeforces.com/contest/1385/submission/87195852",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "*2000"
+    ],
+    "timestamp": "Jul/17/2020 21:54"
+  },
   "CF87373276": {
     "contest_id": 1385,
     "language": "Java 11",
