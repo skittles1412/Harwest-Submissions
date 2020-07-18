@@ -2285,6 +2285,25 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87187359": {
+    "contest_id": 1202,
+    "language": "Java 11",
+    "path": "codeforces\\1202\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Print a 1337-string...",
+    "problem_url": "https://codeforces.com/contest/1202/problem/D",
+    "submission_id": "CF87187359",
+    "submission_url": "https://codeforces.com/contest/1202/submission/87187359",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "math",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "Jul/17/2020 18:13"
+  },
   "CF87193498": {
     "contest_id": 1180,
     "language": "Java 11",
