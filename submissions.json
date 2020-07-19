@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87387327": {
+    "contest_id": 125,
+    "language": "Java 11",
+    "path": "codeforces\\125\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Hobbits' Party",
+    "problem_url": "https://codeforces.com/contest/125/problem/C",
+    "submission_id": "CF87387327",
+    "submission_url": "https://codeforces.com/contest/125/submission/87387327",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Jul/19/2020 15:16"
+  },
   "CF87388070": {
     "contest_id": 148,
     "language": "Java 11",
