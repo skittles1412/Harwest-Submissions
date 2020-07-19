@@ -2285,6 +2285,25 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87373276": {
+    "contest_id": 1385,
+    "language": "Java 11",
+    "path": "codeforces\\1385\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Removing Leaves",
+    "problem_url": "https://codeforces.com/contest/1385/problem/F",
+    "submission_id": "CF87373276",
+    "submission_url": "https://codeforces.com/contest/1385/submission/87373276",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Jul/19/2020 09:50"
+  },
   "CF87374287": {
     "contest_id": 1187,
     "language": "Java 11",
