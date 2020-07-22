@@ -4041,6 +4041,24 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF87703056": {
+    "contest_id": 879,
+    "language": "Java 11",
+    "path": "codeforces\\879\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Short Program",
+    "problem_url": "https://codeforces.com/contest/879/problem/C",
+    "submission_id": "CF87703056",
+    "submission_url": "https://codeforces.com/contest/879/submission/87703056",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "graph matchings",
+      "*1600"
+    ],
+    "timestamp": "Jul/22/2020 10:07"
+  },
   "CF87703603": {
     "contest_id": 46,
     "language": "Java 11",
