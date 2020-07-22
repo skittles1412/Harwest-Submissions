@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF87628684": {
+    "contest_id": 898,
+    "language": "Java 11",
+    "path": "codeforces\\898\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Proper Nutrition",
+    "problem_url": "https://codeforces.com/contest/898/problem/B",
+    "submission_id": "CF87628684",
+    "submission_url": "https://codeforces.com/contest/898/submission/87628684",
+    "tags": [
+      "brute force",
+      "implementation",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Jul/21/2020 20:30"
+  },
   "CF87628778": {
     "contest_id": 110,
     "language": "Java 11",
