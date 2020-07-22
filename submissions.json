@@ -4041,6 +4041,23 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF87629212": {
+    "contest_id": 895,
+    "language": "Java 11",
+    "path": "codeforces\\895\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Pizza Separation",
+    "problem_url": "https://codeforces.com/contest/895/problem/A",
+    "submission_id": "CF87629212",
+    "submission_url": "https://codeforces.com/contest/895/submission/87629212",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jul/21/2020 20:40"
+  },
   "CF87629443": {
     "contest_id": 893,
     "language": "Java 11",
