@@ -4041,6 +4041,22 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF87630668": {
+    "contest_id": 102,
+    "language": "Java 11",
+    "path": "codeforces\\102\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Clothes",
+    "problem_url": "https://codeforces.com/contest/102/problem/A",
+    "submission_id": "CF87630668",
+    "submission_url": "https://codeforces.com/contest/102/submission/87630668",
+    "tags": [
+      "brute force",
+      "*1200"
+    ],
+    "timestamp": "Jul/21/2020 21:07"
+  },
   "CF87692002": {
     "contest_id": 96,
     "language": "Java 11",
