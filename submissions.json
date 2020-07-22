@@ -4041,6 +4041,23 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF87629443": {
+    "contest_id": 893,
+    "language": "Java 11",
+    "path": "codeforces\\893\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Beautiful Divisors",
+    "problem_url": "https://codeforces.com/contest/893/problem/B",
+    "submission_id": "CF87629443",
+    "submission_url": "https://codeforces.com/contest/893/submission/87629443",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Jul/21/2020 20:44"
+  },
   "CF87629555": {
     "contest_id": 894,
     "language": "Java 11",
