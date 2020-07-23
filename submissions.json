@@ -4041,6 +4041,24 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF87812956": {
+    "contest_id": 753,
+    "language": "Java 11",
+    "path": "codeforces\\753\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Interactive Bulls and Cows (Easy)",
+    "problem_url": "https://codeforces.com/contest/753/problem/B",
+    "submission_id": "CF87812956",
+    "submission_url": "https://codeforces.com/contest/753/submission/87812956",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Jul/23/2020 15:00"
+  },
   "CF87813064": {
     "contest_id": 753,
     "language": "Java 11",
