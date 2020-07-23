@@ -4041,6 +4041,24 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF87813064": {
+    "contest_id": 753,
+    "language": "Java 11",
+    "path": "codeforces\\753\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Santa Claus and Candies",
+    "problem_url": "https://codeforces.com/contest/753/problem/A",
+    "submission_id": "CF87813064",
+    "submission_url": "https://codeforces.com/contest/753/submission/87813064",
+    "tags": [
+      "dp",
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Jul/23/2020 15:03"
+  },
   "CF87815900": {
     "contest_id": 383,
     "language": "Java 11",
