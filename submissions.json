@@ -4041,6 +4041,22 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF87815900": {
+    "contest_id": 383,
+    "language": "Java 11",
+    "path": "codeforces\\383\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Antimatter",
+    "problem_url": "https://codeforces.com/contest/383/problem/D",
+    "submission_id": "CF87815900",
+    "submission_url": "https://codeforces.com/contest/383/submission/87815900",
+    "tags": [
+      "dp",
+      "*2300"
+    ],
+    "timestamp": "Jul/23/2020 17:02"
+  },
   "CF87870036": {
     "contest_id": 459,
     "language": "Java 11",
