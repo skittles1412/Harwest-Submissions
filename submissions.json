@@ -4041,6 +4041,23 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88088668": {
+    "contest_id": 818,
+    "language": "Java 11",
+    "path": "codeforces\\818\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Multicolored Cars",
+    "problem_url": "https://codeforces.com/contest/818/problem/D",
+    "submission_id": "CF88088668",
+    "submission_url": "https://codeforces.com/contest/818/submission/88088668",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Jul/26/2020 15:52"
+  },
   "CF88089083": {
     "contest_id": 55,
     "language": "Java 11",
