@@ -4041,6 +4041,22 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88089083": {
+    "contest_id": 55,
+    "language": "Java 11",
+    "path": "codeforces\\55\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Smallest number",
+    "problem_url": "https://codeforces.com/contest/55/problem/B",
+    "submission_id": "CF88089083",
+    "submission_url": "https://codeforces.com/contest/55/submission/88089083",
+    "tags": [
+      "brute force",
+      "*1600"
+    ],
+    "timestamp": "Jul/26/2020 16:18"
+  },
   "CF88089161": {
     "contest_id": 877,
     "language": "Java 11",
