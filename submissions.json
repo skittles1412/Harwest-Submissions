@@ -4041,6 +4041,23 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88150006": {
+    "contest_id": 846,
+    "language": "Java 11",
+    "path": "codeforces\\846\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Math Show",
+    "problem_url": "https://codeforces.com/contest/846/problem/B",
+    "submission_id": "CF88150006",
+    "submission_url": "https://codeforces.com/contest/846/submission/88150006",
+    "tags": [
+      "brute force",
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Jul/27/2020 10:52"
+  },
   "CF88150939": {
     "contest_id": 861,
     "language": "Java 11",
