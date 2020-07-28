@@ -4041,6 +4041,27 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88167475": {
+    "contest_id": 1342,
+    "language": "Java 11",
+    "path": "codeforces\\1342\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Multiple Testcases",
+    "problem_url": "https://codeforces.com/contest/1342/problem/D",
+    "submission_id": "CF88167475",
+    "submission_url": "https://codeforces.com/contest/1342/submission/88167475",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Jul/27/2020 20:03"
+  },
   "CF88167912": {
     "contest_id": 1344,
     "language": "Java 11",
