@@ -4041,6 +4041,28 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88221070": {
+    "contest_id": 1333,
+    "language": "Java 11",
+    "path": "codeforces\\1333\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Challenges in school \u211641",
+    "problem_url": "https://codeforces.com/contest/1333/problem/D",
+    "submission_id": "CF88221070",
+    "submission_url": "https://codeforces.com/contest/1333/submission/88221070",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "games",
+      "graphs",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Jul/28/2020 09:12"
+  },
   "CF88224265": {
     "contest_id": 1329,
     "language": "Java 11",
