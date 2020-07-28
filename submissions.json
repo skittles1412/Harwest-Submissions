@@ -4041,6 +4041,25 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88165525": {
+    "contest_id": 1360,
+    "language": "Java 11",
+    "path": "codeforces\\1360\\H.java",
+    "platform": "Codeforces",
+    "problem_index": "H",
+    "problem_name": "Binary Median",
+    "problem_url": "https://codeforces.com/contest/1360/problem/H",
+    "submission_id": "CF88165525",
+    "submission_url": "https://codeforces.com/contest/1360/submission/88165525",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "*2100"
+    ],
+    "timestamp": "Jul/27/2020 19:04"
+  },
   "CF88167475": {
     "contest_id": 1342,
     "language": "Java 11",
