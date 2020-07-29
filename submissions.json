@@ -4041,6 +4041,23 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88249358": {
+    "contest_id": 864,
+    "language": "Java 11",
+    "path": "codeforces\\864\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fair Game",
+    "problem_url": "https://codeforces.com/contest/864/problem/A",
+    "submission_id": "CF88249358",
+    "submission_url": "https://codeforces.com/contest/864/submission/88249358",
+    "tags": [
+      "implementation",
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Jul/28/2020 21:25"
+  },
   "CF88298926": {
     "contest_id": 1389,
     "language": "Java 11",
