@@ -4041,6 +4041,25 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88298926": {
+    "contest_id": 1389,
+    "language": "Java 11",
+    "path": "codeforces\\1389\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "LCM Problem",
+    "problem_url": "https://codeforces.com/contest/1389/problem/A",
+    "submission_id": "CF88298926",
+    "submission_url": "https://codeforces.com/contest/1389/submission/88298926",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Jul/29/2020 07:39"
+  },
   "CF88313728": {
     "contest_id": 1389,
     "language": "Java 11",
