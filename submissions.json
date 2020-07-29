@@ -4041,6 +4041,23 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88343529": {
+    "contest_id": 1389,
+    "language": "Java 11",
+    "path": "codeforces\\1389\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Calendar Ambiguity",
+    "problem_url": "https://codeforces.com/contest/1389/problem/E",
+    "submission_id": "CF88343529",
+    "submission_url": "https://codeforces.com/contest/1389/submission/88343529",
+    "tags": [
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "timestamp": "Jul/29/2020 08:51"
+  },
   "CF88392461": {
     "contest_id": 339,
     "language": "Java 11",
