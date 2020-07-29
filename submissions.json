@@ -4041,6 +4041,24 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88241045": {
+    "contest_id": 1131,
+    "language": "Java 11",
+    "path": "codeforces\\1131\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Birthday",
+    "problem_url": "https://codeforces.com/contest/1131/problem/C",
+    "submission_id": "CF88241045",
+    "submission_url": "https://codeforces.com/contest/1131/submission/88241045",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jul/28/2020 17:00"
+  },
   "CF88245244": {
     "contest_id": 964,
     "language": "Java 11",
