@@ -4041,6 +4041,27 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88496923": {
+    "contest_id": 1388,
+    "language": "Java 11",
+    "path": "codeforces\\1388\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Captain Flint and Treasure",
+    "problem_url": "https://codeforces.com/contest/1388/problem/D",
+    "submission_id": "CF88496923",
+    "submission_url": "https://codeforces.com/contest/1388/submission/88496923",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "implementation",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Jul/30/2020 08:31"
+  },
   "CF88508253": {
     "contest_id": 1388,
     "language": "Java 11",
