@@ -98,9 +98,9 @@ public class Main {
 					total += n.total;
 				}
 			}
+
 			public boolean check() {
 				boolean ans = true;
-				int x = 5;
 				int maxGood = happy+total >> 1, gsum = 0;
 				for(CUncleBogdanAndCountryHappiness.Node n: children) {
 					if(n==parent) {
