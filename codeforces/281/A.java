@@ -57,7 +57,6 @@ public class Main {
 			this(os, 1<<16);
 		}
 
-
 		public Output(OutputStream os, int bs) {
 			BUFFER_SIZE = bs;
 			sb = new StringBuilder(BUFFER_SIZE);
