@@ -4041,6 +4041,26 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88629346": {
+    "contest_id": 1290,
+    "language": "Java 11",
+    "path": "codeforces\\1290\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Irreducible Anagrams",
+    "problem_url": "https://codeforces.com/contest/1290/problem/B",
+    "submission_id": "CF88629346",
+    "submission_url": "https://codeforces.com/contest/1290/submission/88629346",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "strings",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Jul/31/2020 19:34"
+  },
   "CF88687370": {
     "contest_id": 1290,
     "language": "Java 8",
