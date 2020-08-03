@@ -126,7 +126,7 @@ public class Main {
 
 	static class Utilities {
 		public static class Debug {
-			public static final boolean LOCAL = System.getProperty("ONLINE_JUDGE")==null;
+			public static final boolean LOCAL = /*System.getProperty("LOCAL")!=null*/false;
 
 			private static <T> String ts(T t) {
 				if(t==null) {
