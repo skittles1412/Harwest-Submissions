@@ -4202,6 +4202,23 @@
     ],
     "timestamp": "Aug/03/2020 16:00"
   },
+  "CF88832446": {
+    "contest_id": 1045,
+    "language": "Java 11",
+    "path": "codeforces\\1045\\I.java",
+    "platform": "Codeforces",
+    "problem_index": "I",
+    "problem_name": "Palindrome Pairs",
+    "problem_url": "https://codeforces.com/contest/1045/problem/I",
+    "submission_id": "CF88832446",
+    "submission_url": "https://codeforces.com/contest/1045/submission/88832446",
+    "tags": [
+      "hashing",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Aug/03/2020 16:54"
+  },
   "CF88884073": {
     "contest_id": 641,
     "language": "Java 11",
