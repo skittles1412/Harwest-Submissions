@@ -4041,6 +4041,23 @@
     ],
     "timestamp": "Jul/21/2020 20:36"
   },
+  "CF88770403": {
+    "contest_id": 252,
+    "language": "Java 11",
+    "path": "codeforces\\252\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Unsorting Array",
+    "problem_url": "https://codeforces.com/contest/252/problem/B",
+    "submission_id": "CF88770403",
+    "submission_url": "https://codeforces.com/contest/252/submission/88770403",
+    "tags": [
+      "brute force",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Aug/02/2020 20:58"
+  },
   "CF88815663": {
     "contest_id": 922,
     "language": "Java 11",
