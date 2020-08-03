@@ -38,7 +38,6 @@ public class Main {
 	}
 	static class AWatermelon {
 		private final boolean local = System.getProperty("ONLINE_JUDGE")==null;
-		private final int INF = 1_000_000_000;
 
 		public AWatermelon() {
 		}
@@ -52,7 +51,6 @@ public class Main {
 			}
 			if(local) {
 				System.out.println(w);
-				System.out.println(INF);
 			}
 		}
 
