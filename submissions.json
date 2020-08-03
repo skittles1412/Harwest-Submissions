@@ -2285,6 +2285,26 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF88818633": {
+    "contest_id": 1213,
+    "language": "Java 11",
+    "path": "codeforces\\1213\\G.java",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Path Queries",
+    "problem_url": "https://codeforces.com/contest/1213/problem/G",
+    "submission_id": "CF88818633",
+    "submission_url": "https://codeforces.com/contest/1213/submission/88818633",
+    "tags": [
+      "divide and conquer",
+      "dsu",
+      "graphs",
+      "sortings",
+      "trees",
+      "*1800"
+    ],
+    "timestamp": "Aug/03/2020 10:12"
+  },
   "CF88820128": {
     "contest_id": 4,
     "language": "Java 11",
