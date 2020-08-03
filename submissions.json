@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF88829059": {
+    "contest_id": 540,
+    "language": "Java 11",
+    "path": "codeforces\\540\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "School Marks",
+    "problem_url": "https://codeforces.com/contest/540/problem/B",
+    "submission_id": "CF88829059",
+    "submission_url": "https://codeforces.com/contest/540/submission/88829059",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Aug/03/2020 14:07"
+  },
   "CF88829268": {
     "contest_id": 245,
     "language": "Java 11",
