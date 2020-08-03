@@ -2285,6 +2285,22 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF88831595": {
+    "contest_id": 31,
+    "language": "Java 11",
+    "path": "codeforces\\31\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Worms Evolution",
+    "problem_url": "https://codeforces.com/contest/31/problem/A",
+    "submission_id": "CF88831595",
+    "submission_url": "https://codeforces.com/contest/31/submission/88831595",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Aug/03/2020 16:00"
+  },
   "CF88884073": {
     "contest_id": 641,
     "language": "Java 11",
