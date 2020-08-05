@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF89060174": {
+    "contest_id": 1077,
+    "language": "Java 11",
+    "path": "codeforces\\1077\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Thematic Contests",
+    "problem_url": "https://codeforces.com/contest/1077/problem/E",
+    "submission_id": "CF89060174",
+    "submission_url": "https://codeforces.com/contest/1077/submission/89060174",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Aug/05/2020 10:49"
+  },
   "CF89060516": {
     "contest_id": 1399,
     "language": "Java 11",
