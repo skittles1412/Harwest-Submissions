@@ -4307,6 +4307,25 @@
     ],
     "timestamp": "Aug/05/2020 11:06"
   },
+  "CF89069736": {
+    "contest_id": 1389,
+    "language": "Java 11",
+    "path": "codeforces\\1389\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Segment Intersections",
+    "problem_url": "https://codeforces.com/contest/1389/problem/D",
+    "submission_id": "CF89069736",
+    "submission_url": "https://codeforces.com/contest/1389/submission/89069736",
+    "tags": [
+      "brute force",
+      "greedy",
+      "implementation",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Aug/05/2020 13:09"
+  },
   "CF89081138": {
     "contest_id": 1214,
     "language": "Java 11",
