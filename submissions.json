@@ -4307,6 +4307,22 @@
     ],
     "timestamp": "Aug/05/2020 11:06"
   },
+  "CF89081865": {
+    "contest_id": 652,
+    "language": "Java 11",
+    "path": "codeforces\\652\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "z-sort",
+    "problem_url": "https://codeforces.com/contest/652/problem/B",
+    "submission_id": "CF89081865",
+    "submission_url": "https://codeforces.com/contest/652/submission/89081865",
+    "tags": [
+      "sortings",
+      "*1000"
+    ],
+    "timestamp": "Aug/05/2020 19:58"
+  },
   "CF89082236": {
     "contest_id": 363,
     "language": "Java 11",
