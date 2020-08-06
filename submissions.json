@@ -2285,6 +2285,26 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF89157787": {
+    "contest_id": 1369,
+    "language": "Java 11",
+    "path": "codeforces\\1369\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "TediousLee",
+    "problem_url": "https://codeforces.com/contest/1369/problem/D",
+    "submission_id": "CF89157787",
+    "submission_url": "https://codeforces.com/contest/1369/submission/89157787",
+    "tags": [
+      "dp",
+      "graphs",
+      "greedy",
+      "math",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Aug/06/2020 13:38"
+  },
   "CF89280653": {
     "contest_id": 1393,
     "language": "Java 11",
