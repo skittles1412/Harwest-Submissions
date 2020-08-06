@@ -4307,6 +4307,23 @@
     ],
     "timestamp": "Aug/05/2020 11:06"
   },
+  "CF89081138": {
+    "contest_id": 1214,
+    "language": "Java 11",
+    "path": "codeforces\\1214\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Optimal Currency Exchange",
+    "problem_url": "https://codeforces.com/contest/1214/problem/A",
+    "submission_id": "CF89081138",
+    "submission_url": "https://codeforces.com/contest/1214/submission/89081138",
+    "tags": [
+      "brute force",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Aug/05/2020 19:41"
+  },
   "CF89081865": {
     "contest_id": 652,
     "language": "Java 11",
