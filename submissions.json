@@ -4361,6 +4361,22 @@
     ],
     "timestamp": "Aug/07/2020 19:04"
   },
+  "CF89298859": {
+    "contest_id": 262,
+    "language": "Java 11",
+    "path": "codeforces\\262\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Roma and Changing Signs",
+    "problem_url": "https://codeforces.com/contest/262/problem/B",
+    "submission_id": "CF89298859",
+    "submission_url": "https://codeforces.com/contest/262/submission/89298859",
+    "tags": [
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Aug/07/2020 19:13"
+  },
   "CF89299125": {
     "contest_id": 297,
     "language": "Java 11",
