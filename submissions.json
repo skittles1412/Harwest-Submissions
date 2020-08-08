@@ -4361,6 +4361,22 @@
     ],
     "timestamp": "Aug/07/2020 19:04"
   },
+  "CF89299125": {
+    "contest_id": 297,
+    "language": "Java 11",
+    "path": "codeforces\\297\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Parity Game",
+    "problem_url": "https://codeforces.com/contest/297/problem/A",
+    "submission_id": "CF89299125",
+    "submission_url": "https://codeforces.com/contest/297/submission/89299125",
+    "tags": [
+      "constructive algorithms",
+      "*1700"
+    ],
+    "timestamp": "Aug/07/2020 19:21"
+  },
   "CF89299308": {
     "contest_id": 149,
     "language": "Java 11",
