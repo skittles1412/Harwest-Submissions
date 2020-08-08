@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF89298563": {
+    "contest_id": 287,
+    "language": "Java 11",
+    "path": "codeforces\\287\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "IQ Test",
+    "problem_url": "https://codeforces.com/contest/287/problem/A",
+    "submission_id": "CF89298563",
+    "submission_url": "https://codeforces.com/contest/287/submission/89298563",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Aug/07/2020 19:04"
+  },
   "CF89373422": {
     "contest_id": 1393,
     "language": "Java 11",
