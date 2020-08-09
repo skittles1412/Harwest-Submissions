@@ -2285,6 +2285,27 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF89470528": {
+    "contest_id": 476,
+    "language": "Java 11",
+    "path": "codeforces\\476\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Dreamoon and WiFi",
+    "problem_url": "https://codeforces.com/contest/476/problem/B",
+    "submission_id": "CF89470528",
+    "submission_url": "https://codeforces.com/contest/476/submission/89470528",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "combinatorics",
+      "dp",
+      "math",
+      "probabilities",
+      "*1300"
+    ],
+    "timestamp": "Aug/09/2020 16:56"
+  },
   "CF89732260": {
     "contest_id": 1395,
     "language": "Java 11",
