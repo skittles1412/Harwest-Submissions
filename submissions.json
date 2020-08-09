@@ -2285,6 +2285,27 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF89436571": {
+    "contest_id": 1391,
+    "language": "Java 11",
+    "path": "codeforces\\1391\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "505",
+    "problem_url": "https://codeforces.com/contest/1391/problem/D",
+    "submission_id": "CF89436571",
+    "submission_url": "https://codeforces.com/contest/1391/submission/89436571",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "Aug/09/2020 08:22"
+  },
   "CF89469473": {
     "contest_id": 496,
     "language": "Java 11",
