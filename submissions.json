@@ -4581,6 +4581,24 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89530029": {
+    "contest_id": 527,
+    "language": "Java 11",
+    "path": "codeforces\\527\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Glass Carving",
+    "problem_url": "https://codeforces.com/contest/527/problem/C",
+    "submission_id": "CF89530029",
+    "submission_url": "https://codeforces.com/contest/527/submission/89530029",
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Aug/10/2020 11:30"
+  },
   "CF89531007": {
     "contest_id": 485,
     "language": "Java 11",
