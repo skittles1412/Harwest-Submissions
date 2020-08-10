@@ -4581,6 +4581,23 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89536361": {
+    "contest_id": 1009,
+    "language": "Java 11",
+    "path": "codeforces\\1009\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Annoying Present",
+    "problem_url": "https://codeforces.com/contest/1009/problem/C",
+    "submission_id": "CF89536361",
+    "submission_url": "https://codeforces.com/contest/1009/submission/89536361",
+    "tags": [
+      "greedy",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Aug/10/2020 14:15"
+  },
   "CF89536740": {
     "contest_id": 136,
     "language": "Java 11",
