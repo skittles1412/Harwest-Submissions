@@ -4581,6 +4581,25 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89527163": {
+    "contest_id": 375,
+    "language": "Java 11",
+    "path": "codeforces\\375\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Maximum Submatrix 2",
+    "problem_url": "https://codeforces.com/contest/375/problem/B",
+    "submission_id": "CF89527163",
+    "submission_url": "https://codeforces.com/contest/375/submission/89527163",
+    "tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Aug/10/2020 09:37"
+  },
   "CF89530029": {
     "contest_id": 527,
     "language": "Java 11",
