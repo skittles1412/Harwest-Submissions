@@ -4581,6 +4581,23 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89535343": {
+    "contest_id": 7,
+    "language": "Java 11",
+    "path": "codeforces\\7\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Kalevitch and Chess",
+    "problem_url": "https://codeforces.com/contest/7/problem/A",
+    "submission_id": "CF89535343",
+    "submission_url": "https://codeforces.com/contest/7/submission/89535343",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "*1100"
+    ],
+    "timestamp": "Aug/10/2020 13:42"
+  },
   "CF89535462": {
     "contest_id": 318,
     "language": "Java 11",
