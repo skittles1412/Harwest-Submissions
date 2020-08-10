@@ -4581,6 +4581,24 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89536125": {
+    "contest_id": 978,
+    "language": "Java 11",
+    "path": "codeforces\\978\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Mentors",
+    "problem_url": "https://codeforces.com/contest/978/problem/F",
+    "submission_id": "CF89536125",
+    "submission_url": "https://codeforces.com/contest/978/submission/89536125",
+    "tags": [
+      "binary search",
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Aug/10/2020 14:08"
+  },
   "CF89536361": {
     "contest_id": 1009,
     "language": "Java 11",
