@@ -4581,6 +4581,23 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89539458": {
+    "contest_id": 407,
+    "language": "Java 11",
+    "path": "codeforces\\407\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Long Path",
+    "problem_url": "https://codeforces.com/contest/407/problem/B",
+    "submission_id": "CF89539458",
+    "submission_url": "https://codeforces.com/contest/407/submission/89539458",
+    "tags": [
+      "dp",
+      "implementation",
+      "*1600"
+    ],
+    "timestamp": "Aug/10/2020 16:34"
+  },
   "CF89596291": {
     "contest_id": 199,
     "language": "Java 11",
