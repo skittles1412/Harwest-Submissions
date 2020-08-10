@@ -4581,6 +4581,23 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89536740": {
+    "contest_id": 136,
+    "language": "Java 11",
+    "path": "codeforces\\136\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Ternary Logic",
+    "problem_url": "https://codeforces.com/contest/136/problem/B",
+    "submission_id": "CF89536740",
+    "submission_url": "https://codeforces.com/contest/136/submission/89536740",
+    "tags": [
+      "implementation",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Aug/10/2020 14:28"
+  },
   "CF89536831": {
     "contest_id": 1183,
     "language": "Java 11",
