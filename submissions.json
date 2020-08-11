@@ -4581,6 +4581,23 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89612434": {
+    "contest_id": 63,
+    "language": "Java 11",
+    "path": "codeforces\\63\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Bulls and Cows",
+    "problem_url": "https://codeforces.com/contest/63/problem/C",
+    "submission_id": "CF89612434",
+    "submission_url": "https://codeforces.com/contest/63/submission/89612434",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Aug/11/2020 16:32"
+  },
   "CF89612908": {
     "contest_id": 299,
     "language": "Java 11",
