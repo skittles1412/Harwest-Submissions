@@ -4581,6 +4581,25 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89596291": {
+    "contest_id": 199,
+    "language": "Java 11",
+    "path": "codeforces\\199\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Hexadecimal's theorem",
+    "problem_url": "https://codeforces.com/contest/199/problem/A",
+    "submission_id": "CF89596291",
+    "submission_url": "https://codeforces.com/contest/199/submission/89596291",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "implementation",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Aug/11/2020 09:49"
+  },
   "CF89596867": {
     "contest_id": 78,
     "language": "Java 11",
