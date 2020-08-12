@@ -4581,6 +4581,22 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89612919": {
+    "contest_id": 867,
+    "language": "Java 11",
+    "path": "codeforces\\867\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Between the Offices",
+    "problem_url": "https://codeforces.com/contest/867/problem/A",
+    "submission_id": "CF89612919",
+    "submission_url": "https://codeforces.com/contest/867/submission/89612919",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/11/2020 17:02"
+  },
   "CF89615626": {
     "contest_id": 633,
     "language": "Java 11",
