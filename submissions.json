@@ -4581,6 +4581,23 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89616683": {
+    "contest_id": 356,
+    "language": "Java 11",
+    "path": "codeforces\\356\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Knight Tournament",
+    "problem_url": "https://codeforces.com/contest/356/problem/A",
+    "submission_id": "CF89616683",
+    "submission_url": "https://codeforces.com/contest/356/submission/89616683",
+    "tags": [
+      "data structures",
+      "dsu",
+      "*1500"
+    ],
+    "timestamp": "Aug/11/2020 19:34"
+  },
   "CF89658268": {
     "contest_id": 584,
     "language": "Java 11",
