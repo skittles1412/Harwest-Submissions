@@ -4581,6 +4581,25 @@
     ],
     "timestamp": "Aug/09/2020 16:56"
   },
+  "CF89714105": {
+    "contest_id": 1394,
+    "language": "Java 11",
+    "path": "codeforces\\1394\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Boboniu Chats with Du",
+    "problem_url": "https://codeforces.com/contest/1394/problem/A",
+    "submission_id": "CF89714105",
+    "submission_url": "https://codeforces.com/contest/1394/submission/89714105",
+    "tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Aug/12/2020 09:03"
+  },
   "CF89732260": {
     "contest_id": 1395,
     "language": "Java 11",
