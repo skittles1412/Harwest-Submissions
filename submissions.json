@@ -2285,6 +2285,22 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF89817550": {
+    "contest_id": 852,
+    "language": "Java 11",
+    "path": "codeforces\\852\\G.java",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Bathroom terminal",
+    "problem_url": "https://codeforces.com/contest/852/problem/G",
+    "submission_id": "CF89817550",
+    "submission_url": "https://codeforces.com/contest/852/submission/89817550",
+    "tags": [
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Aug/13/2020 10:35"
+  },
   "CF89836667": {
     "contest_id": 1102,
     "language": "Java 11",
