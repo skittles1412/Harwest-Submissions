@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF89973368": {
+    "contest_id": 370,
+    "language": "Java 11",
+    "path": "codeforces\\370\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rook, Bishop and King",
+    "problem_url": "https://codeforces.com/contest/370/problem/A",
+    "submission_id": "CF89973368",
+    "submission_url": "https://codeforces.com/contest/370/submission/89973368",
+    "tags": [
+      "graphs",
+      "math",
+      "shortest paths",
+      "*1100"
+    ],
+    "timestamp": "Aug/14/2020 14:02"
+  },
   "CF89976307": {
     "contest_id": 1091,
     "language": "Java 11",
