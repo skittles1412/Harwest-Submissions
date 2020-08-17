@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF90191119": {
+    "contest_id": 1392,
+    "language": "Java 11",
+    "path": "codeforces\\1392\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Omkar and Bed Wars",
+    "problem_url": "https://codeforces.com/contest/1392/problem/D",
+    "submission_id": "CF90191119",
+    "submission_url": "https://codeforces.com/contest/1392/submission/90191119",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1700"
+    ],
+    "timestamp": "Aug/16/2020 21:11"
+  },
   "CF90260544": {
     "contest_id": 1399,
     "language": "Java 11",
