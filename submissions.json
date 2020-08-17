@@ -2285,6 +2285,25 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF90260544": {
+    "contest_id": 1399,
+    "language": "Java 11",
+    "path": "codeforces\\1399\\E1.java",
+    "platform": "Codeforces",
+    "problem_index": "E1",
+    "problem_name": "Weights Division (easy version)",
+    "problem_url": "https://codeforces.com/contest/1399/problem/E1",
+    "submission_id": "CF90260544",
+    "submission_url": "https://codeforces.com/contest/1399/submission/90260544",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "greedy",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Aug/17/2020 12:51"
+  },
   "CF90276759": {
     "contest_id": 1154,
     "language": "Java 11",
