@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF90333110": {
+    "contest_id": 960,
+    "language": "Java 11",
+    "path": "codeforces\\960\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Full Binary Tree Queries",
+    "problem_url": "https://codeforces.com/contest/960/problem/D",
+    "submission_id": "CF90333110",
+    "submission_url": "https://codeforces.com/contest/960/submission/90333110",
+    "tags": [
+      "brute force",
+      "implementation",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Aug/18/2020 10:32"
+  },
   "CF90344390": {
     "contest_id": 1307,
     "language": "Java 11",
