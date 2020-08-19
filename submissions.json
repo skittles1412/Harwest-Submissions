@@ -2285,6 +2285,27 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF90358037": {
+    "contest_id": 1399,
+    "language": "Java 11",
+    "path": "codeforces\\1399\\E2.java",
+    "platform": "Codeforces",
+    "problem_index": "E2",
+    "problem_name": "Weights Division (hard version)",
+    "problem_url": "https://codeforces.com/contest/1399/problem/E2",
+    "submission_id": "CF90358037",
+    "submission_url": "https://codeforces.com/contest/1399/submission/90358037",
+    "tags": [
+      "binary search",
+      "dfs and similar",
+      "greedy",
+      "sortings",
+      "trees",
+      "two pointers",
+      "*2200"
+    ],
+    "timestamp": "Aug/18/2020 22:00"
+  },
   "CF90412559": {
     "contest_id": 1393,
     "language": "Java 11",
