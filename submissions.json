@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF90479908": {
+    "contest_id": 770,
+    "language": "Java 11",
+    "path": "codeforces\\770\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Draw Brackets!",
+    "problem_url": "https://codeforces.com/contest/770/problem/D",
+    "submission_id": "CF90479908",
+    "submission_url": "https://codeforces.com/contest/770/submission/90479908",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Aug/20/2020 09:12"
+  },
   "CF90481302": {
     "contest_id": 742,
     "language": "Java 11",
