@@ -2285,6 +2285,22 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF90642679": {
+    "contest_id": 510,
+    "language": "Java 11",
+    "path": "codeforces\\510\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Fox And Snake",
+    "problem_url": "https://codeforces.com/contest/510/problem/A",
+    "submission_id": "CF90642679",
+    "submission_url": "https://codeforces.com/contest/510/submission/90642679",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Aug/21/2020 16:54"
+  },
   "CF90643003": {
     "contest_id": 520,
     "language": "Java 11",
