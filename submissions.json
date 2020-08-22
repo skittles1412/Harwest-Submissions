@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF90706034": {
+    "contest_id": 900,
+    "language": "Java 11",
+    "path": "codeforces\\900\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Position in Fraction",
+    "problem_url": "https://codeforces.com/contest/900/problem/B",
+    "submission_id": "CF90706034",
+    "submission_url": "https://codeforces.com/contest/900/submission/90706034",
+    "tags": [
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Aug/22/2020 10:07"
+  },
   "CF90988310": {
     "contest_id": 1400,
     "language": "Java 11",
