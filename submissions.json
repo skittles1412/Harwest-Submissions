@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF90705066": {
+    "contest_id": 991,
+    "language": "Java 11",
+    "path": "codeforces\\991\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Bishwock",
+    "problem_url": "https://codeforces.com/contest/991/problem/D",
+    "submission_id": "CF90705066",
+    "submission_url": "https://codeforces.com/contest/991/submission/90705066",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Aug/22/2020 09:51"
+  },
   "CF90706034": {
     "contest_id": 900,
     "language": "Java 11",
