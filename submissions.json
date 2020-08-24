@@ -1,4 +1,20 @@
 {
+  "AC16211838": {
+    "contest_id": "dp",
+    "language": "Java (OpenJDK 11.0.6)",
+    "path": "atcoder/dp/M.java",
+    "platform": "AtCoder",
+    "problem_index": "M",
+    "problem_name": "Candies",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_m",
+    "submission_id": "AC16211838",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/16211838",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/24/2020 13:42"
+  },
   "AC16212075": {
     "contest_id": "dp",
     "language": "Java (OpenJDK 11.0.6)",
