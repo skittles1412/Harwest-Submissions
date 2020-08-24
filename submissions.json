@@ -1,4 +1,20 @@
 {
+  "AC16211701": {
+    "contest_id": "dp",
+    "language": "Java (OpenJDK 11.0.6)",
+    "path": "atcoder/dp/K.java",
+    "platform": "AtCoder",
+    "problem_index": "K",
+    "problem_name": "Stones",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_k",
+    "submission_id": "AC16211701",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/16211701",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/24/2020 13:01"
+  },
   "AC16211744": {
     "contest_id": "dp",
     "language": "Java (OpenJDK 11.0.6)",
