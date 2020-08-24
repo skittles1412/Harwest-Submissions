@@ -1,4 +1,20 @@
 {
+  "AC16211170": {
+    "contest_id": "dp",
+    "language": "Java (OpenJDK 11.0.6)",
+    "path": "atcoder/dp/C.java",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Vacation",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_c",
+    "submission_id": "AC16211170",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/16211170",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/24/2020 11:21"
+  },
   "AC16211203": {
     "contest_id": "dp",
     "language": "Java (OpenJDK 11.0.6)",
