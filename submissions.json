@@ -1,4 +1,20 @@
 {
+  "AC16214759": {
+    "contest_id": "dp",
+    "language": "Java (OpenJDK 11.0.6)",
+    "path": "atcoder/dp/T.java",
+    "platform": "AtCoder",
+    "problem_index": "T",
+    "problem_name": "Permutation",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_t",
+    "submission_id": "AC16214759",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/16214759",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/24/2020 19:37"
+  },
   "AC16216012": {
     "contest_id": "dp",
     "language": "Java (OpenJDK 11.0.6)",
