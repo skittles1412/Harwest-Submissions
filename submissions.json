@@ -1,4 +1,20 @@
 {
+  "AC16248910": {
+    "contest_id": "dp",
+    "language": "Java (OpenJDK 11.0.6)",
+    "path": "atcoder/dp/U.java",
+    "platform": "AtCoder",
+    "problem_index": "U",
+    "problem_name": "Grouping",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_u",
+    "submission_id": "AC16248910",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/16248910",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/26/2020 08:43"
+  },
   "AC18072796": {
     "contest_id": "dp",
     "language": "Java (OpenJDK 11.0.6)",
