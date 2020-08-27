@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF91171250": {
+    "contest_id": 166,
+    "language": "Java 11",
+    "path": "codeforces\\166\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Tetrahedron",
+    "problem_url": "https://codeforces.com/contest/166/problem/E",
+    "submission_id": "CF91171250",
+    "submission_url": "https://codeforces.com/contest/166/submission/91171250",
+    "tags": [
+      "dp",
+      "math",
+      "matrices",
+      "*1500"
+    ],
+    "timestamp": "Aug/27/2020 16:34"
+  },
   "CF91171669": {
     "contest_id": 1400,
     "language": "Java 11",
