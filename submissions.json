@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF91295153": {
+    "contest_id": 190,
+    "language": "Java 11",
+    "path": "codeforces\\190\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Vasya and the Bus",
+    "problem_url": "https://codeforces.com/contest/190/problem/A",
+    "submission_id": "CF91295153",
+    "submission_url": "https://codeforces.com/contest/190/submission/91295153",
+    "tags": [
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Aug/29/2020 08:22"
+  },
   "CF91298101": {
     "contest_id": 235,
     "language": "Java 11",
