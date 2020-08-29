@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF91294870": {
+    "contest_id": 346,
+    "language": "Java 11",
+    "path": "codeforces\\346\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Alice and Bob",
+    "problem_url": "https://codeforces.com/contest/346/problem/A",
+    "submission_id": "CF91294870",
+    "submission_url": "https://codeforces.com/contest/346/submission/91294870",
+    "tags": [
+      "games",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Aug/29/2020 08:17"
+  },
   "CF91295153": {
     "contest_id": 190,
     "language": "Java 11",
