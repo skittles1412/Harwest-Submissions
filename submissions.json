@@ -2285,6 +2285,22 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF91253746": {
+    "contest_id": 250,
+    "language": "Java 11",
+    "path": "codeforces\\250\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Movie Critics",
+    "problem_url": "https://codeforces.com/contest/250/problem/C",
+    "submission_id": "CF91253746",
+    "submission_url": "https://codeforces.com/contest/250/submission/91253746",
+    "tags": [
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Aug/28/2020 20:47"
+  },
   "CF91254148": {
     "contest_id": 555,
     "language": "Java 11",
