@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF91377305": {
+    "contest_id": 1396,
+    "language": "Java 11",
+    "path": "codeforces\\1396\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Multiples of Length",
+    "problem_url": "https://codeforces.com/contest/1396/problem/A",
+    "submission_id": "CF91377305",
+    "submission_url": "https://codeforces.com/contest/1396/submission/91377305",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Aug/30/2020 08:14"
+  },
   "CF91445133": {
     "contest_id": 1396,
     "language": "Java 11",
