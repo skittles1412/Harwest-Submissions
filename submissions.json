@@ -2285,6 +2285,25 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF91445133": {
+    "contest_id": 1396,
+    "language": "Java 11",
+    "path": "codeforces\\1396\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Stoned Game",
+    "problem_url": "https://codeforces.com/contest/1396/problem/B",
+    "submission_id": "CF91445133",
+    "submission_url": "https://codeforces.com/contest/1396/submission/91445133",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "games",
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Aug/30/2020 17:30"
+  },
   "CF91523361": {
     "contest_id": 707,
     "language": "Java 11",
