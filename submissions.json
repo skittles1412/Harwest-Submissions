@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF91525804": {
+    "contest_id": 768,
+    "language": "Java 11",
+    "path": "codeforces\\768\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Code For 1",
+    "problem_url": "https://codeforces.com/contest/768/problem/B",
+    "submission_id": "CF91525804",
+    "submission_url": "https://codeforces.com/contest/768/submission/91525804",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "divide and conquer",
+      "*1600"
+    ],
+    "timestamp": "Aug/31/2020 15:01"
+  },
   "CF91886378": {
     "contest_id": 1409,
     "language": "Java 11",
