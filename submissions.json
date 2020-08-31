@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF91523789": {
+    "contest_id": 245,
+    "language": "Java 11",
+    "path": "codeforces\\245\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Restoring Table",
+    "problem_url": "https://codeforces.com/contest/245/problem/D",
+    "submission_id": "CF91523789",
+    "submission_url": "https://codeforces.com/contest/245/submission/91523789",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Aug/31/2020 13:51"
+  },
   "CF91525804": {
     "contest_id": 768,
     "language": "Java 11",
