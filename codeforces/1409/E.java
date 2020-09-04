@@ -1,111 +1,249 @@
-import java.io.*;
-import java.util.*;
-public class twoPlatforms {
-    static int t;
-    static int n, k;
-    static int[] x;
-    public static void main(String[] args) throws Exception {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        PrintWriter out = new PrintWriter(System.out);
-        t = Integer.parseInt(in.readLine());
-        for (int test = 0; test < t; test++) {
-            StringTokenizer st = new StringTokenizer(in.readLine());
-            n = Integer.parseInt(st.nextToken());
-            k = Integer.parseInt(st.nextToken());
-//            if(t == 20000 && test == 43){
-//                out.println(n + " " + k);
-//            }
-            st = new StringTokenizer(in.readLine());
-            x = new int[n];
-            for (int i = 0; i < n; i++) {
-                x[i] = Integer.parseInt(st.nextToken());
-            }
-//            if(t == 20000 && test == 43){
-//                for(int i: x){
-//                    out.print(i + " ");
-//                }
-//            }
-            int[] y = new int[n];
-            st = new StringTokenizer(in.readLine());
-            for (int i = 0; i < n; i++) {
-                y[i] = Integer.parseInt(st.nextToken());
-            }
-            Random rand = new Random();
-            for(int i = 1; i<n; i++) {
-                int aa = rand.nextInt(i);
-                x[i]^=x[aa];
-                x[aa]^=x[i];
-                x[i]^=x[aa];
-            }
-            Arrays.sort(x);
-           // if(t != 20000) {
-                out.println(solve());
-           // }
-        }
-        out.close();
-    }
-    static int solve(){
-        int maxLeft = 0;
-        int ans = 0;
-        for(int i = 0; i < n; i++){
-            int r = binSearch(x[i] + k, 1);
-            int rLength;
-            if(r < 0){
-                if(r == -1) {
-                    r = -(r + 1);
-                }
-                else if(r == -n - 1){
-                    r = n - 1;
-                }
-                else{
-                    r = -(r + 1) - 1;
-                }
-            }
-            rLength = r - i + 1;
-            int lLength = 0;
-            if(i != 0) {
-                int l = binSearch(x[i - 1] - k, -1);
-                if(l < 0){
-                    l = -(l + 1);
-                }
-                lLength = i - l;
-            }
-            maxLeft = Math.max(lLength, maxLeft);
-            ans = Math.max(ans, maxLeft + rLength);
-        }
-        return ans;
-    }
-    static int binSearch(int target, int dir){
-        int l = 0, r = n;
-        int res = (dir == 1) ? 0 : Integer.MAX_VALUE;
-        boolean found = false;
-        while(l != r ){
-            int m = (l + r)/2;
-            if(x[m] < target){
-                l = m + 1;
-            }
-            else if(x[m] > target){
-                r = m;
-            }
-            else{
-                found = true;
-                res = (dir == 1) ? Math.max(m, res) : Math.min(m, res);
-                if(dir == 1){
-                    l = m + 1;
-                }
-                else{
-                    r = m;
-                }
-                if(l < n && l == r && x[l] == target){
-                    res = (dir == 1) ? Math.max(l, res) : Math.min(l, res);
-                }
-            }
-        }
-        if(found){
-            return res;
-        }
-        else{
-            return -(l + 1);
-        }
-    }
+import java.io.BufferedOutputStream;
+import java.io.Closeable;
+import java.io.DataInputStream;
+import java.io.Flushable;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.Arrays;
+import java.util.InputMismatchException;
+import java.util.Random;
+
+/**
+ * Built using CHelper plug-in
+ * Actual solution is at the top
+ */
+public class Main {
+	static class TaskAdapter implements Runnable {
+		@Override
+		public void run() {
+			InputStream inputStream = System.in;
+			OutputStream outputStream = System.out;
+			FastReader in = new FastReader(inputStream);
+			Output out = new Output(outputStream);
+			ETwoPlatforms solver = new ETwoPlatforms();
+			int testCount = Integer.parseInt(in.next());
+			for(int i = 1; i<=testCount; i++)
+				solver.solve(i, in, out);
+			out.close();
+		}
+	}
+
+	public static void main(String[] args) throws Exception {
+		Thread thread = new Thread(null, new TaskAdapter(), "", 1<<29);
+		thread.start();
+		thread.join();
+	}
+	static class ETwoPlatforms {
+		public ETwoPlatforms() {
+		}
+
+		public void solve(int kase, InputReader in, Output pw) {
+			int n = in.nextInt(), k = in.nextInt();
+			int[] arr = in.nextInt(n), length = new int[n];
+			in.nextInt(n);
+			Utilities.sort(arr);
+			{
+				int j = 0;
+				for(int i = 0; i<n; i++) {
+					while(j<n&&arr[j]<=arr[i]+k) {
+						j++;
+					}
+					length[i] = j;
+				}
+			}
+			int[] max = new int[n+1], dp = new int[n+1];
+			for(int i = n-1; i>=0; i--) {
+				max[i] = Math.max(max[i+1], length[i]-i);
+			}
+			for(int i = n-1; i>=0; i--) {
+				dp[i] = Math.max(dp[i+1], max[length[i]]+length[i]-i);
+			}
+			pw.println(dp[0]);
+		}
+
+	}
+
+	static class Output implements Closeable, Flushable {
+		public StringBuilder sb;
+		public OutputStream os;
+		public int BUFFER_SIZE;
+		public boolean autoFlush;
+		public String LineSeparator;
+
+		public Output(OutputStream os) {
+			this(os, 1<<16);
+		}
+
+		public Output(OutputStream os, int bs) {
+			BUFFER_SIZE = bs;
+			sb = new StringBuilder(BUFFER_SIZE);
+			this.os = new BufferedOutputStream(os, 1<<17);
+			autoFlush = false;
+			LineSeparator = System.lineSeparator();
+		}
+
+		public void println(int i) {
+			println(String.valueOf(i));
+		}
+
+		public void println(String s) {
+			sb.append(s);
+			println();
+			if(autoFlush) {
+				flush();
+			}else if(sb.length()>BUFFER_SIZE >> 1) {
+				flushToBuffer();
+			}
+		}
+
+		public void println() {
+			sb.append(LineSeparator);
+		}
+
+		private void flushToBuffer() {
+			try {
+				os.write(sb.toString().getBytes());
+			}catch(IOException e) {
+				e.printStackTrace();
+			}
+			sb = new StringBuilder(BUFFER_SIZE);
+		}
+
+		public void flush() {
+			try {
+				flushToBuffer();
+				os.flush();
+			}catch(IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+		public void close() {
+			flush();
+			try {
+				os.close();
+			}catch(IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+	static interface InputReader {
+		int nextInt();
+
+		default int[] nextInt(int n) {
+			int[] ret = new int[n];
+			for(int i = 0; i<n; i++) {
+				ret[i] = nextInt();
+			}
+			return ret;
+		}
+
+	}
+
+	static class Utilities {
+		public static void sort(int[] arr) {
+			Random rand = new Random();
+			int n = arr.length;
+			for(int i = 0; i<n; i++) {
+				swap(arr, i, rand.nextInt(n));
+			}
+			Arrays.sort(arr);
+		}
+
+		public static void swap(int[] arr, int i, int j) {
+			if(i!=j) {
+				arr[i] ^= arr[j];
+				arr[j] ^= arr[i];
+				arr[i] ^= arr[j];
+			}
+		}
+
+	}
+
+	static class FastReader implements InputReader {
+		final private int BUFFER_SIZE = 1<<16;
+		private DataInputStream din;
+		private byte[] buffer;
+		private int bufferPointer;
+		private int bytesRead;
+
+		public FastReader(InputStream is) {
+			din = new DataInputStream(is);
+			buffer = new byte[BUFFER_SIZE];
+			bufferPointer = bytesRead = 0;
+		}
+
+		public String next() {
+			StringBuilder ret = new StringBuilder(64);
+			byte c = skip();
+			while(c!=-1&&!isSpaceChar(c)) {
+				ret.appendCodePoint(c);
+				c = read();
+			}
+			return ret.toString();
+		}
+
+		public int nextInt() {
+			int ret = 0;
+			byte c = skipToDigit();
+			boolean neg = (c=='-');
+			if(neg) {
+				c = read();
+			}
+			do {
+				ret = ret*10+c-'0';
+			} while((c = read())>='0'&&c<='9');
+			if(neg) {
+				return -ret;
+			}
+			return ret;
+		}
+
+		private boolean isSpaceChar(byte b) {
+			return b==' '||b=='\r'||b=='\n'||b=='\t'||b=='\f';
+		}
+
+		private byte skip() {
+			byte ret;
+			while(isSpaceChar((ret = read()))) ;
+			return ret;
+		}
+
+		private boolean isDigit(byte b) {
+			return b>='0'&&b<='9';
+		}
+
+		private byte skipToDigit() {
+			byte ret;
+			while(!isDigit(ret = read())&&ret!='-') ;
+			return ret;
+		}
+
+		private void fillBuffer() {
+			try {
+				bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
+			}catch(IOException e) {
+				e.printStackTrace();
+				throw new InputMismatchException();
+			}
+			if(bytesRead==-1) {
+				buffer[0] = -1;
+			}
+		}
+
+		private byte read() {
+			if(bytesRead==-1) {
+				throw new InputMismatchException();
+			}else if(bufferPointer==bytesRead) {
+				fillBuffer();
+			}
+			return buffer[bufferPointer++];
+		}
+
+	}
 }
+
+

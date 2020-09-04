@@ -2285,6 +2285,25 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF91890198": {
+    "contest_id": 1409,
+    "language": "Java 11",
+    "path": "codeforces\\1409\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Two Platforms",
+    "problem_url": "https://codeforces.com/contest/1409/problem/E",
+    "submission_id": "CF91890198",
+    "submission_url": "https://codeforces.com/contest/1409/submission/91890198",
+    "tags": [
+      "binary search",
+      "dp",
+      "sortings",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Sep/04/2020 12:34"
+  },
   "CF91965797": {
     "contest_id": 581,
     "language": "Java 11",
