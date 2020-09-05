@@ -2285,6 +2285,27 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF91965797": {
+    "contest_id": 581,
+    "language": "Java 11",
+    "path": "codeforces\\581\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Three Logos",
+    "problem_url": "https://codeforces.com/contest/581/problem/D",
+    "submission_id": "CF91965797",
+    "submission_url": "https://codeforces.com/contest/581/submission/91965797",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "geometry",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Sep/05/2020 11:53"
+  },
   "CF91971785": {
     "contest_id": 1285,
     "language": "Java 11",
