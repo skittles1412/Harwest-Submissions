@@ -2285,6 +2285,29 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF91971785": {
+    "contest_id": 1285,
+    "language": "Java 11",
+    "path": "codeforces\\1285\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Dr. Evil Underscores",
+    "problem_url": "https://codeforces.com/contest/1285/problem/D",
+    "submission_id": "CF91971785",
+    "submission_url": "https://codeforces.com/contest/1285/submission/91971785",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "dfs and similar",
+      "divide and conquer",
+      "dp",
+      "greedy",
+      "strings",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Sep/05/2020 14:20"
+  },
   "CF92020388": {
     "contest_id": 678,
     "language": "Java 11",
