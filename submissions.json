@@ -2285,6 +2285,25 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92079816": {
+    "contest_id": 1404,
+    "language": "Java 11",
+    "path": "codeforces\\1404\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Tree Tag",
+    "problem_url": "https://codeforces.com/contest/1404/problem/B",
+    "submission_id": "CF92079816",
+    "submission_url": "https://codeforces.com/contest/1404/submission/92079816",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "games",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Sep/06/2020 10:42"
+  },
   "CF92091810": {
     "contest_id": 1307,
     "language": "Java 11",
