@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92092921": {
+    "contest_id": 1303,
+    "language": "Java 11",
+    "path": "codeforces\\1303\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Fill The Bag",
+    "problem_url": "https://codeforces.com/contest/1303/problem/D",
+    "submission_id": "CF92092921",
+    "submission_url": "https://codeforces.com/contest/1303/submission/92092921",
+    "tags": [
+      "bitmasks",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Sep/06/2020 15:27"
+  },
   "CF92095669": {
     "contest_id": 1359,
     "language": "Java 11",
