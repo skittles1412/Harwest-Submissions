@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92079095": {
+    "contest_id": 1311,
+    "language": "Java 11",
+    "path": "codeforces\\1311\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Three Integers",
+    "problem_url": "https://codeforces.com/contest/1311/problem/D",
+    "submission_id": "CF92079095",
+    "submission_url": "https://codeforces.com/contest/1311/submission/92079095",
+    "tags": [
+      "brute force",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Sep/06/2020 10:35"
+  },
   "CF92079183": {
     "contest_id": 1404,
     "language": "Java 11",
