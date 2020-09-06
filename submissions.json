@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92021152": {
+    "contest_id": 42,
+    "language": "Java 11",
+    "path": "codeforces\\42\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Guilty --- to the kitchen!",
+    "problem_url": "https://codeforces.com/contest/42/problem/A",
+    "submission_id": "CF92021152",
+    "submission_url": "https://codeforces.com/contest/42/submission/92021152",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Sep/06/2020 07:08"
+  },
   "CF92079095": {
     "contest_id": 1311,
     "language": "Java 11",
