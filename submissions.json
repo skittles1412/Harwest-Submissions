@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92079183": {
+    "contest_id": 1404,
+    "language": "Java 11",
+    "path": "codeforces\\1404\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Balanced Bitstring",
+    "problem_url": "https://codeforces.com/contest/1404/problem/A",
+    "submission_id": "CF92079183",
+    "submission_url": "https://codeforces.com/contest/1404/submission/92079183",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Sep/06/2020 10:36"
+  },
   "CF92079816": {
     "contest_id": 1404,
     "language": "Java 11",
