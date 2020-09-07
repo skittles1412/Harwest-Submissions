@@ -2285,6 +2285,25 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92171927": {
+    "contest_id": 1198,
+    "language": "Java 11",
+    "path": "codeforces\\1198\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Welfare State",
+    "problem_url": "https://codeforces.com/contest/1198/problem/B",
+    "submission_id": "CF92171927",
+    "submission_url": "https://codeforces.com/contest/1198/submission/92171927",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Sep/07/2020 15:52"
+  },
   "CF92173746": {
     "contest_id": 1284,
     "language": "Java 11",
