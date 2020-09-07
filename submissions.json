@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92171673": {
+    "contest_id": 165,
+    "language": "Java 11",
+    "path": "codeforces\\165\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Burning Midnight Oil",
+    "problem_url": "https://codeforces.com/contest/165/problem/B",
+    "submission_id": "CF92171673",
+    "submission_url": "https://codeforces.com/contest/165/submission/92171673",
+    "tags": [
+      "binary search",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Sep/07/2020 15:38"
+  },
   "CF92171927": {
     "contest_id": 1198,
     "language": "Java 11",
