@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92294879": {
+    "contest_id": 2,
+    "language": "Java 11",
+    "path": "codeforces\\2\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "The least round way",
+    "problem_url": "https://codeforces.com/contest/2/problem/B",
+    "submission_id": "CF92294879",
+    "submission_url": "https://codeforces.com/contest/2/submission/92294879",
+    "tags": [
+      "dp",
+      "math",
+      "*2000"
+    ],
+    "timestamp": "Sep/08/2020 11:25"
+  },
   "CF92301190": {
     "contest_id": 1244,
     "language": "Java 11",
