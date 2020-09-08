@@ -2285,6 +2285,25 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92303332": {
+    "contest_id": 1407,
+    "language": "Java 11",
+    "path": "codeforces\\1407\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Big Vova",
+    "problem_url": "https://codeforces.com/contest/1407/problem/B",
+    "submission_id": "CF92303332",
+    "submission_url": "https://codeforces.com/contest/1407/submission/92303332",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Sep/08/2020 13:56"
+  },
   "CF92304498": {
     "contest_id": 1407,
     "language": "Java 11",
