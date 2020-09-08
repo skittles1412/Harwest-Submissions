@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92304856": {
+    "contest_id": 1407,
+    "language": "Java 11",
+    "path": "codeforces\\1407\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Ahahahahahahahaha",
+    "problem_url": "https://codeforces.com/contest/1407/problem/A",
+    "submission_id": "CF92304856",
+    "submission_url": "https://codeforces.com/contest/1407/submission/92304856",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Sep/08/2020 14:43"
+  },
   "CF92305517": {
     "contest_id": 1349,
     "language": "Java 11",
