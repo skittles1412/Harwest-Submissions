@@ -1,11 +1,13 @@
 import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
 import java.io.Closeable;
-import java.io.DataInputStream;
 import java.io.Flushable;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.util.InputMismatchException;
+import java.util.StringTokenizer;
 
 /**
  * Built using CHelper plug-in
@@ -17,7 +19,7 @@ public class Main {
 		public void run() {
 			InputStream inputStream = System.in;
 			OutputStream outputStream = System.out;
-			FastReader in = new FastReader(inputStream);
+			Input in = new Input(inputStream);
 			Output out = new Output(outputStream);
 			CChocolateBunny solver = new CChocolateBunny();
 			solver.solve(1, in, out);
@@ -53,68 +55,6 @@ public class Main {
 			pw.print("! ");
 			pw.println(arr);
 			pw.flush();
-		}
-
-	}
-
-	static class FastReader implements InputReader {
-		final private int BUFFER_SIZE = 1<<16;
-		private DataInputStream din;
-		private byte[] buffer;
-		private int bufferPointer;
-		private int bytesRead;
-
-		public FastReader(InputStream is) {
-			din = new DataInputStream(is);
-			buffer = new byte[BUFFER_SIZE];
-			bufferPointer = bytesRead = 0;
-		}
-
-		public int nextInt() {
-			int ret = 0;
-			byte c = skipToDigit();
-			boolean neg = (c=='-');
-			if(neg) {
-				c = read();
-			}
-			do {
-				ret = ret*10+c-'0';
-			} while((c = read())>='0'&&c<='9');
-			if(neg) {
-				return -ret;
-			}
-			return ret;
-		}
-
-		private boolean isDigit(byte b) {
-			return b>='0'&&b<='9';
-		}
-
-		private byte skipToDigit() {
-			byte ret;
-			while(!isDigit(ret = read())&&ret!='-') ;
-			return ret;
-		}
-
-		private void fillBuffer() {
-			try {
-				bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
-			}catch(IOException e) {
-				e.printStackTrace();
-				throw new InputMismatchException();
-			}
-			if(bytesRead==-1) {
-				buffer[0] = -1;
-			}
-		}
-
-		private byte read() {
-			if(bytesRead==-1) {
-				throw new InputMismatchException();
-			}else if(bufferPointer==bytesRead) {
-				fillBuffer();
-			}
-			return buffer[bufferPointer++];
 		}
 
 	}
@@ -196,6 +136,47 @@ public class Main {
 
 	static interface InputReader {
 		int nextInt();
+
+	}
+
+	static class Input implements InputReader {
+		BufferedReader br;
+		StringTokenizer st;
+
+		public Input(InputStream is) {
+			this(is, 1<<20);
+		}
+
+		public Input(InputStream is, int bs) {
+			br = new BufferedReader(new InputStreamReader(is), bs);
+			st = null;
+		}
+
+		public boolean hasNext() {
+			try {
+				while(st==null||!st.hasMoreTokens()) {
+					String s = br.readLine();
+					if(s==null) {
+						return false;
+					}
+					st = new StringTokenizer(s);
+				}
+				return true;
+			}catch(Exception e) {
+				return false;
+			}
+		}
+
+		public String next() {
+			if(!hasNext()) {
+				throw new InputMismatchException();
+			}
+			return st.nextToken();
+		}
+
+		public int nextInt() {
+			return Integer.parseInt(next());
+		}
 
 	}
 }
