@@ -2285,6 +2285,26 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92313822": {
+    "contest_id": 514,
+    "language": "Java 11",
+    "path": "codeforces\\514\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Watto and Mechanism",
+    "problem_url": "https://codeforces.com/contest/514/problem/C",
+    "submission_id": "CF92313822",
+    "submission_url": "https://codeforces.com/contest/514/submission/92313822",
+    "tags": [
+      "binary search",
+      "data structures",
+      "hashing",
+      "string suffix structures",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Sep/08/2020 20:15"
+  },
   "CF92385932": {
     "contest_id": 1248,
     "language": "Java 11",
