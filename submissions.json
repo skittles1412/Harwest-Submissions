@@ -2285,6 +2285,21 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92458719": {
+    "contest_id": 1331,
+    "language": "Java 11",
+    "path": "codeforces\\1331\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "...And after happily lived ever they",
+    "problem_url": "https://codeforces.com/contest/1331/problem/C",
+    "submission_id": "CF92458719",
+    "submission_url": "https://codeforces.com/contest/1331/submission/92458719",
+    "tags": [
+      "bitmasks"
+    ],
+    "timestamp": "Sep/10/2020 13:46"
+  },
   "CF92458788": {
     "contest_id": 1331,
     "language": "Java 11",
