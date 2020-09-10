@@ -2285,6 +2285,19 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92458522": {
+    "contest_id": 1331,
+    "language": "Java 11",
+    "path": "codeforces\\1331\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Is it rated?",
+    "problem_url": "https://codeforces.com/contest/1331/problem/A",
+    "submission_id": "CF92458522",
+    "submission_url": "https://codeforces.com/contest/1331/submission/92458522",
+    "tags": [],
+    "timestamp": "Sep/10/2020 13:39"
+  },
   "CF92458607": {
     "contest_id": 1331,
     "language": "Java 11",
