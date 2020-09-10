@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92459019": {
+    "contest_id": 1331,
+    "language": "Java 11",
+    "path": "codeforces\\1331\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Elementary!",
+    "problem_url": "https://codeforces.com/contest/1331/problem/F",
+    "submission_id": "CF92459019",
+    "submission_url": "https://codeforces.com/contest/1331/submission/92459019",
+    "tags": [
+      "brute force",
+      "dp",
+      "strings"
+    ],
+    "timestamp": "Sep/10/2020 13:56"
+  },
   "CF92507252": {
     "contest_id": 607,
     "language": "Java 11",
