@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92508645": {
+    "contest_id": 344,
+    "language": "Java 11",
+    "path": "codeforces\\344\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Simple Molecules",
+    "problem_url": "https://codeforces.com/contest/344/problem/B",
+    "submission_id": "CF92508645",
+    "submission_url": "https://codeforces.com/contest/344/submission/92508645",
+    "tags": [
+      "brute force",
+      "graphs",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Sep/11/2020 08:00"
+  },
   "CF92532158": {
     "contest_id": 124,
     "language": "Java 11",
