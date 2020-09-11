@@ -2285,6 +2285,25 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92534755": {
+    "contest_id": 1332,
+    "language": "Java 11",
+    "path": "codeforces\\1332\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Height All the Same",
+    "problem_url": "https://codeforces.com/contest/1332/problem/E",
+    "submission_id": "CF92534755",
+    "submission_url": "https://codeforces.com/contest/1332/submission/92534755",
+    "tags": [
+      "combinatorics",
+      "constructive algorithms",
+      "math",
+      "matrices",
+      "*2100"
+    ],
+    "timestamp": "Sep/11/2020 15:52"
+  },
   "CF92544764": {
     "contest_id": 1119,
     "language": "Java 11",
