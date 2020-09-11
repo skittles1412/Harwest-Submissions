@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92507252": {
+    "contest_id": 607,
+    "language": "Java 11",
+    "path": "codeforces\\607\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Chain Reaction",
+    "problem_url": "https://codeforces.com/contest/607/problem/A",
+    "submission_id": "CF92507252",
+    "submission_url": "https://codeforces.com/contest/607/submission/92507252",
+    "tags": [
+      "binary search",
+      "dp",
+      "*1600"
+    ],
+    "timestamp": "Sep/11/2020 07:42"
+  },
   "CF92507621": {
     "contest_id": 181,
     "language": "Java 11",
