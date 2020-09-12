@@ -2285,6 +2285,26 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92544764": {
+    "contest_id": 1119,
+    "language": "Java 11",
+    "path": "codeforces\\1119\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Pavel and Triangles",
+    "problem_url": "https://codeforces.com/contest/1119/problem/E",
+    "submission_id": "CF92544764",
+    "submission_url": "https://codeforces.com/contest/1119/submission/92544764",
+    "tags": [
+      "brute force",
+      "dp",
+      "fft",
+      "greedy",
+      "ternary search",
+      "*1900"
+    ],
+    "timestamp": "Sep/11/2020 21:12"
+  },
   "CF92582601": {
     "contest_id": 1406,
     "language": "Java 11",
