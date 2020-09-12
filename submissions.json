@@ -2285,6 +2285,25 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92622910": {
+    "contest_id": 1406,
+    "language": "Java 11",
+    "path": "codeforces\\1406\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Three Sequences",
+    "problem_url": "https://codeforces.com/contest/1406/problem/D",
+    "submission_id": "CF92622910",
+    "submission_url": "https://codeforces.com/contest/1406/submission/92622910",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Sep/12/2020 08:02"
+  },
   "CF92675907": {
     "contest_id": 1406,
     "language": "Java 11",
