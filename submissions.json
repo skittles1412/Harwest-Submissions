@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF92742863": {
+    "contest_id": 1154,
+    "language": "Java 11",
+    "path": "codeforces\\1154\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Shovels Shop",
+    "problem_url": "https://codeforces.com/contest/1154/problem/F",
+    "submission_id": "CF92742863",
+    "submission_url": "https://codeforces.com/contest/1154/submission/92742863",
+    "tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Sep/13/2020 11:51"
+  },
   "CF92843105": {
     "contest_id": 1418,
     "language": "Java 11",
