@@ -2285,6 +2285,23 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92728094": {
+    "contest_id": 54,
+    "language": "Java 11",
+    "path": "codeforces\\54\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Cutting Jigsaw Puzzle",
+    "problem_url": "https://codeforces.com/contest/54/problem/B",
+    "submission_id": "CF92728094",
+    "submission_url": "https://codeforces.com/contest/54/submission/92728094",
+    "tags": [
+      "hashing",
+      "implementation",
+      "*1800"
+    ],
+    "timestamp": "Sep/13/2020 08:39"
+  },
   "CF92730310": {
     "contest_id": 36,
     "language": "Java 11",
