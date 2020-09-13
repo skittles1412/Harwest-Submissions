@@ -2285,6 +2285,22 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92679250": {
+    "contest_id": 999,
+    "language": "Java 11",
+    "path": "codeforces\\999\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Cards and Joy",
+    "problem_url": "https://codeforces.com/contest/999/problem/F",
+    "submission_id": "CF92679250",
+    "submission_url": "https://codeforces.com/contest/999/submission/92679250",
+    "tags": [
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Sep/12/2020 21:12"
+  },
   "CF92724184": {
     "contest_id": 571,
     "language": "Java 11",
