@@ -2285,6 +2285,24 @@
     ],
     "timestamp": "Jun/13/2020 08:15"
   },
+  "CF92675907": {
+    "contest_id": 1406,
+    "language": "Java 11",
+    "path": "codeforces\\1406\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Deleting Numbers",
+    "problem_url": "https://codeforces.com/contest/1406/problem/E",
+    "submission_id": "CF92675907",
+    "submission_url": "https://codeforces.com/contest/1406/submission/92675907",
+    "tags": [
+      "interactive",
+      "math",
+      "number theory",
+      "*2600"
+    ],
+    "timestamp": "Sep/12/2020 19:46"
+  },
   "CF92679250": {
     "contest_id": 999,
     "language": "Java 11",
