@@ -1481,6 +1481,23 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF92853689": {
+    "contest_id": 1418,
+    "language": "Java 11",
+    "path": "codeforces\\1418\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Negative Prefixes",
+    "problem_url": "https://codeforces.com/contest/1418/problem/B",
+    "submission_id": "CF92853689",
+    "submission_url": "https://codeforces.com/contest/1418/submission/92853689",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Sep/14/2020 12:03"
+  },
   "CF92854913": {
     "contest_id": 1418,
     "language": "Java 11",
