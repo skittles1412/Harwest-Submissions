@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF92871568": {
+    "contest_id": 1253,
+    "language": "Java 11",
+    "path": "codeforces\\1253\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Antenna Coverage",
+    "problem_url": "https://codeforces.com/contest/1253/problem/E",
+    "submission_id": "CF92871568",
+    "submission_url": "https://codeforces.com/contest/1253/submission/92871568",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "sortings",
+      "*2200"
+    ],
+    "timestamp": "Sep/14/2020 21:39"
+  },
   "CF92931529": {
     "contest_id": 1153,
     "language": "Java 11",
