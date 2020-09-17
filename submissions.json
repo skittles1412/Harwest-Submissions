@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93077077": {
+    "contest_id": 385,
+    "language": "Java 11",
+    "path": "codeforces\\385\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Bear and Floodlight",
+    "problem_url": "https://codeforces.com/contest/385/problem/D",
+    "submission_id": "CF93077077",
+    "submission_url": "https://codeforces.com/contest/385/submission/93077077",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "geometry",
+      "*2200"
+    ],
+    "timestamp": "Sep/17/2020 13:32"
+  },
   "CF93080777": {
     "contest_id": 754,
     "language": "Java 11",
