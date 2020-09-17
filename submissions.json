@@ -1481,6 +1481,26 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93080777": {
+    "contest_id": 754,
+    "language": "Java 11",
+    "path": "codeforces\\754\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Vladik and chat",
+    "problem_url": "https://codeforces.com/contest/754/problem/C",
+    "submission_id": "CF93080777",
+    "submission_url": "https://codeforces.com/contest/754/submission/93080777",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "dp",
+      "implementation",
+      "strings",
+      "*2200"
+    ],
+    "timestamp": "Sep/17/2020 15:55"
+  },
   "CF93152646": {
     "contest_id": 983,
     "language": "Java 11",
