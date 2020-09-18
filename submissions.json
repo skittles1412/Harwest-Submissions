@@ -1481,6 +1481,23 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93154230": {
+    "contest_id": 1000,
+    "language": "Java 11",
+    "path": "codeforces\\1000\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Yet Another Problem On a Subsequence",
+    "problem_url": "https://codeforces.com/contest/1000/problem/D",
+    "submission_id": "CF93154230",
+    "submission_url": "https://codeforces.com/contest/1000/submission/93154230",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "*1900"
+    ],
+    "timestamp": "Sep/18/2020 16:19"
+  },
   "CF93162289": {
     "contest_id": 1205,
     "language": "Java 11",
