@@ -1481,6 +1481,26 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93198896": {
+    "contest_id": 1271,
+    "language": "Java 11",
+    "path": "codeforces\\1271\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Portals",
+    "problem_url": "https://codeforces.com/contest/1271/problem/D",
+    "submission_id": "CF93198896",
+    "submission_url": "https://codeforces.com/contest/1271/submission/93198896",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "implementation",
+      "sortings",
+      "*2100"
+    ],
+    "timestamp": "Sep/19/2020 07:23"
+  },
   "CF93209659": {
     "contest_id": 1419,
     "language": "Java 11",
