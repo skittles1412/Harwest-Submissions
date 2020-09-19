@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93273969": {
+    "contest_id": 1419,
+    "language": "Java 11",
+    "path": "codeforces\\1419\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Decryption",
+    "problem_url": "https://codeforces.com/contest/1419/problem/E",
+    "submission_id": "CF93273969",
+    "submission_url": "https://codeforces.com/contest/1419/submission/93273969",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "number theory",
+      "*2100"
+    ],
+    "timestamp": "Sep/19/2020 11:34"
+  },
   "CF93347235": {
     "contest_id": 675,
     "language": "Java 11",
