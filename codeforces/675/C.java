@@ -43,7 +43,7 @@ public class Main {
 		public void solve(int kase, InputReader in, Output pw) {
 			int n = in.nextInt();
 			long[] arr = in.nextLong(n);
-			Arrays.parallelPrefix(arr, Long::sum);
+			Arrays.parallelPrefix(arr, (o1, o2) -> o1+o2);
 			HashMap<Long, Integer> count = new HashMap<>();
 			for(long i: arr) {
 				count.put(i, count.getOrDefault(i, 0)+1);
@@ -209,4 +209,5 @@ public class Main {
 
 	}
 }
+
 
