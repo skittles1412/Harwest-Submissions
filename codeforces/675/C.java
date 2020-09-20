@@ -5,6 +5,7 @@ import java.io.Flushable;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.InputMismatchException;
 import java.util.Map.Entry;
@@ -42,13 +43,9 @@ public class Main {
 		public void solve(int kase, InputReader in, Output pw) {
 			int n = in.nextInt();
 			long[] arr = in.nextLong(n);
-			long[] psum = new long[n];
-			psum[0] = arr[0];
-			for(int i = 1; i<n; i++) {
-				psum[i] = psum[i-1]+arr[i];
-			}
+			Arrays.parallelPrefix(arr, Long::sum);
 			HashMap<Long, Integer> count = new HashMap<>();
-			for(long i: psum) {
+			for(long i: arr) {
 				count.put(i, count.getOrDefault(i, 0)+1);
 			}
 			int ans = 0;
