@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93366902": {
+    "contest_id": 1372,
+    "language": "Java 11",
+    "path": "codeforces\\1372\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Omkar and Last Floor",
+    "problem_url": "https://codeforces.com/contest/1372/problem/E",
+    "submission_id": "CF93366902",
+    "submission_url": "https://codeforces.com/contest/1372/submission/93366902",
+    "tags": [
+      "dp",
+      "greedy",
+      "two pointers",
+      "*2900"
+    ],
+    "timestamp": "Sep/20/2020 14:11"
+  },
   "CF93371029": {
     "contest_id": 959,
     "language": "Java 11",
