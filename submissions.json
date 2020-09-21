@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93374208": {
+    "contest_id": 1238,
+    "language": "Java 11",
+    "path": "codeforces\\1238\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "AB-string",
+    "problem_url": "https://codeforces.com/contest/1238/problem/D",
+    "submission_id": "CF93374208",
+    "submission_url": "https://codeforces.com/contest/1238/submission/93374208",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "dp",
+      "strings",
+      "*1900"
+    ],
+    "timestamp": "Sep/20/2020 20:26"
+  },
   "CF93374880": {
     "contest_id": 1244,
     "language": "Java 11",
