@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93451568": {
+    "contest_id": 1335,
+    "language": "Java 11",
+    "path": "codeforces\\1335\\E2.java",
+    "platform": "Codeforces",
+    "problem_index": "E2",
+    "problem_name": "Three Blocks Palindrome (hard version)",
+    "problem_url": "https://codeforces.com/contest/1335/problem/E2",
+    "submission_id": "CF93451568",
+    "submission_url": "https://codeforces.com/contest/1335/submission/93451568",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Sep/21/2020 22:06"
+  },
   "CF93451575": {
     "contest_id": 1335,
     "language": "Java 11",
