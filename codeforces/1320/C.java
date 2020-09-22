@@ -257,24 +257,21 @@ public class Main {
 				setc[o] = true;
 			}else {
 				int m = l+r >> 1;
-				build0(o<<1, l, m);
-				build0(o<<1|1, m+1, r);
+				build(o<<1, l, m);
+				build(o<<1|1, m+1, r);
 			}
 		}
 
 		private void build(int o, int l, int r) {
 			if(l==r) {
 				setc[o] = true;
-				setv[o] = minv[o] = maxv[o] = sumv[o] = arr[l];
+				setv[o] = arr[l];
 			}else {
-				int lc = o<<1, rc = o<<1|1;
 				int m = l+r >> 1;
-				build(lc, l, m);
-				build(rc, m+1, r);
-				sumv[o] = sumv[lc]+sumv[rc];
-				minv[o] = Math.min(minv[lc], minv[rc]);
-				maxv[o] = Math.max(maxv[lc], maxv[rc]);
+				build(o<<1, l, m);
+				build(o<<1|1, m+1, r);
 			}
+			maintain(o, l, r);
 		}
 
 		public void query(int o, int l, int r, long add) {
