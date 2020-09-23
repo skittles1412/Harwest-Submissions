@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93599864": {
+    "contest_id": 1316,
+    "language": "Java 11",
+    "path": "codeforces\\1316\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Nash Matrix",
+    "problem_url": "https://codeforces.com/contest/1316/problem/D",
+    "submission_id": "CF93599864",
+    "submission_url": "https://codeforces.com/contest/1316/submission/93599864",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "graphs",
+      "implementation",
+      "*2000"
+    ],
+    "timestamp": "Sep/23/2020 16:55"
+  },
   "CF93601235": {
     "contest_id": 1265,
     "language": "Java 11",
