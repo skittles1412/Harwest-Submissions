@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93610140": {
+    "contest_id": 1272,
+    "language": "Java 11",
+    "path": "codeforces\\1272\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Two Bracket Sequences",
+    "problem_url": "https://codeforces.com/contest/1272/problem/F",
+    "submission_id": "CF93610140",
+    "submission_url": "https://codeforces.com/contest/1272/submission/93610140",
+    "tags": [
+      "dp",
+      "strings",
+      "two pointers",
+      "*2200"
+    ],
+    "timestamp": "Sep/23/2020 22:15"
+  },
   "CF93745412": {
     "contest_id": 1420,
     "language": "Java 11",
