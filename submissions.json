@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93601235": {
+    "contest_id": 1265,
+    "language": "Java 11",
+    "path": "codeforces\\1265\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Beautiful Mirrors",
+    "problem_url": "https://codeforces.com/contest/1265/problem/E",
+    "submission_id": "CF93601235",
+    "submission_url": "https://codeforces.com/contest/1265/submission/93601235",
+    "tags": [
+      "data structures",
+      "dp",
+      "math",
+      "probabilities",
+      "*2100"
+    ],
+    "timestamp": "Sep/23/2020 17:59"
+  },
   "CF93610140": {
     "contest_id": 1272,
     "language": "Java 11",
