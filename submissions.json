@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93824609": {
+    "contest_id": 1313,
+    "language": "Java 11",
+    "path": "codeforces\\1313\\C2.java",
+    "platform": "Codeforces",
+    "problem_index": "C2",
+    "problem_name": "Skyscrapers (hard version)",
+    "problem_url": "https://codeforces.com/contest/1313/problem/C2",
+    "submission_id": "CF93824609",
+    "submission_url": "https://codeforces.com/contest/1313/submission/93824609",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*1900"
+    ],
+    "timestamp": "Sep/25/2020 15:41"
+  },
   "CF93824767": {
     "contest_id": 1313,
     "language": "Java 11",
