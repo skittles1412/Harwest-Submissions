@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93824767": {
+    "contest_id": 1313,
+    "language": "Java 11",
+    "path": "codeforces\\1313\\C1.java",
+    "platform": "Codeforces",
+    "problem_index": "C1",
+    "problem_name": "Skyscrapers (easy version)",
+    "problem_url": "https://codeforces.com/contest/1313/problem/C1",
+    "submission_id": "CF93824767",
+    "submission_url": "https://codeforces.com/contest/1313/submission/93824767",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Sep/25/2020 15:51"
+  },
   "CF93825672": {
     "contest_id": 1294,
     "language": "Java 11",
