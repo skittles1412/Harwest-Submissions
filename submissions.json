@@ -1481,6 +1481,23 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93892772": {
+    "contest_id": 1030,
+    "language": "Java 11",
+    "path": "codeforces\\1030\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Vasya and Triangle",
+    "problem_url": "https://codeforces.com/contest/1030/problem/D",
+    "submission_id": "CF93892772",
+    "submission_url": "https://codeforces.com/contest/1030/submission/93892772",
+    "tags": [
+      "geometry",
+      "number theory",
+      "*1800"
+    ],
+    "timestamp": "Sep/26/2020 09:33"
+  },
   "CF93894759": {
     "contest_id": 1338,
     "language": "Java 11",
