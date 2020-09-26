@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93890490": {
+    "contest_id": 1037,
+    "language": "Java 11",
+    "path": "codeforces\\1037\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Packets",
+    "problem_url": "https://codeforces.com/contest/1037/problem/A",
+    "submission_id": "CF93890490",
+    "submission_url": "https://codeforces.com/contest/1037/submission/93890490",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Sep/26/2020 08:59"
+  },
   "CF93891306": {
     "contest_id": 567,
     "language": "Java 11",
