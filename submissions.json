@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93891306": {
+    "contest_id": 567,
+    "language": "Java 11",
+    "path": "codeforces\\567\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Geometric Progression",
+    "problem_url": "https://codeforces.com/contest/567/problem/C",
+    "submission_id": "CF93891306",
+    "submission_url": "https://codeforces.com/contest/567/submission/93891306",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dp",
+      "*1700"
+    ],
+    "timestamp": "Sep/26/2020 09:11"
+  },
   "CF93892772": {
     "contest_id": 1030,
     "language": "Java 11",
