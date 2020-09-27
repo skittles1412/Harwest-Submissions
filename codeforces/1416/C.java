@@ -49,8 +49,10 @@ public class Main {
 			int[] val = new int[n];
 			int ans = 0;
 			long cnt = 0;
+			HashMap<Integer, Integer> cntz = new HashMap<>(), cnto = new HashMap<>();
 			for(int i = 31; i>=0; i--) {
-				HashMap<Integer, Integer> cntz = new HashMap<>(), cnto = new HashMap<>();
+				cntz.clear();
+				cnto.clear();
 				long z = 0, o = 0;
 				for(int j = 0; j<n; j++) {
 					if((arr[j]&1<<i)>0) {
