@@ -49,7 +49,7 @@ public class Main {
 			int[] val = new int[n];
 			int ans = 0;
 			long cnt = 0;
-			HashMap<Integer, Integer> cntz = new HashMap<>(), cnto = new HashMap<>();
+			HashMap<Integer, Integer> cntz = new HashMap<>(n), cnto = new HashMap<>(n);
 			for(int i = 31; i>=0; i--) {
 				cntz.clear();
 				cnto.clear();
