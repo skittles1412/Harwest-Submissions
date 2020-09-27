@@ -1481,6 +1481,30 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94022166": {
+    "contest_id": 1416,
+    "language": "Java 11",
+    "path": "codeforces\\1416\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "XOR Inverse",
+    "problem_url": "https://codeforces.com/contest/1416/problem/C",
+    "submission_id": "CF94022166",
+    "submission_url": "https://codeforces.com/contest/1416/submission/94022166",
+    "tags": [
+      "bitmasks",
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "greedy",
+      "math",
+      "sortings",
+      "strings",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Sep/27/2020 10:48"
+  },
   "CF94022342": {
     "contest_id": 1416,
     "language": "Java 11",
