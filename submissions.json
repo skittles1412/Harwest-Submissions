@@ -1481,6 +1481,23 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF93968033": {
+    "contest_id": 605,
+    "language": "Java 11",
+    "path": "codeforces\\605\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sorting Railway Cars",
+    "problem_url": "https://codeforces.com/contest/605/problem/A",
+    "submission_id": "CF93968033",
+    "submission_url": "https://codeforces.com/contest/605/submission/93968033",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Sep/27/2020 07:41"
+  },
   "CF93969503": {
     "contest_id": 1238,
     "language": "Java 11",
