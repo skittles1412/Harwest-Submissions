@@ -1481,6 +1481,26 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94039654": {
+    "contest_id": 1416,
+    "language": "Kotlin",
+    "path": "codeforces\\1416\\D.kt",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Graph and Queries",
+    "problem_url": "https://codeforces.com/contest/1416/problem/D",
+    "submission_id": "CF94039654",
+    "submission_url": "https://codeforces.com/contest/1416/submission/94039654",
+    "tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "implementation",
+      "trees",
+      "*2600"
+    ],
+    "timestamp": "Sep/27/2020 18:09"
+  },
   "CF94044932": {
     "contest_id": 1223,
     "language": "Java 11",
