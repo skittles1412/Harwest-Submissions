@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94147812": {
+    "contest_id": 1211,
+    "language": "Kotlin",
+    "path": "codeforces\\1211\\F.kt",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "kotlinkotlinkotlinkotlin...",
+    "problem_url": "https://codeforces.com/contest/1211/problem/F",
+    "submission_id": "CF94147812",
+    "submission_url": "https://codeforces.com/contest/1211/submission/94147812",
+    "tags": [
+      "*special problem",
+      "graphs",
+      "implementation",
+      "strings",
+      "*2300"
+    ],
+    "timestamp": "Sep/28/2020 09:24"
+  },
   "CF94148871": {
     "contest_id": 1426,
     "language": "Java 11",
