@@ -57,7 +57,7 @@ public class Main {
 				ccnt[c[i]]--;
 			}
 			Utilities.Debug.dbg(acnt, bcnt, ccnt);
-			int[] cpsum = Utilities.psum(ccnt);
+			int[] apsum = Utilities.psum(acnt), bpsum = Utilities.psum(bcnt), cpsum = Utilities.psum(ccnt);
 			int[] dp2 = new int[n+1];
 			for(int i = n-1; i>=0; i--) {
 				dp2[i] = Math.min(bcnt[i]+dp2[i+1], cpsum[n]-cpsum[i]);
@@ -146,13 +146,9 @@ public class Main {
 
 	static class Utilities {
 		public static int[] psum(int[] arr) {
-			int n = arr.length;
-			int[] psum = new int[n+1];
-			System.arraycopy(arr, 0, psum, 1, n);
-//		Arrays.parallelPrefix(psum, Integer::sum);
-			for(int i = 0; i<n; i++) {
-				psum[i+1] = psum[i]+arr[i];
-			}
+			int[] psum = new int[arr.length+1];
+			System.arraycopy(arr, 0, psum, 1, arr.length);
+			Arrays.parallelPrefix(psum, Integer::sum);
 			return psum;
 		}
 

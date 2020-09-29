@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94249952": {
+    "contest_id": 1257,
+    "language": "Java 11",
+    "path": "codeforces\\1257\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "The Contest",
+    "problem_url": "https://codeforces.com/contest/1257/problem/E",
+    "submission_id": "CF94249952",
+    "submission_url": "https://codeforces.com/contest/1257/submission/94249952",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "*2000"
+    ],
+    "timestamp": "Sep/29/2020 15:31"
+  },
   "CF94249992": {
     "contest_id": 1257,
     "language": "Java 11",
