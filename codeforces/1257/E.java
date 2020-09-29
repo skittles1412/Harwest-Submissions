@@ -149,7 +149,10 @@ public class Main {
 			int n = arr.length;
 			int[] psum = new int[n+1];
 			System.arraycopy(arr, 0, psum, 1, n);
-			Arrays.parallelPrefix(psum, Integer::sum);
+//		Arrays.parallelPrefix(psum, Integer::sum);
+			for(int i = 0; i<n; i++) {
+				psum[i+1] = psum[i]+arr[i];
+			}
 			return psum;
 		}
 
