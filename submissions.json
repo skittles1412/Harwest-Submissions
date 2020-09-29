@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94177672": {
+    "contest_id": 1256,
+    "language": "Java 11",
+    "path": "codeforces\\1256\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Equalizing Two Strings",
+    "problem_url": "https://codeforces.com/contest/1256/problem/F",
+    "submission_id": "CF94177672",
+    "submission_url": "https://codeforces.com/contest/1256/submission/94177672",
+    "tags": [
+      "constructive algorithms",
+      "sortings",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Sep/28/2020 21:53"
+  },
   "CF94249952": {
     "contest_id": 1257,
     "language": "Java 11",
