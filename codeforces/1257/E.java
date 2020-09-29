@@ -146,8 +146,9 @@ public class Main {
 
 	static class Utilities {
 		public static int[] psum(int[] arr) {
-			int[] psum = new int[arr.length+1];
-			System.arraycopy(arr, 0, psum, 1, arr.length);
+			int n = arr.length;
+			int[] psum = new int[n+1];
+			System.arraycopy(arr, 0, psum, 1, n);
 			Arrays.parallelPrefix(psum, Integer::sum);
 			return psum;
 		}
