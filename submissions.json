@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94175407": {
+    "contest_id": 678,
+    "language": "Java 11",
+    "path": "codeforces\\678\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Another Sith Tournament",
+    "problem_url": "https://codeforces.com/contest/678/problem/E",
+    "submission_id": "CF94175407",
+    "submission_url": "https://codeforces.com/contest/678/submission/94175407",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "math",
+      "probabilities",
+      "*2200"
+    ],
+    "timestamp": "Sep/28/2020 21:01"
+  },
   "CF94177672": {
     "contest_id": 1256,
     "language": "Java 11",
