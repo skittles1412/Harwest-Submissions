@@ -24,7 +24,7 @@ public class Main {
 			Output out = new Output(outputStream);
 			DSearchlights solver = new DSearchlights();
 			solver.solve(1, in, out);
-			out.close();
+			out.flush();
 		}
 	}
 
@@ -351,7 +351,6 @@ public class Main {
 
 	}
 }
-
 
 
 
