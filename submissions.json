@@ -1481,6 +1481,23 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94258027": {
+    "contest_id": 1234,
+    "language": "Java 11",
+    "path": "codeforces\\1234\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Yet Another Substring Reverse",
+    "problem_url": "https://codeforces.com/contest/1234/problem/F",
+    "submission_id": "CF94258027",
+    "submission_url": "https://codeforces.com/contest/1234/submission/94258027",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "*2200"
+    ],
+    "timestamp": "Sep/29/2020 20:49"
+  },
   "CF94348030": {
     "contest_id": 1408,
     "language": "Java 11",
