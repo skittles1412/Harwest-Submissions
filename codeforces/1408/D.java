@@ -26,7 +26,7 @@ public class Main {
 			DSearchlights solver = new DSearchlights();
 			solver.solve(1, in, out);
 			out.close();
-//			System.err.println(System.currentTimeMillis()-startTime+"ms");
+			System.err.println(System.currentTimeMillis()-startTime+"ms");
 		}
 	}
 
@@ -353,5 +353,4 @@ public class Main {
 
 	}
 }
-
 
