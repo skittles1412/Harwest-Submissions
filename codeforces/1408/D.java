@@ -18,13 +18,15 @@ public class Main {
 	static class TaskAdapter implements Runnable {
 		@Override
 		public void run() {
+			long startTime = System.currentTimeMillis();
 			InputStream inputStream = System.in;
 			OutputStream outputStream = System.out;
 			FastReader in = new FastReader(inputStream);
 			Output out = new Output(outputStream);
 			DSearchlights solver = new DSearchlights();
 			solver.solve(1, in, out);
-			out.flush();
+			out.close();
+			 System.err.println(System.currentTimeMillis()-startTime+"ms");
 		}
 	}
 
@@ -351,7 +353,6 @@ public class Main {
 
 	}
 }
-
 
 
 
