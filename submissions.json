@@ -1481,6 +1481,22 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94363189": {
+    "contest_id": 1227,
+    "language": "Java 11",
+    "path": "codeforces\\1227\\F1.java",
+    "platform": "Codeforces",
+    "problem_index": "F1",
+    "problem_name": "Wrong Answer on test 233 (Easy Version)",
+    "problem_url": "https://codeforces.com/contest/1227/problem/F1",
+    "submission_id": "CF94363189",
+    "submission_url": "https://codeforces.com/contest/1227/submission/94363189",
+    "tags": [
+      "dp",
+      "*2200"
+    ],
+    "timestamp": "Sep/30/2020 16:10"
+  },
   "CF94364506": {
     "contest_id": 1256,
     "language": "Java 11",
