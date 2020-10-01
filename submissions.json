@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94364506": {
+    "contest_id": 1256,
+    "language": "Java 11",
+    "path": "codeforces\\1256\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Yet Another Division Into Teams",
+    "problem_url": "https://codeforces.com/contest/1256/problem/E",
+    "submission_id": "CF94364506",
+    "submission_url": "https://codeforces.com/contest/1256/submission/94364506",
+    "tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "*2000"
+    ],
+    "timestamp": "Sep/30/2020 17:11"
+  },
   "CF94365671": {
     "contest_id": 1266,
     "language": "Java 11",
