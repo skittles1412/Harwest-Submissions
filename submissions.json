@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94667816": {
+    "contest_id": 1422,
+    "language": "Java 11",
+    "path": "codeforces\\1422\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nice Matrix",
+    "problem_url": "https://codeforces.com/contest/1422/problem/B",
+    "submission_id": "CF94667816",
+    "submission_url": "https://codeforces.com/contest/1422/submission/94667816",
+    "tags": [
+      "greedy",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Oct/04/2020 09:13"
+  },
   "CF94682966": {
     "contest_id": 1422,
     "language": "Java 11",
