@@ -56,15 +56,7 @@ public class Main {
 				int ind = Math.abs(e[1])-1;
 				if(e[1]>0) {
 					var p = new Pair<>(arr[ind][1], ind);
-					Pair<Integer, Integer> v = p;
-//				for(var v: ts.headSet(p)) {
-//					if(cnt==n-1||!dsu.union(ind, v.b)) {
-//						pw.println("NO");
-//						return;
-//					}
-//					cnt++;
-//				}
-					while((v = ts.lower(v))!=null) {
+					for(var v: ts.headSet(p)) {
 						if(cnt==n-1||!dsu.union(ind, v.b)) {
 							pw.println("NO");
 							return;
