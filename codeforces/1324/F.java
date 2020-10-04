@@ -81,7 +81,7 @@ public class Main {
 			next = Stream.generate(ArrayList<Integer>::new).limit(n).toArray(ArrayList[]::new);
 			dp(0);
 			ans = new int[n];
-////			Utilities.Debug.dbg(dp);
+//			Utilities.Debug.dbg(dp);
 			dfs(0);
 			pw.println(ans);
 		}
@@ -233,12 +233,10 @@ public class Main {
 		}
 
 		default ArrayList<Integer>[] nextUndirectedGraph(int n, int m) {
-			ArrayList<Integer>[] ret;
-//			ret = new ArrayList[n];
-//			for(int i = 0; i<n; i++) {
-//				ret[i] = new ArrayList<>();
-//			}
-			ret = Stream.generate(ArrayList<Integer>::new).limit(n).toArray(ArrayList[]::new);
+			ArrayList<Integer>[] ret = new ArrayList[n];
+			for(int i = 0; i<n; i++) {
+				ret[i] = new ArrayList<>();
+			}
 			for(int i = 0; i<m; i++) {
 				int u = nextInt()-1, v = nextInt()-1;
 				ret[u].add(v);
@@ -331,5 +329,4 @@ public class Main {
 
 	}
 }
-
 

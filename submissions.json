@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94658473": {
+    "contest_id": 1324,
+    "language": "Java 11",
+    "path": "codeforces\\1324\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Maximum White Subtree",
+    "problem_url": "https://codeforces.com/contest/1324/problem/F",
+    "submission_id": "CF94658473",
+    "submission_url": "https://codeforces.com/contest/1324/submission/94658473",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "trees",
+      "*1800"
+    ],
+    "timestamp": "Oct/04/2020 08:25"
+  },
   "CF94658582": {
     "contest_id": 1324,
     "language": "Java 11",
