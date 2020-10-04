@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94654055": {
+    "contest_id": 1283,
+    "language": "Java 11",
+    "path": "codeforces\\1283\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "DIY Garland",
+    "problem_url": "https://codeforces.com/contest/1283/problem/F",
+    "submission_id": "CF94654055",
+    "submission_url": "https://codeforces.com/contest/1283/submission/94654055",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "Oct/04/2020 07:29"
+  },
   "CF94658473": {
     "contest_id": 1324,
     "language": "Java 11",
