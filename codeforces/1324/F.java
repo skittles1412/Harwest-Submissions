@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.function.IntUnaryOperator;
+import java.util.stream.Stream;
 
 /**
  * Built using CHelper plug-in
@@ -43,6 +44,7 @@ public class Main {
 		int[] dp;
 		int[] ans;
 		ArrayList<Integer>[] graph;
+		ArrayList<Integer>[] next;
 
 		public FMaximumWhiteSubtree() {
 		}
@@ -53,6 +55,7 @@ public class Main {
 				graph[v].remove((Integer) u);
 				int sum = dp(v);
 				if(sum>=0) {
+					next[u].add(v);
 					ans += sum;
 				}
 			}
@@ -75,9 +78,10 @@ public class Main {
 			arr = in.nextInt(n, o -> o==1 ? 1 : -1);
 			graph = in.nextUndirectedGraph(n, n-1);
 			dp = new int[n];
+			next = Stream.generate(ArrayList<Integer>::new).limit(n).toArray(ArrayList[]::new);
 			dp(0);
 			ans = new int[n];
-//			Utilities.Debug.dbg(dp);
+////			Utilities.Debug.dbg(dp);
 			dfs(0);
 			pw.println(ans);
 		}
@@ -229,10 +233,12 @@ public class Main {
 		}
 
 		default ArrayList<Integer>[] nextUndirectedGraph(int n, int m) {
-			ArrayList<Integer>[] ret = new ArrayList[n];
-			for(int i = 0; i<n; i++) {
-				ret[i] = new ArrayList<>();
-			}
+			ArrayList<Integer>[] ret;
+//			ret = new ArrayList[n];
+//			for(int i = 0; i<n; i++) {
+//				ret[i] = new ArrayList<>();
+//			}
+			ret = Stream.generate(ArrayList<Integer>::new).limit(n).toArray(ArrayList[]::new);
 			for(int i = 0; i<m; i++) {
 				int u = nextInt()-1, v = nextInt()-1;
 				ret[u].add(v);
@@ -325,4 +331,5 @@ public class Main {
 
 	}
 }
+
 
