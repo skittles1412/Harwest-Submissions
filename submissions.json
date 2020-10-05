@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF94727222": {
+    "contest_id": 1422,
+    "language": "Java 11",
+    "path": "codeforces\\1422\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Returning Home",
+    "problem_url": "https://codeforces.com/contest/1422/problem/D",
+    "submission_id": "CF94727222",
+    "submission_url": "https://codeforces.com/contest/1422/submission/94727222",
+    "tags": [
+      "graphs",
+      "shortest paths",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Oct/04/2020 18:13"
+  },
   "CF94736075": {
     "contest_id": 1353,
     "language": "Java 11",
