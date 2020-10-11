@@ -1481,6 +1481,26 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95280565": {
+    "contest_id": 758,
+    "language": "Java 11",
+    "path": "codeforces\\758\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Ability To Convert",
+    "problem_url": "https://codeforces.com/contest/758/problem/D",
+    "submission_id": "CF95280565",
+    "submission_url": "https://codeforces.com/contest/758/submission/95280565",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "math",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Oct/11/2020 08:47"
+  },
   "CF95281304": {
     "contest_id": 771,
     "language": "Java 11",
