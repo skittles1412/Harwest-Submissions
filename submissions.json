@@ -1481,6 +1481,27 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95172396": {
+    "contest_id": 1366,
+    "language": "Java 11",
+    "path": "codeforces\\1366\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Two Arrays",
+    "problem_url": "https://codeforces.com/contest/1366/problem/E",
+    "submission_id": "CF95172396",
+    "submission_url": "https://codeforces.com/contest/1366/submission/95172396",
+    "tags": [
+      "binary search",
+      "brute force",
+      "combinatorics",
+      "constructive algorithms",
+      "dp",
+      "two pointers",
+      "*2100"
+    ],
+    "timestamp": "Oct/10/2020 21:53"
+  },
   "CF95269775": {
     "contest_id": 1430,
     "language": "Java 11",
