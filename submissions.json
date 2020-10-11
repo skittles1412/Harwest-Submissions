@@ -1481,6 +1481,29 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95170278": {
+    "contest_id": 1379,
+    "language": "Java 11",
+    "path": "codeforces\\1379\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Choosing flowers",
+    "problem_url": "https://codeforces.com/contest/1379/problem/C",
+    "submission_id": "CF95170278",
+    "submission_url": "https://codeforces.com/contest/1379/submission/95170278",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Oct/10/2020 21:05"
+  },
   "CF95172396": {
     "contest_id": 1366,
     "language": "Java 11",
