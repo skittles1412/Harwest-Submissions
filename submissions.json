@@ -1481,6 +1481,27 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95305862": {
+    "contest_id": 1335,
+    "language": "Java 11",
+    "path": "codeforces\\1335\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Robots on a Grid",
+    "problem_url": "https://codeforces.com/contest/1335/problem/F",
+    "submission_id": "CF95305862",
+    "submission_url": "https://codeforces.com/contest/1335/submission/95305862",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "greedy",
+      "matrices",
+      "*2200"
+    ],
+    "timestamp": "Oct/11/2020 18:19"
+  },
   "CF95357205": {
     "contest_id": 1426,
     "language": "Java 11",
