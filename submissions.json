@@ -1481,6 +1481,27 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95382875": {
+    "contest_id": 1367,
+    "language": "Java 11",
+    "path": "codeforces\\1367\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Necklace Assembly",
+    "problem_url": "https://codeforces.com/contest/1367/problem/E",
+    "submission_id": "CF95382875",
+    "submission_url": "https://codeforces.com/contest/1367/submission/95382875",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "greedy",
+      "number theory",
+      "*1900"
+    ],
+    "timestamp": "Oct/12/2020 17:25"
+  },
   "CF95455788": {
     "contest_id": 1359,
     "language": "Java 11",
