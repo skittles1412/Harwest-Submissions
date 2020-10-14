@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95545223": {
+    "contest_id": 439,
+    "language": "Java 11",
+    "path": "codeforces\\439\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Devu and his Brother",
+    "problem_url": "https://codeforces.com/contest/439/problem/D",
+    "submission_id": "CF95545223",
+    "submission_url": "https://codeforces.com/contest/439/submission/95545223",
+    "tags": [
+      "binary search",
+      "sortings",
+      "ternary search",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Oct/14/2020 15:59"
+  },
   "CF95546311": {
     "contest_id": 1039,
     "language": "Java 11",
