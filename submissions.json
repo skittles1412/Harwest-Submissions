@@ -1481,6 +1481,22 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95544878": {
+    "contest_id": 578,
+    "language": "Java 11",
+    "path": "codeforces\\578\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Weakness and Poorness",
+    "problem_url": "https://codeforces.com/contest/578/problem/C",
+    "submission_id": "CF95544878",
+    "submission_url": "https://codeforces.com/contest/578/submission/95544878",
+    "tags": [
+      "ternary search",
+      "*2000"
+    ],
+    "timestamp": "Oct/14/2020 15:43"
+  },
   "CF95545223": {
     "contest_id": 439,
     "language": "Java 11",
