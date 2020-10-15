@@ -1481,6 +1481,23 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95623555": {
+    "contest_id": 1093,
+    "language": "Java 11",
+    "path": "codeforces\\1093\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Beautiful Graph",
+    "problem_url": "https://codeforces.com/contest/1093/problem/D",
+    "submission_id": "CF95623555",
+    "submission_url": "https://codeforces.com/contest/1093/submission/95623555",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "*1700"
+    ],
+    "timestamp": "Oct/15/2020 16:08"
+  },
   "CF95624999": {
     "contest_id": 1334,
     "language": "Java 11",
