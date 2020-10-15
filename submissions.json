@@ -1481,6 +1481,26 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95546897": {
+    "contest_id": 1355,
+    "language": "Java 11",
+    "path": "codeforces\\1355\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Restorer Distance",
+    "problem_url": "https://codeforces.com/contest/1355/problem/E",
+    "submission_id": "CF95546897",
+    "submission_url": "https://codeforces.com/contest/1355/submission/95546897",
+    "tags": [
+      "binary search",
+      "greedy",
+      "math",
+      "sortings",
+      "ternary search",
+      "*2100"
+    ],
+    "timestamp": "Oct/14/2020 17:18"
+  },
   "CF95547707": {
     "contest_id": 1353,
     "language": "Java 11",
