@@ -1481,6 +1481,26 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95622358": {
+    "contest_id": 1404,
+    "language": "Java 11",
+    "path": "codeforces\\1404\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Fixed Point Removal",
+    "problem_url": "https://codeforces.com/contest/1404/problem/C",
+    "submission_id": "CF95622358",
+    "submission_url": "https://codeforces.com/contest/1404/submission/95622358",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "data structures",
+      "greedy",
+      "two pointers",
+      "*2300"
+    ],
+    "timestamp": "Oct/15/2020 15:12"
+  },
   "CF95623555": {
     "contest_id": 1093,
     "language": "Java 11",
