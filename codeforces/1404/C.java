@@ -10,8 +10,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Objects;
-import java.util.function.BiFunction;
-import java.util.function.BinaryOperator;
 
 /**
  * Built using CHelper plug-in
@@ -40,17 +38,14 @@ public class Main {
 	}
 
 	static class CFixedPointRemoval {
-		TFenwickTree<Integer> ft;
-		int n;
-
 		public CFixedPointRemoval() {
 		}
 
-		public int upperBound(int h, int target) {
+		public static int upperBound(SegmentTree arr, int h, int target) {
 			int l = -1;
 			while(l<h) {
 				int mid = l+h+1 >> 1;
-				if(get(mid)<target) {
+				if(arr.sum(mid, mid)<target) {
 					h = mid-1;
 				}else {
 					l = mid;
@@ -59,17 +54,8 @@ public class Main {
 			return l;
 		}
 
-		public void add(int ind) {
-			ft.set(ind, ft.get(ind)+1);
-		}
-
-		public int get(int ind) {
-			return ft.query(ind, n-1);
-		}
-
 		public void solve(int kase, InputReader in, Output pw) {
-			n = in.nextInt();
-			int q = in.nextInt();
+			int n = in.nextInt(), q = in.nextInt();
 			int[] arr = in.nextInt(n);
 			for(int i = 0; i<n; i++) {
 				arr[i] = i-arr[i]+1;
@@ -84,16 +70,17 @@ public class Main {
 				queries[n-y-1].add(new Pair<>(x, i));
 			}
 			int[] ans = new int[q];
-			ft = new TFenwickTree<>(n, 0, Integer::sum, (o1, o2) -> o1-o2);
+			SegmentTree st = new SegmentTree(n);
 			for(int i = 0; i<n; i++) {
-				int ind = arr[i]>=0 ? upperBound(i, arr[i]) : -1;
+				int ind = arr[i]>=0 ? upperBound(st, i, arr[i]) : -1;
 //				Utilities.Debug.dbg(ind);
 				if(ind>=0) {
-					add(ind);
+					st.add(0, ind, 1);
 				}
 				for(var v: queries[i]) {
-					ans[v.b] = get(v.a);
+					ans[v.b] = (int) st.sum(v.a, v.a);
 				}
+//				Utilities.Debug.dbg(st);
 			}
 			for(int i: ans) {
 				pw.println(i);
@@ -115,100 +102,185 @@ public class Main {
 
 	}
 
-	static class Output implements Closeable, Flushable {
-		public StringBuilder sb;
-		public OutputStream os;
-		public int BUFFER_SIZE;
-		public String lineSeparator;
+	static class SegmentTree {
+		public long[] arr;
+		public long[] sumv;
+		public long[] minv;
+		public long[] maxv;
+		public long[] addv;
+		public long[] setv;
+		public long _sum;
+		public long _min;
+		public long _max;
+		public long y1;
+		public long y2;
+		public long v;
+		public int n;
+		public boolean[] setc;
+		public boolean add;
 
-		public Output(OutputStream os) {
-			this(os, 1<<16);
+		public SegmentTree(int n) {
+			arr = new long[n];
+			this.n = n;
+			sumv = new long[n<<2];
+			minv = new long[n<<2];
+			maxv = new long[n<<2];
+			addv = new long[n<<2];
+			setv = new long[n<<2];
+			setc = new boolean[n<<2];
+			build0(1, 0, n-1);
 		}
 
-		public Output(OutputStream os, int bs) {
-			BUFFER_SIZE = bs;
-			sb = new StringBuilder(BUFFER_SIZE);
-			this.os = new BufferedOutputStream(os, 1<<17);
-			lineSeparator = System.lineSeparator();
+		public SegmentTree(long[] arr) {
+			this.arr = arr.clone();
+			n = arr.length;
+			sumv = new long[n<<2];
+			minv = new long[n<<2];
+			maxv = new long[n<<2];
+			addv = new long[n<<2];
+			setv = new long[n<<2];
+			setc = new boolean[n<<2];
+			build(1, 0, n-1);
 		}
 
-		public void println(int i) {
-			println(String.valueOf(i));
-		}
-
-		public void println(String s) {
-			sb.append(s);
-			println();
-		}
-
-		public void println() {
-			sb.append(lineSeparator);
-		}
-
-		private void flushToBuffer() {
-			try {
-				os.write(sb.toString().getBytes());
-			}catch(IOException e) {
-				e.printStackTrace();
-			}
-			sb = new StringBuilder(BUFFER_SIZE);
-		}
-
-		public void flush() {
-			try {
-				flushToBuffer();
-				os.flush();
-			}catch(IOException e) {
-				e.printStackTrace();
-			}
-		}
-
-		public void close() {
-			flush();
-			try {
-				os.close();
-			}catch(IOException e) {
-				e.printStackTrace();
+		private void build0(int o, int l, int r) {
+			if(l==r) {
+				setc[o] = true;
+			}else {
+				int m = l+r >> 1;
+				build0(o<<1, l, m);
+				build0(o<<1|1, m+1, r);
 			}
 		}
 
-	}
-
-	static class Pair<T1, T2> implements Comparable<Pair<T1, T2>> {
-		public T1 a;
-		public T2 b;
-
-		public Pair(Pair<T1, T2> p) {
-			this(p.a, p.b);
+		private void build(int o, int l, int r) {
+			if(l==r) {
+				setc[o] = true;
+				setv[o] = minv[o] = maxv[o] = sumv[o] = arr[l];
+			}else {
+				int lc = o<<1, rc = o<<1|1;
+				int m = l+r >> 1;
+				build(lc, l, m);
+				build(rc, m+1, r);
+				sumv[o] = sumv[lc]+sumv[rc];
+				minv[o] = Math.min(minv[lc], minv[rc]);
+				maxv[o] = Math.max(maxv[lc], maxv[rc]);
+			}
 		}
 
-		public Pair(T1 a, T2 b) {
-			this.a = a;
-			this.b = b;
+		public void query(int o, int l, int r, long add) {
+			if(setc[o]) {
+				long v = setv[o]+add+addv[o];
+				_sum += v*(Math.min(r, y2)-Math.max(l, y1)+1);
+				_min = Math.min(_min, v);
+				_max = Math.max(_max, v);
+			}else if(y1<=l&&y2>=r) {
+				_sum += sumv[o]+add*(r-l+1);
+				_min = Math.min(_min, minv[o]+add);
+				_max = Math.max(_max, maxv[o]+add);
+			}else {
+				int m = (l+r) >> 1;
+				if(y1<=m) {
+					query(o<<1, l, m, add+addv[o]);
+				}
+				if(y2>m) {
+					query(o<<1|1, m+1, r, add+addv[o]);
+				}
+			}
+		}
+
+		public void update(int o, int l, int r) {
+			int lc = o<<1, rc = o<<1|1;
+			if(y1<=l&&y2>=r) {
+				if(add) {
+					addv[o] += v;
+				}else {
+					setv[o] = v;
+					setc[o] = true;
+					addv[o] = 0;
+				}
+			}else {
+				pushdown(o);
+				int m = (l+r) >> 1;
+				if(y1<=m) {
+					update(lc, l, m);
+				}else {
+					maintain(lc, l, m);
+				}
+				if(y2>m) {
+					update(rc, m+1, r);
+				}else {
+					maintain(rc, m+1, r);
+				}
+			}
+			maintain(o, l, r);
+		}
+
+		private void maintain(int o, int l, int r) {
+			int lc = o<<1, rc = o<<1|1;
+			if(r>l) {
+				sumv[o] = sumv[lc]+sumv[rc];
+				minv[o] = Math.min(minv[lc], minv[rc]);
+				maxv[o] = Math.max(maxv[lc], maxv[rc]);
+			}
+			if(setc[o]) {
+				minv[o] = maxv[o] = setv[o];
+				sumv[o] = setv[o]*(r-l+1);
+			}
+			if(addv[o]!=0) {
+				minv[o] += addv[o];
+				maxv[o] += addv[o];
+				sumv[o] += addv[o]*(r-l+1);
+			}
+		}
+
+		private void pushdown(int o) {
+			int lc = o<<1, rc = o<<1|1;
+			if(setc[o]) {
+				setv[lc] = setv[rc] = setv[o];
+				addv[lc] = addv[rc] = 0;
+				setc[o] = false;
+				setc[lc] = setc[rc] = true;
+			}
+			if(addv[o]!=0) {
+				addv[lc] += addv[o];
+				addv[rc] += addv[o];
+				addv[o] = 0;
+			}
+		}
+
+		public void add(int l, int r, long v) {
+			y1 = l;
+			y2 = r;
+			this.v = v;
+			add = true;
+			update(1, 0, n-1);
+		}
+
+		public void query(int l, int r) {
+			y1 = l;
+			y2 = r;
+			_sum = 0;
+			_max = Long.MIN_VALUE;
+			_min = Long.MAX_VALUE;
+			query(1, 0, n-1, 0);
+		}
+
+		public long sum(int l, int r) {
+			query(l, r);
+			return _sum;
 		}
 
 		public String toString() {
-			return a+" "+b;
-		}
-
-		public int hashCode() {
-			return Objects.hash(a, b);
-		}
-
-		public boolean equals(Object o) {
-			if(o instanceof Pair) {
-				Pair p = (Pair) o;
-				return a.equals(p.a)&&b.equals(p.b);
+			StringBuilder ret = new StringBuilder(n<<2);
+			ret.append("{");
+			for(int i = 0; i<n; i++) {
+				if(i!=0) {
+					ret.append(", ");
+				}
+				ret.append(sum(i, i));
 			}
-			return false;
-		}
-
-		public int compareTo(Pair<T1, T2> p) {
-			int cmp = ((Comparable<T1>) a).compareTo(p.a);
-			if(cmp==0) {
-				return ((Comparable<T2>) b).compareTo(p.b);
-			}
-			return cmp;
+			return ret.append("}").toString();
 		}
 
 	}
@@ -275,64 +347,41 @@ public class Main {
 
 	}
 
-	static class TFenwickTree<T> {
-		int n;
-		T initialValue;
-		public T[] arr;
-		public T[] value;
-		BinaryOperator<T> operation;
-		BinaryOperator<T> undo;
+	static class Pair<T1, T2> implements Comparable<Pair<T1, T2>> {
+		public T1 a;
+		public T2 b;
 
-		public TFenwickTree(T[] arr, T initialValue, BinaryOperator<T> operation, BinaryOperator<T> undo) {
-			n = arr.length;
-			this.initialValue = initialValue;
-			this.arr = (T[]) new Object[n];
-			value = (T[]) new Object[n+1];
-			Arrays.fill(value, initialValue);
-			Arrays.fill(this.arr, initialValue);
-			this.operation = operation;
-			this.undo = undo;
-			for(int i = 0; i<n; i++) {
-				set(i, arr[i]);
+		public Pair(Pair<T1, T2> p) {
+			this(p.a, p.b);
+		}
+
+		public Pair(T1 a, T2 b) {
+			this.a = a;
+			this.b = b;
+		}
+
+		public String toString() {
+			return a+" "+b;
+		}
+
+		public int hashCode() {
+			return Objects.hash(a, b);
+		}
+
+		public boolean equals(Object o) {
+			if(o instanceof Pair) {
+				Pair p = (Pair) o;
+				return a.equals(p.a)&&b.equals(p.b);
 			}
+			return false;
 		}
 
-		public TFenwickTree(int n, T initialValue, BinaryOperator<T> operation, BinaryOperator<T> undo) {
-			this.n = n;
-			this.initialValue = initialValue;
-			this.arr = (T[]) new Object[n];
-			value = (T[]) new Object[n+1];
-			Arrays.fill(value, initialValue);
-			Arrays.fill(this.arr, initialValue);
-			this.operation = operation;
-			this.undo = undo;
-		}
-
-		public void set(int ind, T val) {
-			T old = arr[ind];
-			arr[ind] = val;
-			ind++;
-			while(ind<=n) {
-				value[ind] = operation.apply(undo.apply(value[ind], old), val);
-				ind += ind&-ind;
+		public int compareTo(Pair<T1, T2> p) {
+			int cmp = ((Comparable<T1>) a).compareTo(p.a);
+			if(cmp==0) {
+				return ((Comparable<T2>) b).compareTo(p.b);
 			}
-		}
-
-		private T psum(int ind) {
-			T ret = initialValue;
-			while(ind>0) {
-				ret = operation.apply(ret, value[ind]);
-				ind -= ind&-ind;
-			}
-			return ret;
-		}
-
-		public T query(int l, int r) {
-			return undo.apply(psum(r+1), psum(l));
-		}
-
-		public T get(int ind) {
-			return arr[ind];
+			return cmp;
 		}
 
 	}
@@ -415,6 +464,65 @@ public class Main {
 				}
 			}
 
+		}
+
+	}
+
+	static class Output implements Closeable, Flushable {
+		public StringBuilder sb;
+		public OutputStream os;
+		public int BUFFER_SIZE;
+		public String lineSeparator;
+
+		public Output(OutputStream os) {
+			this(os, 1<<16);
+		}
+
+		public Output(OutputStream os, int bs) {
+			BUFFER_SIZE = bs;
+			sb = new StringBuilder(BUFFER_SIZE);
+			this.os = new BufferedOutputStream(os, 1<<17);
+			lineSeparator = System.lineSeparator();
+		}
+
+		public void println(int i) {
+			println(String.valueOf(i));
+		}
+
+		public void println(String s) {
+			sb.append(s);
+			println();
+		}
+
+		public void println() {
+			sb.append(lineSeparator);
+		}
+
+		private void flushToBuffer() {
+			try {
+				os.write(sb.toString().getBytes());
+			}catch(IOException e) {
+				e.printStackTrace();
+			}
+			sb = new StringBuilder(BUFFER_SIZE);
+		}
+
+		public void flush() {
+			try {
+				flushToBuffer();
+				os.flush();
+			}catch(IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+		public void close() {
+			flush();
+			try {
+				os.close();
+			}catch(IOException e) {
+				e.printStackTrace();
+			}
 		}
 
 	}
