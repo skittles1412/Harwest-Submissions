@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95695639": {
+    "contest_id": 1427,
+    "language": "Java 11",
+    "path": "codeforces\\1427\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Chess Cheater",
+    "problem_url": "https://codeforces.com/contest/1427/problem/B",
+    "submission_id": "CF95695639",
+    "submission_url": "https://codeforces.com/contest/1427/submission/95695639",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Oct/16/2020 14:21"
+  },
   "CF95696734": {
     "contest_id": 1427,
     "language": "Java 11",
