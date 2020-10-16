@@ -1481,6 +1481,23 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95696734": {
+    "contest_id": 1427,
+    "language": "Java 11",
+    "path": "codeforces\\1427\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Avoiding Zero",
+    "problem_url": "https://codeforces.com/contest/1427/problem/A",
+    "submission_id": "CF95696734",
+    "submission_url": "https://codeforces.com/contest/1427/submission/95696734",
+    "tags": [
+      "math",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Oct/16/2020 15:00"
+  },
   "CF95697114": {
     "contest_id": 1427,
     "language": "Java 11",
