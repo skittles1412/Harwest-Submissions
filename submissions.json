@@ -1481,6 +1481,22 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95697114": {
+    "contest_id": 1427,
+    "language": "Java 11",
+    "path": "codeforces\\1427\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "The Hard Work of Paparazzi",
+    "problem_url": "https://codeforces.com/contest/1427/problem/C",
+    "submission_id": "CF95697114",
+    "submission_url": "https://codeforces.com/contest/1427/submission/95697114",
+    "tags": [
+      "dp",
+      "*2000"
+    ],
+    "timestamp": "Oct/16/2020 15:19"
+  },
   "CF95740405": {
     "contest_id": 1428,
     "language": "Java 11",
