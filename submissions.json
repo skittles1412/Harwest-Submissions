@@ -1481,6 +1481,26 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95814192": {
+    "contest_id": 1428,
+    "language": "Java 11",
+    "path": "codeforces\\1428\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Carrots for Rabbits",
+    "problem_url": "https://codeforces.com/contest/1428/problem/E",
+    "submission_id": "CF95814192",
+    "submission_url": "https://codeforces.com/contest/1428/submission/95814192",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "math",
+      "sortings",
+      "*2200"
+    ],
+    "timestamp": "Oct/17/2020 10:02"
+  },
   "CF95833330": {
     "contest_id": 1428,
     "language": "Java 11",
