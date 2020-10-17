@@ -1481,6 +1481,22 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95740405": {
+    "contest_id": 1428,
+    "language": "Java 11",
+    "path": "codeforces\\1428\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Box is Pull",
+    "problem_url": "https://codeforces.com/contest/1428/problem/A",
+    "submission_id": "CF95740405",
+    "submission_url": "https://codeforces.com/contest/1428/submission/95740405",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/17/2020 06:08"
+  },
   "CF95748856": {
     "contest_id": 1428,
     "language": "Java 11",
