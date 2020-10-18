@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95928887": {
+    "contest_id": 1083,
+    "language": "Java 11",
+    "path": "codeforces\\1083\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "The Fair Nut and Rectangles",
+    "problem_url": "https://codeforces.com/contest/1083/problem/E",
+    "submission_id": "CF95928887",
+    "submission_url": "https://codeforces.com/contest/1083/submission/95928887",
+    "tags": [
+      "data structures",
+      "dp",
+      "geometry",
+      "*2400"
+    ],
+    "timestamp": "Oct/18/2020 11:50"
+  },
   "CF95944637": {
     "contest_id": 1423,
     "language": "Java 11",
