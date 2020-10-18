@@ -1481,6 +1481,26 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95833330": {
+    "contest_id": 1428,
+    "language": "Java 11",
+    "path": "codeforces\\1428\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Fruit Sequences",
+    "problem_url": "https://codeforces.com/contest/1428/problem/F",
+    "submission_id": "CF95833330",
+    "submission_url": "https://codeforces.com/contest/1428/submission/95833330",
+    "tags": [
+      "binary search",
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "two pointers",
+      "*2400"
+    ],
+    "timestamp": "Oct/17/2020 18:15"
+  },
   "CF95923386": {
     "contest_id": 1421,
     "language": "Java 11",
