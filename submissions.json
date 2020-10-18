@@ -1481,6 +1481,27 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF95926931": {
+    "contest_id": 1421,
+    "language": "Java 11",
+    "path": "codeforces\\1421\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Hexagons",
+    "problem_url": "https://codeforces.com/contest/1421/problem/D",
+    "submission_id": "CF95926931",
+    "submission_url": "https://codeforces.com/contest/1421/submission/95926931",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "shortest paths",
+      "*1900"
+    ],
+    "timestamp": "Oct/18/2020 11:07"
+  },
   "CF95928887": {
     "contest_id": 1083,
     "language": "Java 11",
