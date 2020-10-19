@@ -1481,6 +1481,23 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF96018441": {
+    "contest_id": 569,
+    "language": "Java 11",
+    "path": "codeforces\\569\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Inventory",
+    "problem_url": "https://codeforces.com/contest/569/problem/B",
+    "submission_id": "CF96018441",
+    "submission_url": "https://codeforces.com/contest/569/submission/96018441",
+    "tags": [
+      "greedy",
+      "math",
+      "*1200"
+    ],
+    "timestamp": "Oct/19/2020 13:04"
+  },
   "CF96018589": {
     "contest_id": 365,
     "language": "Java 11",
