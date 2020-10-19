@@ -1481,6 +1481,22 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF96018589": {
+    "contest_id": 365,
+    "language": "Java 11",
+    "path": "codeforces\\365\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Good Number",
+    "problem_url": "https://codeforces.com/contest/365/problem/A",
+    "submission_id": "CF96018589",
+    "submission_url": "https://codeforces.com/contest/365/submission/96018589",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Oct/19/2020 13:08"
+  },
   "CF96171762": {
     "contest_id": 1433,
     "language": "Java 11",
