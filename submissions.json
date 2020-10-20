@@ -1481,6 +1481,22 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF96176199": {
+    "contest_id": 1433,
+    "language": "Java 11",
+    "path": "codeforces\\1433\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Zero Remainder Sum ",
+    "problem_url": "https://codeforces.com/contest/1433/problem/F",
+    "submission_id": "CF96176199",
+    "submission_url": "https://codeforces.com/contest/1433/submission/96176199",
+    "tags": [
+      "dp",
+      "*2100"
+    ],
+    "timestamp": "Oct/20/2020 11:02"
+  },
   "CF96198897": {
     "contest_id": 1433,
     "language": "Java 11",
