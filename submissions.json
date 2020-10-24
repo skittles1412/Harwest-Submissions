@@ -1481,6 +1481,26 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF96606564": {
+    "contest_id": 1436,
+    "language": "Java 11",
+    "path": "codeforces\\1436\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Bandit in a City",
+    "problem_url": "https://codeforces.com/contest/1436/problem/D",
+    "submission_id": "CF96606564",
+    "submission_url": "https://codeforces.com/contest/1436/submission/96606564",
+    "tags": [
+      "binary search",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Oct/24/2020 11:53"
+  },
   "CF96626304": {
     "contest_id": 1436,
     "language": "Java 11",
