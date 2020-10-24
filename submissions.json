@@ -1481,6 +1481,23 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF96563933": {
+    "contest_id": 1436,
+    "language": "Java 11",
+    "path": "codeforces\\1436\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Binary Search",
+    "problem_url": "https://codeforces.com/contest/1436/problem/C",
+    "submission_id": "CF96563933",
+    "submission_url": "https://codeforces.com/contest/1436/submission/96563933",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "*1500"
+    ],
+    "timestamp": "Oct/24/2020 07:41"
+  },
   "CF96579469": {
     "contest_id": 1436,
     "language": "Java 11",
