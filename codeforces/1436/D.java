@@ -36,7 +36,6 @@ public class Main {
 	}
 
 	static class DBanditInACity {
-		private final long linf = 4_000_000_000_000_000_000L;
 		int n;
 		int[] parent;
 		int[] rank;
@@ -104,7 +103,7 @@ public class Main {
 					this.order[i] = order[i];
 				}
 			}
-			long l = 0, r = linf;
+			long l = 0, r = n*(long) 1e9+5;
 			while(l<r) {
 				long mid = l+r >> 1;
 				if(valid(mid)) {
@@ -270,3 +269,4 @@ public class Main {
 
 	}
 }
+
