@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF96735213": {
+    "contest_id": 1418,
+    "language": "Java 11",
+    "path": "codeforces\\1418\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Expected Damage",
+    "problem_url": "https://codeforces.com/contest/1418/problem/E",
+    "submission_id": "CF96735213",
+    "submission_url": "https://codeforces.com/contest/1418/submission/96735213",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "probabilities",
+      "*2400"
+    ],
+    "timestamp": "Oct/25/2020 15:59"
+  },
   "CF96784848": {
     "contest_id": 1435,
     "language": "Java 11",
