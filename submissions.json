@@ -1481,6 +1481,26 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF96802089": {
+    "contest_id": 1435,
+    "language": "Java 11",
+    "path": "codeforces\\1435\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Perform Easily",
+    "problem_url": "https://codeforces.com/contest/1435/problem/C",
+    "submission_id": "CF96802089",
+    "submission_url": "https://codeforces.com/contest/1435/submission/96802089",
+    "tags": [
+      "brute force",
+      "data structures",
+      "dp",
+      "sortings",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Oct/26/2020 10:50"
+  },
   "CF97053326": {
     "contest_id": 1349,
     "language": "Java 11",
