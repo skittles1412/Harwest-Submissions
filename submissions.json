@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF97053326": {
+    "contest_id": 1349,
+    "language": "Java 11",
+    "path": "codeforces\\1349\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Orac and Game of Life",
+    "problem_url": "https://codeforces.com/contest/1349/problem/C",
+    "submission_id": "CF97053326",
+    "submission_url": "https://codeforces.com/contest/1349/submission/97053326",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "implementation",
+      "shortest paths",
+      "*2000"
+    ],
+    "timestamp": "Oct/28/2020 22:41"
+  },
   "CF97190094": {
     "contest_id": 1407,
     "language": "Java 11",
