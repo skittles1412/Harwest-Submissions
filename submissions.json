@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF97190094": {
+    "contest_id": 1407,
+    "language": "Java 11",
+    "path": "codeforces\\1407\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Discrete Centrifugal Jumps",
+    "problem_url": "https://codeforces.com/contest/1407/problem/D",
+    "submission_id": "CF97190094",
+    "submission_url": "https://codeforces.com/contest/1407/submission/97190094",
+    "tags": [
+      "data structures",
+      "dp",
+      "graphs",
+      "*2200"
+    ],
+    "timestamp": "Oct/30/2020 09:46"
+  },
   "CF97260092": {
     "contest_id": 1399,
     "language": "Java 11",
