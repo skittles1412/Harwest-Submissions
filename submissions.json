@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF97260092": {
+    "contest_id": 1399,
+    "language": "Java 11",
+    "path": "codeforces\\1399\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Yet Another Segments Subset",
+    "problem_url": "https://codeforces.com/contest/1399/problem/F",
+    "submission_id": "CF97260092",
+    "submission_url": "https://codeforces.com/contest/1399/submission/97260092",
+    "tags": [
+      "data structures",
+      "dp",
+      "graphs",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Oct/31/2020 10:07"
+  },
   "CF97260314": {
     "contest_id": 1399,
     "language": "Java 11",

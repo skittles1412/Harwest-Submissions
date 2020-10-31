@@ -41,6 +41,7 @@ public class Main {
 
 	static class FYetAnotherSegmentsSubset {
 		ArrayList<Integer>[] start;
+		boolean[][] valid;
 		int[][] dp;
 
 		public FYetAnotherSegmentsSubset() {
@@ -49,10 +50,8 @@ public class Main {
 		public int dp(int l, int r) {
 			if(dp[l][r]!=-1) {
 				return dp[l][r];
-			}
-			boolean valid = start[l].contains(r);
-			if(l==r) {
-				return dp[l][r] = valid ? 1 : 0;
+			}else if(l==r) {
+				return dp[l][r] = valid[l][r] ? 1 : 0;
 			}
 			int ans = dp(l+1, r);
 			for(int j: start[l]) {
@@ -60,7 +59,7 @@ public class Main {
 					ans = Math.max(ans, dp(l, j)+dp(j+1, r));
 				}
 			}
-			if(valid) {
+			if(valid[l][r]) {
 				ans++;
 			}
 			return dp[l][r] = ans;
@@ -68,6 +67,7 @@ public class Main {
 
 		public void solve(int kase, InputReader in, Output pw) {
 			int n = in.nextInt();
+			valid = new boolean[2*n][2*n];
 			start = new ArrayList[2*n];
 			for(int i = 0; i<2*n; i++) {
 				start[i] = new ArrayList<>();
@@ -82,7 +82,7 @@ public class Main {
 				}
 				Utilities.sort(tmp);
 				int ind = 1;
-				HashMap<Integer, Integer> hm = new HashMap<>(2*n);
+				HashMap<Integer, Integer> hm = new HashMap<>();
 				hm.put(tmp[0], 0);
 				for(int i = 1; i<n*2; i++) {
 					if(tmp[i]!=tmp[i-1]) {
@@ -91,10 +91,10 @@ public class Main {
 				}
 				for(int i = 0; i<n; i++) {
 					int s = hm.get(arr[i][0]), e = hm.get(arr[i][1]);
+					valid[s][e] = true;
 					start[s].add(e);
 				}
 			}
-			System.gc();
 			dp = new int[2*n][2*n];
 			for(int i = 0; i<2*n; i++) {
 				Arrays.fill(dp[i], -1);
