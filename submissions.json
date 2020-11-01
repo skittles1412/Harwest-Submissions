@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF97387589": {
+    "contest_id": 1444,
+    "language": "Java 11",
+    "path": "codeforces\\1444\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Division",
+    "problem_url": "https://codeforces.com/contest/1444/problem/A",
+    "submission_id": "CF97387589",
+    "submission_url": "https://codeforces.com/contest/1444/submission/97387589",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Nov/01/2020 14:09"
+  },
   "CF97394370": {
     "contest_id": 1444,
     "language": "Java 11",
