@@ -42,8 +42,7 @@ public class Main {
 		}
 
 		public long cmod(long x) {
-//		return x>=mod?x%mod:x;
-			return x%mod;
+			return x>=mod ? x%mod : x;
 		}
 
 		public void solve(int kase, InputReader in, Output pw) {

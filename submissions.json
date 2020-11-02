@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF97399309": {
+    "contest_id": 1426,
+    "language": "Java 11",
+    "path": "codeforces\\1426\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Number of Subsequences",
+    "problem_url": "https://codeforces.com/contest/1426/problem/F",
+    "submission_id": "CF97399309",
+    "submission_url": "https://codeforces.com/contest/1426/submission/97399309",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "strings",
+      "*2000"
+    ],
+    "timestamp": "Nov/01/2020 21:23"
+  },
   "CF97399325": {
     "contest_id": 1426,
     "language": "Java 11",
