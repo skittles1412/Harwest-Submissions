@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF97468505": {
+    "contest_id": 1442,
+    "language": "Java 11",
+    "path": "codeforces\\1442\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Extreme Subtraction",
+    "problem_url": "https://codeforces.com/contest/1442/problem/A",
+    "submission_id": "CF97468505",
+    "submission_url": "https://codeforces.com/contest/1442/submission/97468505",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Nov/02/2020 07:38"
+  },
   "CF97477630": {
     "contest_id": 1442,
     "language": "Java 11",
