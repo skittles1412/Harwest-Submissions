@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98017095": {
+    "contest_id": 1444,
+    "language": "Java 11",
+    "path": "codeforces\\1444\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Team-Building",
+    "problem_url": "https://codeforces.com/contest/1444/problem/C",
+    "submission_id": "CF98017095",
+    "submission_url": "https://codeforces.com/contest/1444/submission/98017095",
+    "tags": [
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2500"
+    ],
+    "timestamp": "Nov/09/2020 10:29"
+  },
   "CF98019163": {
     "contest_id": 1114,
     "language": "Java 11",
