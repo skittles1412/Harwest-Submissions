@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98019163": {
+    "contest_id": 1114,
+    "language": "Java 11",
+    "path": "codeforces\\1114\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Arithmetic Progression",
+    "problem_url": "https://codeforces.com/contest/1114/problem/E",
+    "submission_id": "CF98019163",
+    "submission_url": "https://codeforces.com/contest/1114/submission/98019163",
+    "tags": [
+      "binary search",
+      "interactive",
+      "number theory",
+      "probabilities",
+      "*2200"
+    ],
+    "timestamp": "Nov/09/2020 11:16"
+  },
   "CF98019559": {
     "contest_id": 1445,
     "language": "Java 11",
