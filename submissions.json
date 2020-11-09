@@ -1481,6 +1481,23 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98021433": {
+    "contest_id": 1445,
+    "language": "Java 11",
+    "path": "codeforces\\1445\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Elimination",
+    "problem_url": "https://codeforces.com/contest/1445/problem/B",
+    "submission_id": "CF98021433",
+    "submission_url": "https://codeforces.com/contest/1445/submission/98021433",
+    "tags": [
+      "greedy",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Nov/09/2020 12:19"
+  },
   "CF98090683": {
     "contest_id": 1310,
     "language": "Java 11",
