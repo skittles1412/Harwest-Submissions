@@ -1481,6 +1481,22 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98148994": {
+    "contest_id": 626,
+    "language": "Java 11",
+    "path": "codeforces\\626\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Group Projects",
+    "problem_url": "https://codeforces.com/contest/626/problem/F",
+    "submission_id": "CF98148994",
+    "submission_url": "https://codeforces.com/contest/626/submission/98148994",
+    "tags": [
+      "dp",
+      "*2400"
+    ],
+    "timestamp": "Nov/11/2020 10:12"
+  },
   "CF98160239": {
     "contest_id": 663,
     "language": "Java 11",
