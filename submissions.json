@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98095041": {
+    "contest_id": 1276,
+    "language": "Java 11",
+    "path": "codeforces\\1276\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Two Fairs",
+    "problem_url": "https://codeforces.com/contest/1276/problem/B",
+    "submission_id": "CF98095041",
+    "submission_url": "https://codeforces.com/contest/1276/submission/98095041",
+    "tags": [
+      "combinatorics",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*1900"
+    ],
+    "timestamp": "Nov/10/2020 17:44"
+  },
   "CF98148994": {
     "contest_id": 626,
     "language": "Java 11",
