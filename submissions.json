@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98160239": {
+    "contest_id": 663,
+    "language": "Java 11",
+    "path": "codeforces\\663\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Binary Table",
+    "problem_url": "https://codeforces.com/contest/663/problem/E",
+    "submission_id": "CF98160239",
+    "submission_url": "https://codeforces.com/contest/663/submission/98160239",
+    "tags": [
+      "bitmasks",
+      "divide and conquer",
+      "dp",
+      "*2600"
+    ],
+    "timestamp": "Nov/11/2020 15:40"
+  },
   "CF98239399": {
     "contest_id": 888,
     "language": "Java 11",
