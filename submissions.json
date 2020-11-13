@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98239399": {
+    "contest_id": 888,
+    "language": "Java 11",
+    "path": "codeforces\\888\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Maximum Subsequence",
+    "problem_url": "https://codeforces.com/contest/888/problem/E",
+    "submission_id": "CF98239399",
+    "submission_url": "https://codeforces.com/contest/888/submission/98239399",
+    "tags": [
+      "bitmasks",
+      "divide and conquer",
+      "meet-in-the-middle",
+      "*1800"
+    ],
+    "timestamp": "Nov/12/2020 17:49"
+  },
   "CF98281125": {
     "contest_id": 1438,
     "language": "Java 11",
