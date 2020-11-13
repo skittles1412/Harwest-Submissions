@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98328576": {
+    "contest_id": 1438,
+    "language": "Java 11",
+    "path": "codeforces\\1438\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Powerful Ksenia",
+    "problem_url": "https://codeforces.com/contest/1438/problem/D",
+    "submission_id": "CF98328576",
+    "submission_url": "https://codeforces.com/contest/1438/submission/98328576",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Nov/13/2020 10:06"
+  },
   "CF98339059": {
     "contest_id": 1438,
     "language": "Java 11",
