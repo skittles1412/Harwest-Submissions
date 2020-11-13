@@ -1481,6 +1481,23 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98281125": {
+    "contest_id": 1438,
+    "language": "Java 11",
+    "path": "codeforces\\1438\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Specific Tastes of Andre ",
+    "problem_url": "https://codeforces.com/contest/1438/problem/A",
+    "submission_id": "CF98281125",
+    "submission_url": "https://codeforces.com/contest/1438/submission/98281125",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Nov/13/2020 06:35"
+  },
   "CF98297105": {
     "contest_id": 1438,
     "language": "Java 11",
