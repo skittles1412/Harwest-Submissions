@@ -1,4 +1,20 @@
 {
+  "AC18072796": {
+    "contest_id": "dp",
+    "language": "Java (OpenJDK 11.0.6)",
+    "path": "atcoder/dp/Z.java",
+    "platform": "AtCoder",
+    "problem_index": "Z",
+    "problem_name": "Frog 3",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_z",
+    "submission_id": "AC18072796",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/18072796",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Nov/12/2020 19:46"
+  },
   "AC20606535": {
     "contest_id": "arc113",
     "language": "C++ (GCC 9.2.1)",
