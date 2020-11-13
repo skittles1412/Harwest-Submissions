@@ -1481,6 +1481,27 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98339059": {
+    "contest_id": 1438,
+    "language": "Java 11",
+    "path": "codeforces\\1438\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Yurii Can Do Everything",
+    "problem_url": "https://codeforces.com/contest/1438/problem/E",
+    "submission_id": "CF98339059",
+    "submission_url": "https://codeforces.com/contest/1438/submission/98339059",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "constructive algorithms",
+      "divide and conquer",
+      "two pointers",
+      "*2500"
+    ],
+    "timestamp": "Nov/13/2020 14:04"
+  },
   "CF98349667": {
     "contest_id": 505,
     "language": "Java 11",
