@@ -63,7 +63,7 @@ public class Main {
 				}
 			}
 //			Utilities.Debug.dbg(min, max);
-			int[][] dp = new int[2*maxn+5][max-min+1];
+			int[][] dp = new int[3*maxn][max-min+1];
 			for(int i = maxn; i>=0; i--) {
 				for(int j = min; j<=max; j++) {
 					dp[i][j-min] = dp[i+j][j-min];

@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98349667": {
+    "contest_id": 505,
+    "language": "Java 11",
+    "path": "codeforces\\505\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Mr. Kitayuta, the Treasure Hunter",
+    "problem_url": "https://codeforces.com/contest/505/problem/C",
+    "submission_id": "CF98349667",
+    "submission_url": "https://codeforces.com/contest/505/submission/98349667",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "two pointers",
+      "*1900"
+    ],
+    "timestamp": "Nov/13/2020 20:22"
+  },
   "CF98349687": {
     "contest_id": 505,
     "language": "Java 11",
