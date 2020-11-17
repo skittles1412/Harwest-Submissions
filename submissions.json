@@ -1481,6 +1481,25 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98727068": {
+    "contest_id": 1439,
+    "language": "Java 11",
+    "path": "codeforces\\1439\\A2.java",
+    "platform": "Codeforces",
+    "problem_index": "A2",
+    "problem_name": "Binary Table (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1439/problem/A2",
+    "submission_id": "CF98727068",
+    "submission_url": "https://codeforces.com/contest/1439/submission/98727068",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "implementation",
+      "*1900"
+    ],
+    "timestamp": "Nov/17/2020 08:08"
+  },
   "CF98855552": {
     "contest_id": 1440,
     "language": "Java 11",
