@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF98911109": {
+    "contest_id": 1452,
+    "language": "Java 11",
+    "path": "codeforces\\1452\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Radio Towers",
+    "problem_url": "https://codeforces.com/contest/1452/problem/D",
+    "submission_id": "CF98911109",
+    "submission_url": "https://codeforces.com/contest/1452/submission/98911109",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Nov/19/2020 07:00"
+  },
   "CF99120376": {
     "contest_id": 1451,
     "language": "Java 11",
