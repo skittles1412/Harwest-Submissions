@@ -1481,6 +1481,26 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF99135244": {
+    "contest_id": 1451,
+    "language": "Java 11",
+    "path": "codeforces\\1451\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "String Equality",
+    "problem_url": "https://codeforces.com/contest/1451/problem/C",
+    "submission_id": "CF99135244",
+    "submission_url": "https://codeforces.com/contest/1451/submission/99135244",
+    "tags": [
+      "dp",
+      "greedy",
+      "hashing",
+      "implementation",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "Nov/21/2020 06:53"
+  },
   "CF99180020": {
     "contest_id": 1451,
     "language": "Java 11",
