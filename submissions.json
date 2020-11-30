@@ -1481,6 +1481,24 @@
     ],
     "timestamp": "Dec/31/2020 08:55"
   },
+  "CF99992231": {
+    "contest_id": 815,
+    "language": "Java 11",
+    "path": "codeforces\\815\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Karen and Supermarket",
+    "problem_url": "https://codeforces.com/contest/815/problem/C",
+    "submission_id": "CF99992231",
+    "submission_url": "https://codeforces.com/contest/815/submission/99992231",
+    "tags": [
+      "brute force",
+      "dp",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Nov/30/2020 06:20"
+  },
   "CF99993528": {
     "contest_id": 1455,
     "language": "Java 11",
