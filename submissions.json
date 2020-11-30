@@ -1,4 +1,22 @@
 {
+  "CF100027595": {
+    "contest_id": 1455,
+    "language": "Java 11",
+    "path": "codeforces\\1455\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Sequence and Swaps",
+    "problem_url": "https://codeforces.com/contest/1455/problem/D",
+    "submission_id": "CF100027595",
+    "submission_url": "https://codeforces.com/contest/1455/submission/100027595",
+    "tags": [
+      "dp",
+      "greedy",
+      "sortings",
+      "*1600"
+    ],
+    "timestamp": "Nov/30/2020 07:37"
+  },
   "CF100066825": {
     "contest_id": 461,
     "language": "Java 11",
