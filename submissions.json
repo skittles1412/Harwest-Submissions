@@ -1,4 +1,27 @@
 {
+  "CF100074158": {
+    "contest_id": 1455,
+    "language": "Java 11",
+    "path": "codeforces\\1455\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Four Points",
+    "problem_url": "https://codeforces.com/contest/1455/problem/E",
+    "submission_id": "CF100074158",
+    "submission_url": "https://codeforces.com/contest/1455/submission/100074158",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "flows",
+      "geometry",
+      "greedy",
+      "implementation",
+      "math",
+      "ternary search",
+      "*2400"
+    ],
+    "timestamp": "Nov/30/2020 17:46"
+  },
   "CF100293242": {
     "contest_id": 543,
     "language": "Java 11",
