@@ -1,4 +1,22 @@
 {
+  "CF100306877": {
+    "contest_id": 1456,
+    "language": "Java 11",
+    "path": "codeforces\\1456\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bouncing Ball",
+    "problem_url": "https://codeforces.com/contest/1456/problem/A",
+    "submission_id": "CF100306877",
+    "submission_url": "https://codeforces.com/contest/1456/submission/100306877",
+    "tags": [
+      "brute force",
+      "dp",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Dec/03/2020 13:51"
+  },
   "CF100404046": {
     "contest_id": 1453,
     "language": "Java 11",
