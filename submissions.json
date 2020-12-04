@@ -1,4 +1,21 @@
 {
+  "CF100405291": {
+    "contest_id": 1453,
+    "language": "Java 11",
+    "path": "codeforces\\1453\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Triangles",
+    "problem_url": "https://codeforces.com/contest/1453/problem/C",
+    "submission_id": "CF100405291",
+    "submission_url": "https://codeforces.com/contest/1453/submission/100405291",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Dec/04/2020 13:19"
+  },
   "CF100405839": {
     "contest_id": 1453,
     "language": "Java 11",
