@@ -1,4 +1,24 @@
 {
+  "CF100406717": {
+    "contest_id": 1453,
+    "language": "Java 11",
+    "path": "codeforces\\1453\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Dog Snacks",
+    "problem_url": "https://codeforces.com/contest/1453/problem/E",
+    "submission_id": "CF100406717",
+    "submission_url": "https://codeforces.com/contest/1453/submission/100406717",
+    "tags": [
+      "binary search",
+      "dfs and similar",
+      "dp",
+      "greedy",
+      "trees",
+      "*2300"
+    ],
+    "timestamp": "Dec/04/2020 14:30"
+  },
   "CF100477801": {
     "contest_id": 1361,
     "language": "Java 11",
