@@ -1,4 +1,21 @@
 {
+  "CF100404790": {
+    "contest_id": 1453,
+    "language": "Java 11",
+    "path": "codeforces\\1453\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Suffix Operations",
+    "problem_url": "https://codeforces.com/contest/1453/problem/B",
+    "submission_id": "CF100404790",
+    "submission_url": "https://codeforces.com/contest/1453/submission/100404790",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Dec/04/2020 13:00"
+  },
   "CF100405291": {
     "contest_id": 1453,
     "language": "Java 11",
