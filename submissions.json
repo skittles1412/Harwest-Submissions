@@ -1,4 +1,20 @@
 {
+  "CF100404046": {
+    "contest_id": 1453,
+    "language": "Java 11",
+    "path": "codeforces\\1453\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Cancel the Trains",
+    "problem_url": "https://codeforces.com/contest/1453/problem/A",
+    "submission_id": "CF100404046",
+    "submission_url": "https://codeforces.com/contest/1453/submission/100404046",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Dec/04/2020 12:37"
+  },
   "CF100404790": {
     "contest_id": 1453,
     "language": "Java 11",
