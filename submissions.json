@@ -1,4 +1,23 @@
 {
+  "CF100478328": {
+    "contest_id": 1361,
+    "language": "Java 11",
+    "path": "codeforces\\1361\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Johnny and Contribution",
+    "problem_url": "https://codeforces.com/contest/1361/problem/A",
+    "submission_id": "CF100478328",
+    "submission_url": "https://codeforces.com/contest/1361/submission/100478328",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "greedy",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Dec/05/2020 12:03"
+  },
   "CF100523908": {
     "contest_id": 1156,
     "language": "Java 11",
