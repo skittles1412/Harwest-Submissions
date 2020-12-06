@@ -1,4 +1,24 @@
 {
+  "CF100562182": {
+    "contest_id": 1450,
+    "language": "Java 11",
+    "path": "codeforces\\1450\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Rating Compression",
+    "problem_url": "https://codeforces.com/contest/1450/problem/D",
+    "submission_id": "CF100562182",
+    "submission_url": "https://codeforces.com/contest/1450/submission/100562182",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*1800"
+    ],
+    "timestamp": "Dec/06/2020 08:00"
+  },
   "CF100583355": {
     "contest_id": 1450,
     "language": "Java 11",
