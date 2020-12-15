@@ -1,4 +1,22 @@
 {
+  "CF101369660": {
+    "contest_id": 1462,
+    "language": "Java 11",
+    "path": "codeforces\\1462\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "The Treasure of The Segments",
+    "problem_url": "https://codeforces.com/contest/1462/problem/F",
+    "submission_id": "CF101369660",
+    "submission_url": "https://codeforces.com/contest/1462/submission/101369660",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "*1800"
+    ],
+    "timestamp": "Dec/15/2020 13:24"
+  },
   "CF101369924": {
     "contest_id": 1462,
     "language": "Java 11",
