@@ -1,4 +1,23 @@
 {
+  "CF101465527": {
+    "contest_id": 1437,
+    "language": "Java 11",
+    "path": "codeforces\\1437\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Marketing Scheme",
+    "problem_url": "https://codeforces.com/contest/1437/problem/A",
+    "submission_id": "CF101465527",
+    "submission_url": "https://codeforces.com/contest/1437/submission/101465527",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/16/2020 16:12"
+  },
   "CF101465689": {
     "contest_id": 1437,
     "language": "Java 11",
