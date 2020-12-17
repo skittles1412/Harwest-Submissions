@@ -1,4 +1,25 @@
 {
+  "CF101465770": {
+    "contest_id": 1437,
+    "language": "Java 11",
+    "path": "codeforces\\1437\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Chef Monocarp",
+    "problem_url": "https://codeforces.com/contest/1437/problem/C",
+    "submission_id": "CF101465770",
+    "submission_url": "https://codeforces.com/contest/1437/submission/101465770",
+    "tags": [
+      "dp",
+      "flows",
+      "graph matchings",
+      "greedy",
+      "math",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Dec/16/2020 16:24"
+  },
   "CF101465843": {
     "contest_id": 1437,
     "language": "Java 11",
