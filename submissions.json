@@ -1,4 +1,25 @@
 {
+  "CF101669537": {
+    "contest_id": 1361,
+    "language": "Java 11",
+    "path": "codeforces\\1361\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Johnny and Megan's Necklace",
+    "problem_url": "https://codeforces.com/contest/1361/problem/C",
+    "submission_id": "CF101669537",
+    "submission_url": "https://codeforces.com/contest/1361/submission/101669537",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "constructive algorithms",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2500"
+    ],
+    "timestamp": "Dec/18/2020 10:29"
+  },
   "CF101680620": {
     "contest_id": 1451,
     "language": "Java 11",
