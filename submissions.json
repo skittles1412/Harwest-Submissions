@@ -1,4 +1,22 @@
 {
+  "CF102013024": {
+    "contest_id": 768,
+    "language": "Java 11",
+    "path": "codeforces\\768\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Game of Stones",
+    "problem_url": "https://codeforces.com/contest/768/problem/E",
+    "submission_id": "CF102013024",
+    "submission_url": "https://codeforces.com/contest/768/submission/102013024",
+    "tags": [
+      "bitmasks",
+      "dp",
+      "games",
+      "*2100"
+    ],
+    "timestamp": "Dec/21/2020 20:52"
+  },
   "CF102059198": {
     "contest_id": 1464,
     "language": "Java 11",
