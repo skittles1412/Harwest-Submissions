@@ -1,4 +1,21 @@
 {
+  "CF101999037": {
+    "contest_id": 1312,
+    "language": "Java 11",
+    "path": "codeforces\\1312\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Attack on Red Kingdom",
+    "problem_url": "https://codeforces.com/contest/1312/problem/F",
+    "submission_id": "CF101999037",
+    "submission_url": "https://codeforces.com/contest/1312/submission/101999037",
+    "tags": [
+      "games",
+      "two pointers",
+      "*2500"
+    ],
+    "timestamp": "Dec/21/2020 17:41"
+  },
   "CF102013024": {
     "contest_id": 768,
     "language": "Java 11",
