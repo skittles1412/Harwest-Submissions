@@ -1,4 +1,22 @@
 {
+  "CF102155942": {
+    "contest_id": 1279,
+    "language": "Java 11",
+    "path": "codeforces\\1279\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Santa's Bot",
+    "problem_url": "https://codeforces.com/contest/1279/problem/D",
+    "submission_id": "CF102155942",
+    "submission_url": "https://codeforces.com/contest/1279/submission/102155942",
+    "tags": [
+      "combinatorics",
+      "math",
+      "probabilities",
+      "*1700"
+    ],
+    "timestamp": "Dec/23/2020 14:42"
+  },
   "CF102164729": {
     "contest_id": 1461,
     "language": "Java 11",
