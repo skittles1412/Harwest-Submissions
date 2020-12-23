@@ -1,4 +1,22 @@
 {
+  "CF102083517": {
+    "contest_id": 1461,
+    "language": "Java 11",
+    "path": "codeforces\\1461\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Mathematical Expression",
+    "problem_url": "https://codeforces.com/contest/1461/problem/F",
+    "submission_id": "CF102083517",
+    "submission_url": "https://codeforces.com/contest/1461/submission/102083517",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "greedy",
+      "*2700"
+    ],
+    "timestamp": "Dec/22/2020 17:55"
+  },
   "CF102086036": {
     "contest_id": 1461,
     "language": "Java 11",

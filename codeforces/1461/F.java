@@ -1,10 +1,4 @@
-import java.io.BufferedOutputStream;
-import java.io.Closeable;
-import java.io.DataInputStream;
-import java.io.Flushable;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -37,6 +31,8 @@ public class Main {
 	}
 
 	static class FMathematicalExpression {
+		private final long linf = 4_000_000_000_000_000_000L;
+
 		public FMathematicalExpression() {
 		}
 
@@ -61,7 +57,7 @@ public class Main {
 			{
 				long cur = 1;
 				for(int i = 0; i<n; i++) {
-					if(cur>2*n/arr[i]) {
+					if(cur>linf/arr[i]) {
 						for(int j = 0; j<n; j++) {
 							if(j>0) {
 								ans.append("*");
@@ -240,8 +236,8 @@ public class Main {
 
 	static class FastReader implements InputReader {
 		final private int BUFFER_SIZE = 1<<16;
-		private DataInputStream din;
-		private byte[] buffer;
+		private final DataInputStream din;
+		private final byte[] buffer;
 		private int bufferPointer;
 		private int bytesRead;
 
@@ -331,7 +327,7 @@ public class Main {
 
 	}
 
-	static interface InputReader {
+	interface InputReader {
 		String next();
 
 		int nextInt();
