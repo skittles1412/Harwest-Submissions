@@ -1,4 +1,26 @@
 {
+  "CF102495056": {
+    "contest_id": 1463,
+    "language": "Java 11",
+    "path": "codeforces\\1463\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Plan of Lectures",
+    "problem_url": "https://codeforces.com/contest/1463/problem/E",
+    "submission_id": "CF102495056",
+    "submission_url": "https://codeforces.com/contest/1463/submission/102495056",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "implementation",
+      "sortings",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Dec/27/2020 10:48"
+  },
   "CF102547641": {
     "contest_id": 1469,
     "language": "Java 11",
