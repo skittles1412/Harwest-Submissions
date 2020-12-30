@@ -1,4 +1,21 @@
 {
+  "CF102834857": {
+    "contest_id": 1466,
+    "language": "Java 11",
+    "path": "codeforces\\1466\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Apollo versus Pan",
+    "problem_url": "https://codeforces.com/contest/1466/problem/E",
+    "submission_id": "CF102834857",
+    "submission_url": "https://codeforces.com/contest/1466/submission/102834857",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "math"
+    ],
+    "timestamp": "Dec/30/2020 08:17"
+  },
   "CF102864351": {
     "contest_id": 1466,
     "language": "Java 11",
