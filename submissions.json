@@ -1,4 +1,20 @@
 {
+  "CF102783010": {
+    "contest_id": 1466,
+    "language": "Java 11",
+    "path": "codeforces\\1466\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Last minute enhancements",
+    "problem_url": "https://codeforces.com/contest/1466/problem/B",
+    "submission_id": "CF102783010",
+    "submission_url": "https://codeforces.com/contest/1466/submission/102783010",
+    "tags": [
+      "dp",
+      "greedy"
+    ],
+    "timestamp": "Dec/30/2020 06:45"
+  },
   "CF102815911": {
     "contest_id": 1466,
     "language": "Java 11",
