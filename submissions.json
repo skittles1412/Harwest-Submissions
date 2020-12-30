@@ -1,4 +1,21 @@
 {
+  "CF102824467": {
+    "contest_id": 1466,
+    "language": "Java 11",
+    "path": "codeforces\\1466\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "13th Labour of Heracles",
+    "problem_url": "https://codeforces.com/contest/1466/problem/D",
+    "submission_id": "CF102824467",
+    "submission_url": "https://codeforces.com/contest/1466/submission/102824467",
+    "tags": [
+      "greedy",
+      "sortings",
+      "trees"
+    ],
+    "timestamp": "Dec/30/2020 07:51"
+  },
   "CF102834857": {
     "contest_id": 1466,
     "language": "Java 11",
