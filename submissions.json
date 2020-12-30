@@ -1,4 +1,20 @@
 {
+  "CF102782605": {
+    "contest_id": 1466,
+    "language": "Java 11",
+    "path": "codeforces\\1466\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bovine Dilemma",
+    "problem_url": "https://codeforces.com/contest/1466/problem/A",
+    "submission_id": "CF102782605",
+    "submission_url": "https://codeforces.com/contest/1466/submission/102782605",
+    "tags": [
+      "brute force",
+      "math"
+    ],
+    "timestamp": "Dec/30/2020 06:45"
+  },
   "CF102783010": {
     "contest_id": 1466,
     "language": "Java 11",
