@@ -1,10 +1,4 @@
-import java.io.BufferedOutputStream;
-import java.io.Closeable;
-import java.io.DataInputStream;
-import java.io.Flushable;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.InputMismatchException;
@@ -98,7 +92,7 @@ public class Main {
 
 	}
 
-	static interface InputReader {
+	interface InputReader {
 		int nextInt();
 
 		default int[] nextInt(int n) {
@@ -133,8 +127,8 @@ public class Main {
 
 	static class FastReader implements InputReader {
 		final private int BUFFER_SIZE = 1<<16;
-		private DataInputStream din;
-		private byte[] buffer;
+		private final DataInputStream din;
+		private final byte[] buffer;
 		private int bufferPointer;
 		private int bytesRead;
 
