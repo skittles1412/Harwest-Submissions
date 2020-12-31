@@ -1,4 +1,21 @@
 {
+  "CF102882963": {
+    "contest_id": 1227,
+    "language": "Java 11",
+    "path": "codeforces\\1227\\F2.java",
+    "platform": "Codeforces",
+    "problem_index": "F2",
+    "problem_name": "Wrong Answer on test 233 (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1227/problem/F2",
+    "submission_id": "CF102882963",
+    "submission_url": "https://codeforces.com/contest/1227/submission/102882963",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*2400"
+    ],
+    "timestamp": "Dec/30/2020 21:20"
+  },
   "CF102927205": {
     "contest_id": 1340,
     "language": "Java 11",
