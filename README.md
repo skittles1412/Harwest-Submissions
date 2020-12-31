@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+308 | [C - Vulnerable Kerbals](https://codeforces.com/contest/772/problem/C) | [Java 11](./codeforces/772/C.java) | `constructive algorithms` `dp` `graphs` `math` `number theory` `*2300` | Dec/31/2020 12:25 | 
 307 | [C - Nastya and Unexpected Guest](https://codeforces.com/contest/1340/problem/C) | [Java 11](./codeforces/1340/C.java) | `dfs and similar` `dp` `graphs` `shortest paths` `*2400` | Dec/31/2020 08:55 | 
 306 | [F2 - Wrong Answer on test 233 (Hard Version)](https://codeforces.com/contest/1227/problem/F2) | [Java 11](./codeforces/1227/F2.java) | `combinatorics` `math` `*2400` | Dec/30/2020 21:20 | 
 305 | [F - Euclid's nightmare](https://codeforces.com/contest/1466/problem/F) | [Java 11](./codeforces/1466/F.java) | `dfs and similar` `dsu` `graphs` `greedy` `math` `sortings` | Dec/30/2020 12:01 | 
@@ -223,8 +224,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 99 | [F - Two Different](https://codeforces.com/contest/1408/problem/F) | [Java 11](./codeforces/1408/F.java) | `constructive algorithms` `divide and conquer` `*2300` | Sep/30/2020 14:30 | 
 98 | [D - Searchlights](https://codeforces.com/contest/1408/problem/D) | [Java 11](./codeforces/1408/D.java) | `binary search` `brute force` `data structures` `dp` `implementation` `sortings` `two pointers` `*2000` | Sep/30/2020 12:41 | 
 97 | [C - Discrete Acceleration](https://codeforces.com/contest/1408/problem/C) | [Java 11](./codeforces/1408/C.java) | `binary search` `dp` `implementation` `math` `two pointers` `*1500` | Sep/30/2020 11:18 | 
-96 | [B - Arrays Sum](https://codeforces.com/contest/1408/problem/B) | [Java 11](./codeforces/1408/B.java) | `constructive algorithms` `greedy` `math` `*1400` | Sep/30/2020 10:47 | 
-95 | [A - Circle Coloring](https://codeforces.com/contest/1408/problem/A) | [Java 11](./codeforces/1408/A.java) | `constructive algorithms` `*800` | Sep/30/2020 10:47 | 
+96 | [A - Circle Coloring](https://codeforces.com/contest/1408/problem/A) | [Java 11](./codeforces/1408/A.java) | `constructive algorithms` `*800` | Sep/30/2020 10:47 | 
+95 | [B - Arrays Sum](https://codeforces.com/contest/1408/problem/B) | [Java 11](./codeforces/1408/B.java) | `constructive algorithms` `greedy` `math` `*1400` | Sep/30/2020 10:47 | 
 94 | [F - Yet Another Substring Reverse](https://codeforces.com/contest/1234/problem/F) | [Java 11](./codeforces/1234/F.java) | `bitmasks` `dp` `*2200` | Sep/29/2020 20:49 | 
 93 | [E - The Contest](https://codeforces.com/contest/1257/problem/E) | [Java 11](./codeforces/1257/E.java) | `data structures` `dp` `greedy` `*2000` | Sep/29/2020 15:33 | 
 92 | [F - Equalizing Two Strings](https://codeforces.com/contest/1256/problem/F) | [Java 11](./codeforces/1256/F.java) | `constructive algorithms` `sortings` `strings` `*2000` | Sep/28/2020 21:53 | 
@@ -260,8 +261,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 62 | [E1 - String Coloring (easy version)](https://codeforces.com/contest/1296/problem/E1) | [Java 11](./codeforces/1296/E1.java) | `constructive algorithms` `dp` `graphs` `greedy` `sortings` `*1800` | Sep/25/2020 13:33 | 
 61 | [C1 - Pokémon Army (easy version)](https://codeforces.com/contest/1420/problem/C1) | [Java 11](./codeforces/1420/C1.java) | `constructive algorithms` `dp` `greedy` `*1300` | Sep/24/2020 21:09 | 
 60 | [C2 - Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | [Java 11](./codeforces/1420/C2.java) | `data structures` `divide and conquer` `dp` `greedy` `implementation` `*2100` | Sep/24/2020 21:06 | 
-59 | [B - Rock and Lever](https://codeforces.com/contest/1420/problem/B) | [Java 11](./codeforces/1420/B.java) | `bitmasks` `math` `*1200` | Sep/24/2020 20:22 | 
-58 | [A - Cubes Sorting](https://codeforces.com/contest/1420/problem/A) | [Java 11](./codeforces/1420/A.java) | `math` `sortings` `*900` | Sep/24/2020 20:22 | 
+59 | [A - Cubes Sorting](https://codeforces.com/contest/1420/problem/A) | [Java 11](./codeforces/1420/A.java) | `math` `sortings` `*900` | Sep/24/2020 20:22 | 
+58 | [B - Rock and Lever](https://codeforces.com/contest/1420/problem/B) | [Java 11](./codeforces/1420/B.java) | `bitmasks` `math` `*1200` | Sep/24/2020 20:22 | 
 57 | [F - Two Bracket Sequences](https://codeforces.com/contest/1272/problem/F) | [Java 11](./codeforces/1272/F.java) | `dp` `strings` `two pointers` `*2200` | Sep/23/2020 22:15 | 
 56 | [E - Beautiful Mirrors](https://codeforces.com/contest/1265/problem/E) | [Java 11](./codeforces/1265/E.java) | `data structures` `dp` `math` `probabilities` `*2100` | Sep/23/2020 17:59 | 
 55 | [D - Nash Matrix](https://codeforces.com/contest/1316/problem/D) | [Java 11](./codeforces/1316/D.java) | `constructive algorithms` `dfs and similar` `graphs` `implementation` `*2000` | Sep/23/2020 16:55 | 
@@ -270,8 +271,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 52 | [F - Berland Beauty](https://codeforces.com/contest/1296/problem/F) | [Java 11](./codeforces/1296/F.java) | `constructive algorithms` `dfs and similar` `greedy` `sortings` `trees` `*2100` | Sep/22/2020 14:19 | 
 51 | [C - World of Darkraft: Battle for Azathoth](https://codeforces.com/contest/1320/problem/C) | [Java 11](./codeforces/1320/C.java) | `brute force` `data structures` `sortings` `*2000` | Sep/22/2020 07:47 | 
 50 | [E - Tree Queries](https://codeforces.com/contest/1328/problem/E) | [Java 11](./codeforces/1328/E.java) | `dfs and similar` `graphs` `trees` `*1900` | Sep/21/2020 22:18 | 
-49 | [E1 - Three Blocks Palindrome (easy version)](https://codeforces.com/contest/1335/problem/E1) | [Java 11](./codeforces/1335/E1.java) | `binary search` `brute force` `data structures` `dp` `two pointers` `*1700` | Sep/21/2020 22:06 | 
-48 | [E2 - Three Blocks Palindrome (hard version)](https://codeforces.com/contest/1335/problem/E2) | [Java 11](./codeforces/1335/E2.java) | `brute force` `data structures` `dp` `two pointers` `*1800` | Sep/21/2020 22:06 | 
+49 | [E2 - Three Blocks Palindrome (hard version)](https://codeforces.com/contest/1335/problem/E2) | [Java 11](./codeforces/1335/E2.java) | `brute force` `data structures` `dp` `two pointers` `*1800` | Sep/21/2020 22:06 | 
+48 | [E1 - Three Blocks Palindrome (easy version)](https://codeforces.com/contest/1335/problem/E1) | [Java 11](./codeforces/1335/E1.java) | `binary search` `brute force` `data structures` `dp` `two pointers` `*1700` | Sep/21/2020 22:06 | 
 47 | [E - Minimizing Difference](https://codeforces.com/contest/1244/problem/E) | [Java 11](./codeforces/1244/E.java) | `binary search` `constructive algorithms` `greedy` `sortings` `ternary search` `two pointers` `*2000` | Sep/20/2020 20:49 | 
 46 | [D - AB-string](https://codeforces.com/contest/1238/problem/D) | [Java 11](./codeforces/1238/D.java) | `binary search` `combinatorics` `dp` `strings` `*1900` | Sep/20/2020 20:26 | 
 45 | [C - Infinite Fence](https://codeforces.com/contest/1260/problem/C) | [Java 11](./codeforces/1260/C.java) | `greedy` `math` `number theory` `*1700` | Sep/20/2020 19:25 | 
