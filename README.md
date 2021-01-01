@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+684 | [D - Vika and Segments](https://codeforces.com/contest/610/problem/D) | [Java 11](./codeforces/610/D.java) | `constructive algorithms` `data structures` `geometry` `two pointers` `*2300` | Dec/31/2020 16:16 | 
 683 | [C - Vulnerable Kerbals](https://codeforces.com/contest/772/problem/C) | [Java 11](./codeforces/772/C.java) | `constructive algorithms` `dp` `graphs` `math` `number theory` `*2300` | Dec/31/2020 12:25 | 
 682 | [C - Nastya and Unexpected Guest](https://codeforces.com/contest/1340/problem/C) | [Java 11](./codeforces/1340/C.java) | `dfs and similar` `dp` `graphs` `shortest paths` `*2400` | Dec/31/2020 08:55 | 
 681 | [F2 - Wrong Answer on test 233 (Hard Version)](https://codeforces.com/contest/1227/problem/F2) | [Java 11](./codeforces/1227/F2.java) | `combinatorics` `math` `*2400` | Dec/30/2020 21:20 | 
