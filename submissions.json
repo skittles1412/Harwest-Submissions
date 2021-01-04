@@ -1573,6 +1573,24 @@
     ],
     "timestamp": "Jan/03/2021 14:21"
   },
+  "CF103329683": {
+    "contest_id": 1472,
+    "language": "Java 11",
+    "path": "codeforces\\1472\\G.java",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Moving to the Capital",
+    "problem_url": "https://codeforces.com/contest/1472/problem/G",
+    "submission_id": "CF103329683",
+    "submission_url": "https://codeforces.com/contest/1472/submission/103329683",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "shortest paths"
+    ],
+    "timestamp": "Jan/04/2021 14:20"
+  },
   "CF103330942": {
     "contest_id": 1472,
     "language": "Java 11",
