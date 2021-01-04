@@ -1,4 +1,10 @@
-import java.io.*;
+import java.io.BufferedOutputStream;
+import java.io.Closeable;
+import java.io.DataInputStream;
+import java.io.Flushable;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.InputMismatchException;
 
 /**
@@ -33,15 +39,22 @@ public class Main {
 
 		public void solve(int kase, InputReader in, Output pw) {
 			int n = in.nextInt(), q = in.nextInt();
+//		Double[] arr = new Double[n];
+//		for(int i = 0; i<n; i++) {
+//			arr[i] = (double) in.nextInt();
+//		}
+//		TLazySegmentTree<Double, Lazy> st = new TLazySegmentTree<>(arr, Double::sum, Lazy::combine, Lazy::applyToSegment);
 			EEyesClosed.SegmentTree st = new EEyesClosed.SegmentTree(in.nextDouble(n));
 			while(q-->0) {
 				if(in.nextInt()==1) {
 					int a = in.nextInt()-1, b = in.nextInt()-1, c = in.nextInt()-1, d = in.nextInt()-1;
-					double x = st.query(a, b), y = st.query(c, d);
-					st.mul(a, b, (double) (b-a)/(b-a+1));
-					st.mul(c, d, (double) (d-c)/(d-c+1));
-					st.add(a, b, y/(d-c+1)/(b-a+1));
-					st.add(c, d, x/(b-a+1)/(d-c+1));
+					double x = st.query(a, b), y = st.query(c, d), al = b-a+1, bl = d-c+1;
+//				st.update(a, b, new Lazy((al-1)/al, y/bl/al));
+//				st.update(c, d, new Lazy((bl-1)/bl, x/al/bl));
+					st.mul(a, b, (al-1)/al);
+					st.mul(c, d, (bl-1)/bl);
+					st.add(a, b, y/bl/al);
+					st.add(c, d, x/al/bl);
 				}else {
 					pw.printf("%.4f\n", st.query(in.nextInt()-1, in.nextInt()-1));
 				}
@@ -171,10 +184,67 @@ public class Main {
 
 	}
 
+	static class Output implements Closeable, Flushable {
+		public StringBuilder sb;
+		public OutputStream os;
+		public int BUFFER_SIZE;
+		public String lineSeparator;
+
+		public Output(OutputStream os) {
+			this(os, 1<<16);
+		}
+
+		public Output(OutputStream os, int bs) {
+			BUFFER_SIZE = bs;
+			sb = new StringBuilder(BUFFER_SIZE);
+			this.os = new BufferedOutputStream(os, 1<<17);
+			lineSeparator = System.lineSeparator();
+		}
+
+		public void print(String s) {
+			sb.append(s);
+			if(sb.length()>BUFFER_SIZE >> 1) {
+				flushToBuffer();
+			}
+		}
+
+		public void printf(String s, Object... o) {
+			print(String.format(s, o));
+		}
+
+		private void flushToBuffer() {
+			try {
+				os.write(sb.toString().getBytes());
+			}catch(IOException e) {
+				e.printStackTrace();
+			}
+			sb = new StringBuilder(BUFFER_SIZE);
+		}
+
+		public void flush() {
+			try {
+				flushToBuffer();
+				os.flush();
+			}catch(IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+		public void close() {
+			flush();
+			try {
+				os.close();
+			}catch(IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
 	static class FastReader implements InputReader {
 		final private int BUFFER_SIZE = 1<<16;
-		private final DataInputStream din;
-		private final byte[] buffer;
+		private DataInputStream din;
+		private byte[] buffer;
 		private int bufferPointer;
 		private int bytesRead;
 
@@ -254,64 +324,7 @@ public class Main {
 
 	}
 
-	static class Output implements Closeable, Flushable {
-		public StringBuilder sb;
-		public OutputStream os;
-		public int BUFFER_SIZE;
-		public String lineSeparator;
-
-		public Output(OutputStream os) {
-			this(os, 1<<16);
-		}
-
-		public Output(OutputStream os, int bs) {
-			BUFFER_SIZE = bs;
-			sb = new StringBuilder(BUFFER_SIZE);
-			this.os = new BufferedOutputStream(os, 1<<17);
-			lineSeparator = System.lineSeparator();
-		}
-
-		public void print(String s) {
-			sb.append(s);
-			if(sb.length()>BUFFER_SIZE >> 1) {
-				flushToBuffer();
-			}
-		}
-
-		public void printf(String s, Object... o) {
-			print(String.format(s, o));
-		}
-
-		private void flushToBuffer() {
-			try {
-				os.write(sb.toString().getBytes());
-			}catch(IOException e) {
-				e.printStackTrace();
-			}
-			sb = new StringBuilder(BUFFER_SIZE);
-		}
-
-		public void flush() {
-			try {
-				flushToBuffer();
-				os.flush();
-			}catch(IOException e) {
-				e.printStackTrace();
-			}
-		}
-
-		public void close() {
-			flush();
-			try {
-				os.close();
-			}catch(IOException e) {
-				e.printStackTrace();
-			}
-		}
-
-	}
-
-	interface InputReader {
+	static interface InputReader {
 		int nextInt();
 
 		double nextDouble();
