@@ -12,8 +12,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-689 | [F - New Year's Puzzle](https://codeforces.com/contest/1472/problem/F) | [Java 11](./codeforces/1472/F.java) | `brute force` `dp` `graph matchings` `greedy` `sortings` | Jan/04/2021 15:00 | 
-688 | [G - Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | [Java 11](./codeforces/1472/G.java) | `dfs and similar` `dp` `graphs` `shortest paths` | Jan/04/2021 14:20 | 
+690 | [F - New Year's Puzzle](https://codeforces.com/contest/1472/problem/F) | [Java 11](./codeforces/1472/F.java) | `brute force` `dp` `graph matchings` `greedy` `sortings` | Jan/04/2021 15:00 | 
+689 | [G - Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | [Java 11](./codeforces/1472/G.java) | `dfs and similar` `dp` `graphs` `shortest paths` | Jan/04/2021 14:20 | 
+688 | [E - Correct Placement](https://codeforces.com/contest/1472/problem/E) | [Java 11](./codeforces/1472/E.java) | `binary search` `data structures` `sortings` `two pointers` | Jan/04/2021 14:06 | 
 687 | [B - Sea and Islands](https://codeforces.com/contest/544/problem/B) | [Java 11](./codeforces/544/B.java) | `constructive algorithms` `implementation` `*1400` | Jan/03/2021 14:21 | 
 686 | [D - MEX maximizing](https://codeforces.com/contest/1294/problem/D) | [Java 11](./codeforces/1294/D.java) | `data structures` `greedy` `implementation` `math` `*1600` | Jan/03/2021 14:18 | 
 685 | [E - Eyes Closed](https://codeforces.com/contest/895/problem/E) | [Java 11](./codeforces/895/E.java) | `data structures` `probabilities` `*2300` | Jan/03/2021 10:22 | 
