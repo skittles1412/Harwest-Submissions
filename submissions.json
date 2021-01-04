@@ -1573,6 +1573,22 @@
     ],
     "timestamp": "Jan/03/2021 14:21"
   },
+  "CF103328542": {
+    "contest_id": 1472,
+    "language": "Java 11",
+    "path": "codeforces\\1472\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Long Jumps",
+    "problem_url": "https://codeforces.com/contest/1472/problem/C",
+    "submission_id": "CF103328542",
+    "submission_url": "https://codeforces.com/contest/1472/submission/103328542",
+    "tags": [
+      "dp",
+      "graphs"
+    ],
+    "timestamp": "Jan/04/2021 13:47"
+  },
   "CF103328860": {
     "contest_id": 1472,
     "language": "Java 11",
