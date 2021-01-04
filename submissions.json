@@ -1573,6 +1573,23 @@
     ],
     "timestamp": "Jan/03/2021 14:21"
   },
+  "CF103137610": {
+    "contest_id": 895,
+    "language": "Java 11",
+    "path": "codeforces\\895\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Eyes Closed",
+    "problem_url": "https://codeforces.com/contest/895/problem/E",
+    "submission_id": "CF103137610",
+    "submission_url": "https://codeforces.com/contest/895/submission/103137610",
+    "tags": [
+      "data structures",
+      "probabilities",
+      "*2300"
+    ],
+    "timestamp": "Jan/03/2021 17:54"
+  },
   "CF103137622": {
     "contest_id": 895,
     "language": "Java 11",

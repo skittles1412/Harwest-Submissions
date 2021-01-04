@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.InputMismatchException;
+import java.util.function.BiFunction;
+import java.util.function.BinaryOperator;
 
 /**
  * Built using CHelper plug-in
@@ -39,145 +41,43 @@ public class Main {
 
 		public void solve(int kase, InputReader in, Output pw) {
 			int n = in.nextInt(), q = in.nextInt();
-//		Double[] arr = new Double[n];
-//		for(int i = 0; i<n; i++) {
-//			arr[i] = (double) in.nextInt();
-//		}
-//		TLazySegmentTree<Double, Lazy> st = new TLazySegmentTree<>(arr, Double::sum, Lazy::combine, Lazy::applyToSegment);
-			EEyesClosed.SegmentTree st = new EEyesClosed.SegmentTree(in.nextDouble(n));
+			Double[] arr = new Double[n];
+			for(int i = 0; i<n; i++) {
+				arr[i] = (double) in.nextInt();
+			}
+			TLazySegmentTree<Double, EEyesClosed.Lazy> st = new TLazySegmentTree<>(arr, Double::sum, EEyesClosed.Lazy::combine, EEyesClosed.Lazy::applyToSegment);
+//		SegmentTree st = new SegmentTree(in.nextDouble(n));
 			while(q-->0) {
 				if(in.nextInt()==1) {
 					int a = in.nextInt()-1, b = in.nextInt()-1, c = in.nextInt()-1, d = in.nextInt()-1;
 					double x = st.query(a, b), y = st.query(c, d), al = b-a+1, bl = d-c+1;
-//				st.update(a, b, new Lazy((al-1)/al, y/bl/al));
-//				st.update(c, d, new Lazy((bl-1)/bl, x/al/bl));
-					st.mul(a, b, (al-1)/al);
-					st.mul(c, d, (bl-1)/bl);
-					st.add(a, b, y/bl/al);
-					st.add(c, d, x/al/bl);
+					st.update(a, b, new EEyesClosed.Lazy((al-1)/al, y/bl/al));
+					st.update(c, d, new EEyesClosed.Lazy((bl-1)/bl, x/al/bl));
+//				st.mul(a, b, (al-1)/al);
+//				st.mul(c, d, (bl-1)/bl);
+//				st.add(a, b, y/bl/al);
+//				st.add(c, d, x/al/bl);
 				}else {
 					pw.printf("%.4f\n", st.query(in.nextInt()-1, in.nextInt()-1));
 				}
 			}
 		}
 
-		static class SegmentTree {
-			int n;
-			int ql;
-			int qr;
-			double v;
-			boolean qadd;
-			double[] arr;
-			double[] add;
-			double[] mul;
-			double[] sum;
+		static class Lazy {
+			double mul;
+			double add;
 
-			public SegmentTree(double[] arr) {
-				n = arr.length;
-				this.arr = arr;
-				add = new double[4*n];
-				mul = new double[4*n];
-				sum = new double[4*n];
-				build(1, 0, n-1);
+			public Lazy(double mul, double add) {
+				this.mul = mul;
+				this.add = add;
 			}
 
-			public void maintain(int o, int l, int r) {
-				if(l<r) {
-					sum[o] = sum[o*2]+sum[o*2+1];
-				}else {
-					sum[o] = arr[l];
-				}
-				sum[o] = sum[o]*mul[o]+(r-l+1)*add[o];
+			public EEyesClosed.Lazy combine(EEyesClosed.Lazy l) {
+				return new EEyesClosed.Lazy(mul*l.mul, add*l.mul+l.add);
 			}
 
-			public void pushdown(int o, int l, int r) {
-				if(l<r) {
-					for(int i = o*2; i<=o*2+1; i++) {
-						mul[i] *= mul[o];
-						add[i] *= mul[o];
-						add[i] += add[o];
-					}
-					mul[o] = 1;
-					add[o] = 0;
-				}
-			}
-
-			public void build(int o, int l, int r) {
-				mul[o] = 1;
-				if(l==r) {
-					sum[o] = arr[l];
-				}else {
-					int mid = (l+r)/2, lc = o*2, rc = o*2+1;
-					build(lc, l, mid);
-					build(rc, mid+1, r);
-					maintain(o, l, r);
-				}
-			}
-
-			public void update(int o, int l, int r) {
-				if(l>=ql&&r<=qr) {
-					if(qadd) {
-						add[o] += v;
-					}else {
-						mul[o] *= v;
-						add[o] *= v;
-					}
-				}else {
-					pushdown(o, l, r);
-					int mid = (l+r)/2, lc = o*2, rc = o*2+1;
-					if(ql<=mid) {
-						update(lc, l, mid);
-					}else {
-						maintain(lc, l, mid);
-					}
-					if(qr>mid) {
-						update(rc, mid+1, r);
-					}else {
-						maintain(rc, mid+1, r);
-					}
-				}
-				maintain(o, l, r);
-			}
-
-			public void query(int o, int l, int r, double cadd, double cmul) {
-				if(l>=ql&&r<=qr) {
-					v += sum[o]*cmul+(r-l+1)*cadd;
-				}else {
-					cadd += cmul*add[o];
-					cmul *= mul[o];
-					int mid = (l+r)/2;
-					if(ql<=mid) {
-						query(o*2, l, mid, cadd, cmul);
-					}
-					if(qr>mid) {
-						query(o*2+1, mid+1, r, cadd, cmul);
-					}
-					maintain(o, l, r);
-				}
-			}
-
-			public void add(int l, int r, double v) {
-				ql = l;
-				qr = r;
-				this.v = v;
-				qadd = true;
-				update(1, 0, n-1);
-			}
-
-			public void mul(int l, int r, double v) {
-				ql = l;
-				qr = r;
-				this.v = v;
-				qadd = false;
-				update(1, 0, n-1);
-			}
-
-			public double query(int l, int r) {
-				ql = l;
-				qr = r;
-				v = 0;
-				query(1, 0, n-1, 0, 1);
-				return v;
+			public double applyToSegment(double d, int length) {
+				return d*mul+add*length;
 			}
 
 		}
@@ -270,27 +170,6 @@ public class Main {
 			return ret;
 		}
 
-		public double nextDouble() {
-			double ret = 0, div = 1;
-			byte c = skipToDigit();
-			boolean neg = (c=='-');
-			if(neg) {
-				c = read();
-			}
-			do {
-				ret = ret*10+c-'0';
-			} while((c = read())>='0'&&c<='9');
-			if(c=='.') {
-				while((c = read())>='0'&&c<='9') {
-					ret += (c-'0')/(div *= 10);
-				}
-			}
-			if(neg) {
-				return -ret;
-			}
-			return ret;
-		}
-
 		private boolean isDigit(byte b) {
 			return b>='0'&&b<='9';
 		}
@@ -324,18 +203,135 @@ public class Main {
 
 	}
 
+	static class TLazySegmentTree<T, U> {
+		public int ql;
+		public int qr;
+		public T ans;
+		public U clazy;
+		public T[] values;
+		public U[] lazy;
+		public final int n;
+		public final T[] arr;
+		public final BinaryOperator<T> operation;
+		public final BinaryOperator<U> lazyCombiner;
+		public final TLazySegmentTree.LazyOperation<T, U> lazyOperation;
+
+		public TLazySegmentTree(T[] arr, BinaryOperator<T> operation, BinaryOperator<U> lazyCombiner, TLazySegmentTree.LazyOperation<T, U> lazyOperation) {
+			n = arr.length;
+			this.arr = arr;
+			this.operation = operation;
+			this.lazyCombiner = lazyCombiner;
+			this.lazyOperation = lazyOperation;
+			values = (T[]) new Object[n*4];
+			lazy = (U[]) new Object[n*4];
+			build(1, 0, n-1);
+		}
+
+		public U combine(U lazy1, U lazy2) {
+			if(lazy1==null) {
+				return lazy2;
+			}else if(lazy2==null) {
+				return lazy1;
+			}
+			return lazyCombiner.apply(lazy1, lazy2);
+		}
+
+		public T applyToSegment(U lazy, T value, int length) {
+			if(lazy==null) {
+				return value;
+			}
+			return lazyOperation.applyToSegment(lazy, value, length);
+		}
+
+		public void maintain(int o, int l, int r) {
+			if(l<r) {
+				values[o] = operation.apply(values[o*2], values[o*2+1]);
+			}else {
+				values[o] = arr[l];
+			}
+			values[o] = applyToSegment(lazy[o], values[o], r-l+1);
+		}
+
+		public void pushdown(int o) {
+			lazy[o*2] = combine(lazy[o*2], lazy[o]);
+			lazy[o*2+1] = combine(lazy[o*2+1], lazy[o]);
+			lazy[o] = null;
+		}
+
+		public void build(int o, int l, int r) {
+			if(l==r) {
+				values[o] = arr[l];
+			}else {
+				int mid = (l+r)/2, lc = o*2, rc = o*2+1;
+				build(lc, l, mid);
+				build(rc, mid+1, r);
+				values[o] = operation.apply(values[lc], values[rc]);
+			}
+		}
+
+		public void update(int o, int l, int r) {
+			if(l>=ql&&r<=qr) {
+				lazy[o] = combine(lazy[o], clazy);
+			}else {
+				pushdown(o);
+				int mid = (l+r)/2, lc = o*2, rc = o*2+1;
+				if(ql<=mid) {
+					update(lc, l, mid);
+				}else {
+					maintain(lc, l, mid);
+				}
+				if(qr>mid) {
+					update(rc, mid+1, r);
+				}else {
+					maintain(rc, mid+1, r);
+				}
+			}
+			maintain(o, l, r);
+		}
+
+		public void query(int o, int l, int r, U clazy) {
+			if(l>=ql&&r<=qr) {
+				if(ans==null) {
+					ans = applyToSegment(clazy, values[o], r-l+1);
+				}else {
+					ans = operation.apply(ans, applyToSegment(clazy, values[o], r-l+1));
+				}
+			}else {
+				clazy = combine(lazy[o], clazy);
+				int mid = (l+r)/2, lc = o*2, rc = o*2+1;
+				if(ql<=mid) {
+					query(lc, l, mid, clazy);
+				}
+				if(qr>mid) {
+					query(rc, mid+1, r, clazy);
+				}
+			}
+		}
+
+		public void update(int l, int r, U lazy) {
+			ql = l;
+			qr = r;
+			clazy = lazy;
+			update(1, 0, n-1);
+		}
+
+		public T query(int l, int r) {
+			ql = l;
+			qr = r;
+			ans = null;
+			query(1, 0, n-1, null);
+			return ans;
+		}
+
+		public interface LazyOperation<T, U> {
+			T applyToSegment(U lazy, T value, int length);
+
+		}
+
+	}
+
 	static interface InputReader {
 		int nextInt();
-
-		double nextDouble();
-
-		default double[] nextDouble(int n) {
-			double[] ret = new double[n];
-			for(int i = 0; i<n; i++) {
-				ret[i] = nextDouble();
-			}
-			return ret;
-		}
 
 	}
 }
