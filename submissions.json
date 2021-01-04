@@ -1573,6 +1573,25 @@
     ],
     "timestamp": "Jan/03/2021 14:21"
   },
+  "CF103330942": {
+    "contest_id": 1472,
+    "language": "Java 11",
+    "path": "codeforces\\1472\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "New Year's Puzzle",
+    "problem_url": "https://codeforces.com/contest/1472/problem/F",
+    "submission_id": "CF103330942",
+    "submission_url": "https://codeforces.com/contest/1472/submission/103330942",
+    "tags": [
+      "brute force",
+      "dp",
+      "graph matchings",
+      "greedy",
+      "sortings"
+    ],
+    "timestamp": "Jan/04/2021 15:00"
+  },
   "CF78604241": {
     "contest_id": 785,
     "language": "Java 11",
