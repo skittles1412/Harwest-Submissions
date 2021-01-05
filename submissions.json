@@ -1728,6 +1728,23 @@
     ],
     "timestamp": "Jan/04/2021 15:00"
   },
+  "CF103401972": {
+    "contest_id": 1470,
+    "language": "Java 11",
+    "path": "codeforces\\1470\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Strange Birthday Party",
+    "problem_url": "https://codeforces.com/contest/1470/problem/A",
+    "submission_id": "CF103401972",
+    "submission_url": "https://codeforces.com/contest/1470/submission/103401972",
+    "tags": [
+      "greedy",
+      "sortings",
+      "two pointers"
+    ],
+    "timestamp": "Jan/05/2021 06:48"
+  },
   "CF103427355": {
     "contest_id": 1470,
     "language": "Java 11",
