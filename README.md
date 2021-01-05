@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+695 | [C - Bipartite Segments](https://codeforces.com/contest/901/problem/C) | [Java 11](./codeforces/901/C.java) | `binary search` `data structures` `dfs and similar` `dsu` `graphs` `two pointers` `*2300` | Jan/05/2021 11:30 | 
 694 | [F - New Year's Puzzle](https://codeforces.com/contest/1472/problem/F) | [Java 11](./codeforces/1472/F.java) | `brute force` `dp` `graph matchings` `greedy` `sortings` | Jan/04/2021 15:00 | 
 693 | [G - Moving to the Capital](https://codeforces.com/contest/1472/problem/G) | [Java 11](./codeforces/1472/G.java) | `dfs and similar` `dp` `graphs` `shortest paths` | Jan/04/2021 14:20 | 
 692 | [E - Correct Placement](https://codeforces.com/contest/1472/problem/E) | [Java 11](./codeforces/1472/E.java) | `binary search` `data structures` `sortings` `two pointers` | Jan/04/2021 14:06 | 

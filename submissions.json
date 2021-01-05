@@ -1728,6 +1728,27 @@
     ],
     "timestamp": "Jan/04/2021 15:00"
   },
+  "CF103476466": {
+    "contest_id": 901,
+    "language": "Java 11",
+    "path": "codeforces\\901\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Bipartite Segments",
+    "problem_url": "https://codeforces.com/contest/901/problem/C",
+    "submission_id": "CF103476466",
+    "submission_url": "https://codeforces.com/contest/901/submission/103476466",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "two pointers",
+      "*2300"
+    ],
+    "timestamp": "Jan/05/2021 11:30"
+  },
   "CF78604241": {
     "contest_id": 785,
     "language": "Java 11",
