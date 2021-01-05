@@ -1728,6 +1728,26 @@
     ],
     "timestamp": "Jan/04/2021 15:00"
   },
+  "CF103427355": {
+    "contest_id": 1470,
+    "language": "Java 11",
+    "path": "codeforces\\1470\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Strange Definition",
+    "problem_url": "https://codeforces.com/contest/1470/problem/B",
+    "submission_id": "CF103427355",
+    "submission_url": "https://codeforces.com/contest/1470/submission/103427355",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "data structures",
+      "graphs",
+      "hashing",
+      "number theory"
+    ],
+    "timestamp": "Jan/05/2021 07:26"
+  },
   "CF103476466": {
     "contest_id": 901,
     "language": "Java 11",
