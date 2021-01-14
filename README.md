@@ -12,11 +12,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-710 | [D - Cleaning](https://codeforces.com/contest/1474/problem/D) | [Java 11](./codeforces/1474/D.java) | `brute force` `dp` `greedy` `math` | Jan/19/2021 07:40 | 
-709 | [C - Array Destruction](https://codeforces.com/contest/1474/problem/C) | [GNU C++17 (64)](./codeforces/1474/C.cpp) | `brute force` `constructive algorithms` `data structures` `greedy` `implementation` `sortings` | Jan/19/2021 07:12 | 
-708 | [B - Different Divisors](https://codeforces.com/contest/1474/problem/B) | [Java 11](./codeforces/1474/B.java) | `binary search` `constructive algorithms` `greedy` `math` `number theory` | Jan/19/2021 06:50 | 
-707 | [A - Puzzle From the Future](https://codeforces.com/contest/1474/problem/A) | [Java 11](./codeforces/1474/A.java) | `greedy` | Jan/19/2021 06:39 | 
-706 | [E - Awards For Contestants](https://codeforces.com/contest/873/problem/E) | [Java 11](./codeforces/873/E.java) | `brute force` `data structures` `dp` `*2300` | Jan/19/2021 06:33 | 
+711 | [D - Cleaning](https://codeforces.com/contest/1474/problem/D) | [Java 11](./codeforces/1474/D.java) | `brute force` `dp` `greedy` `math` | Jan/19/2021 07:40 | 
+710 | [C - Array Destruction](https://codeforces.com/contest/1474/problem/C) | [GNU C++17 (64)](./codeforces/1474/C.cpp) | `brute force` `constructive algorithms` `data structures` `greedy` `implementation` `sortings` | Jan/19/2021 07:12 | 
+709 | [B - Different Divisors](https://codeforces.com/contest/1474/problem/B) | [Java 11](./codeforces/1474/B.java) | `binary search` `constructive algorithms` `greedy` `math` `number theory` | Jan/19/2021 06:50 | 
+708 | [A - Puzzle From the Future](https://codeforces.com/contest/1474/problem/A) | [Java 11](./codeforces/1474/A.java) | `greedy` | Jan/19/2021 06:39 | 
+707 | [E - Awards For Contestants](https://codeforces.com/contest/873/problem/E) | [Java 11](./codeforces/873/E.java) | `brute force` `data structures` `dp` `*2300` | Jan/19/2021 06:33 | 
+706 | [E - ZS and The Birthday Paradox](https://codeforces.com/contest/711/problem/E) | [Java 11](./codeforces/711/E.java) | `math` `number theory` `probabilities` `*2300` | Jan/14/2021 15:33 | 
 705 | [E - Minimum Path](https://codeforces.com/contest/1473/problem/E) | [Java 11](./codeforces/1473/E.java) | `dp` `graphs` `shortest paths` | Jan/14/2021 10:03 | 
 704 | [C - No More Inversions](https://codeforces.com/contest/1473/problem/C) | [Java 11](./codeforces/1473/C.java) | `constructive algorithms` | Jan/14/2021 07:02 | 
 703 | [D - Program](https://codeforces.com/contest/1473/problem/D) | [Java 11](./codeforces/1473/D.java) | `data structures` `implementation` | Jan/14/2021 06:55 | 
