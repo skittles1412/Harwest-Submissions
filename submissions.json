@@ -1805,6 +1805,22 @@
     ],
     "timestamp": "Jan/05/2021 14:22"
   },
+  "CF104243472": {
+    "contest_id": 1203,
+    "language": "Java 11",
+    "path": "codeforces\\1203\\F1.java",
+    "platform": "Codeforces",
+    "problem_index": "F1",
+    "problem_name": "Complete the Projects (easy version)",
+    "problem_url": "https://codeforces.com/contest/1203/problem/F1",
+    "submission_id": "CF104243472",
+    "submission_url": "https://codeforces.com/contest/1203/submission/104243472",
+    "tags": [
+      "greedy",
+      "*2100"
+    ],
+    "timestamp": "Jan/13/2021 21:53"
+  },
   "CF104280106": {
     "contest_id": 1203,
     "language": "Java 11",

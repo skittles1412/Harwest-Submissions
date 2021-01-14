@@ -12,12 +12,13 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-704 | [E - Minimum Path](https://codeforces.com/contest/1473/problem/E) | [Java 11](./codeforces/1473/E.java) | `dp` `graphs` `shortest paths` | Jan/14/2021 10:03 | 
-703 | [C - No More Inversions](https://codeforces.com/contest/1473/problem/C) | [Java 11](./codeforces/1473/C.java) | `constructive algorithms` | Jan/14/2021 07:02 | 
-702 | [D - Program](https://codeforces.com/contest/1473/problem/D) | [Java 11](./codeforces/1473/D.java) | `data structures` `implementation` | Jan/14/2021 06:55 | 
-701 | [B - String LCM](https://codeforces.com/contest/1473/problem/B) | [Java 11](./codeforces/1473/B.java) | `math` `strings` | Jan/14/2021 06:39 | 
-700 | [A - Replacing Elements](https://codeforces.com/contest/1473/problem/A) | [Java 11](./codeforces/1473/A.java) | `greedy` `sortings` | Jan/14/2021 06:37 | 
-699 | [F2 - Complete the Projects (hard version)](https://codeforces.com/contest/1203/problem/F2) | [Java 11](./codeforces/1203/F2.java) | `dp` `greedy` `*2300` | Jan/14/2021 06:34 | 
+705 | [E - Minimum Path](https://codeforces.com/contest/1473/problem/E) | [Java 11](./codeforces/1473/E.java) | `dp` `graphs` `shortest paths` | Jan/14/2021 10:03 | 
+704 | [C - No More Inversions](https://codeforces.com/contest/1473/problem/C) | [Java 11](./codeforces/1473/C.java) | `constructive algorithms` | Jan/14/2021 07:02 | 
+703 | [D - Program](https://codeforces.com/contest/1473/problem/D) | [Java 11](./codeforces/1473/D.java) | `data structures` `implementation` | Jan/14/2021 06:55 | 
+702 | [B - String LCM](https://codeforces.com/contest/1473/problem/B) | [Java 11](./codeforces/1473/B.java) | `math` `strings` | Jan/14/2021 06:39 | 
+701 | [A - Replacing Elements](https://codeforces.com/contest/1473/problem/A) | [Java 11](./codeforces/1473/A.java) | `greedy` `sortings` | Jan/14/2021 06:37 | 
+700 | [F2 - Complete the Projects (hard version)](https://codeforces.com/contest/1203/problem/F2) | [Java 11](./codeforces/1203/F2.java) | `dp` `greedy` `*2300` | Jan/14/2021 06:34 | 
+699 | [F1 - Complete the Projects (easy version)](https://codeforces.com/contest/1203/problem/F1) | [Java 11](./codeforces/1203/F1.java) | `greedy` `*2100` | Jan/13/2021 21:53 | 
 698 | [G - Monsters and Potions](https://codeforces.com/contest/1070/problem/G) | [Java 11](./codeforces/1070/G.java) | `brute force` `dp` `greedy` `implementation` `*2300` | Jan/05/2021 14:22 | 
 697 | [C - Bipartite Segments](https://codeforces.com/contest/901/problem/C) | [Java 11](./codeforces/901/C.java) | `binary search` `data structures` `dfs and similar` `dsu` `graphs` `two pointers` `*2300` | Jan/05/2021 11:30 | 
 696 | [B - Strange Definition](https://codeforces.com/contest/1470/problem/B) | [Java 11](./codeforces/1470/B.java) | `bitmasks` `brute force` `data structures` `graphs` `hashing` `number theory` | Jan/05/2021 07:26 | 
