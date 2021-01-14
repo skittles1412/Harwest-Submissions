@@ -1805,6 +1805,23 @@
     ],
     "timestamp": "Jan/05/2021 14:22"
   },
+  "CF104356760": {
+    "contest_id": 1473,
+    "language": "Java 11",
+    "path": "codeforces\\1473\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Minimum Path",
+    "problem_url": "https://codeforces.com/contest/1473/problem/E",
+    "submission_id": "CF104356760",
+    "submission_url": "https://codeforces.com/contest/1473/submission/104356760",
+    "tags": [
+      "dp",
+      "graphs",
+      "shortest paths"
+    ],
+    "timestamp": "Jan/14/2021 10:03"
+  },
   "CF78604241": {
     "contest_id": 785,
     "language": "Java 11",
