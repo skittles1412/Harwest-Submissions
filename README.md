@@ -12,10 +12,11 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-702 | [E - Minimum Path](https://codeforces.com/contest/1473/problem/E) | [Java 11](./codeforces/1473/E.java) | `dp` `graphs` `shortest paths` | Jan/14/2021 10:03 | 
-701 | [C - No More Inversions](https://codeforces.com/contest/1473/problem/C) | [Java 11](./codeforces/1473/C.java) | `constructive algorithms` | Jan/14/2021 07:02 | 
-700 | [D - Program](https://codeforces.com/contest/1473/problem/D) | [Java 11](./codeforces/1473/D.java) | `data structures` `implementation` | Jan/14/2021 06:55 | 
-699 | [B - String LCM](https://codeforces.com/contest/1473/problem/B) | [Java 11](./codeforces/1473/B.java) | `math` `strings` | Jan/14/2021 06:39 | 
+703 | [E - Minimum Path](https://codeforces.com/contest/1473/problem/E) | [Java 11](./codeforces/1473/E.java) | `dp` `graphs` `shortest paths` | Jan/14/2021 10:03 | 
+702 | [C - No More Inversions](https://codeforces.com/contest/1473/problem/C) | [Java 11](./codeforces/1473/C.java) | `constructive algorithms` | Jan/14/2021 07:02 | 
+701 | [D - Program](https://codeforces.com/contest/1473/problem/D) | [Java 11](./codeforces/1473/D.java) | `data structures` `implementation` | Jan/14/2021 06:55 | 
+700 | [B - String LCM](https://codeforces.com/contest/1473/problem/B) | [Java 11](./codeforces/1473/B.java) | `math` `strings` | Jan/14/2021 06:39 | 
+699 | [A - Replacing Elements](https://codeforces.com/contest/1473/problem/A) | [Java 11](./codeforces/1473/A.java) | `greedy` `sortings` | Jan/14/2021 06:37 | 
 698 | [G - Monsters and Potions](https://codeforces.com/contest/1070/problem/G) | [Java 11](./codeforces/1070/G.java) | `brute force` `dp` `greedy` `implementation` `*2300` | Jan/05/2021 14:22 | 
 697 | [C - Bipartite Segments](https://codeforces.com/contest/901/problem/C) | [Java 11](./codeforces/901/C.java) | `binary search` `data structures` `dfs and similar` `dsu` `graphs` `two pointers` `*2300` | Jan/05/2021 11:30 | 
 696 | [B - Strange Definition](https://codeforces.com/contest/1470/problem/B) | [Java 11](./codeforces/1470/B.java) | `bitmasks` `brute force` `data structures` `graphs` `hashing` `number theory` | Jan/05/2021 07:26 | 

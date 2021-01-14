@@ -1805,6 +1805,22 @@
     ],
     "timestamp": "Jan/05/2021 14:22"
   },
+  "CF104280755": {
+    "contest_id": 1473,
+    "language": "Java 11",
+    "path": "codeforces\\1473\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Replacing Elements",
+    "problem_url": "https://codeforces.com/contest/1473/problem/A",
+    "submission_id": "CF104280755",
+    "submission_url": "https://codeforces.com/contest/1473/submission/104280755",
+    "tags": [
+      "greedy",
+      "sortings"
+    ],
+    "timestamp": "Jan/14/2021 06:37"
+  },
   "CF104284237": {
     "contest_id": 1473,
     "language": "Java 11",
