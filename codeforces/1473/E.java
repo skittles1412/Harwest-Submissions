@@ -51,7 +51,7 @@ public class Main {
 			for(int i = 0; i<n; i++) {
 				dist[i][0] = dist[i][1] = dist[i][2] = dist[i][3] = -1;
 			}
-			PriorityQueue<EMinimumPath.State> pq = new PriorityQueue<>((int) 4e7, Comparator.comparingLong(o -> o.dist));
+			PriorityQueue<EMinimumPath.State> pq = new PriorityQueue<>(Comparator.comparingLong(o -> o.dist));
 			pq.add(new EMinimumPath.State(0, 0, 0));
 			while(!pq.isEmpty()) {
 				var cur = pq.poll();
