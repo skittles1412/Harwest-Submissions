@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+706 | [D - Cleaning](https://codeforces.com/contest/1474/problem/D) | [Java 11](./codeforces/1474/D.java) | `brute force` `dp` `greedy` `math` | Jan/19/2021 07:40 | 
 705 | [E - Minimum Path](https://codeforces.com/contest/1473/problem/E) | [Java 11](./codeforces/1473/E.java) | `dp` `graphs` `shortest paths` | Jan/14/2021 10:03 | 
 704 | [C - No More Inversions](https://codeforces.com/contest/1473/problem/C) | [Java 11](./codeforces/1473/C.java) | `constructive algorithms` | Jan/14/2021 07:02 | 
 703 | [D - Program](https://codeforces.com/contest/1473/problem/D) | [Java 11](./codeforces/1473/D.java) | `data structures` `implementation` | Jan/14/2021 06:55 | 
