@@ -1935,6 +1935,25 @@
     ],
     "timestamp": "Jan/14/2021 10:03"
   },
+  "CF104781762": {
+    "contest_id": 1474,
+    "language": "Java 11",
+    "path": "codeforces\\1474\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Different Divisors",
+    "problem_url": "https://codeforces.com/contest/1474/problem/B",
+    "submission_id": "CF104781762",
+    "submission_url": "https://codeforces.com/contest/1474/submission/104781762",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Jan/19/2021 06:50"
+  },
   "CF104798277": {
     "contest_id": 1474,
     "language": "GNU C++17 (64)",
