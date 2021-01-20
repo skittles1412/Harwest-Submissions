@@ -5,9 +5,10 @@ import java.io.Flushable;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.math.BigInteger;
+import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.InputMismatchException;
-import java.util.Random;
 
 /**
  * Built using CHelper plug-in
@@ -36,18 +37,27 @@ public class Main {
 	}
 
 	static class ETheLastFightBetweenHumanAndAI {
-		final int m;
-		final int[] mods;
 		int n;
 		int k;
 		int[] arr;
 
 		public ETheLastFightBetweenHumanAndAI() {
-			m = 100;
-			mods = new int[100];
-			for(int i = 0; i<m; i++) {
-				mods[i] = BigInteger.probablePrime(30, new Random()).intValueExact();
+		}
+
+		public ArrayList<Integer> solve() {
+			int i = 0, carry = 0;
+			ArrayList<Integer> ans = new ArrayList<>();
+			while(i<n||carry!=0) {
+				if(i<n) {
+					if(arr[i]>0) {
+						carry += arr[i];
+					}
+					i++;
+				}
+				ans.add(carry%k);
+				carry /= k;
 			}
+			return ans;
 		}
 
 		public void solve(int kase, InputReader in, Output pw) {
@@ -77,43 +87,43 @@ public class Main {
 					pw.println(Utilities.even(n) ? "Yes" : "No");
 					return;
 				}
-//			arr[i] = Integer.parseInt(s);
-				arr[n-i-1] = Integer.parseInt(s);
+				arr[i] = Integer.parseInt(s);
+//			arr[n-i-1] = Integer.parseInt(s);
 			}
-			long[] value = new long[m];
+//		long[] value = new long[m];
+//		for(int i = 0; i<n; i++) {
+//			for(int j = 0; j<m; j++) {
+//				value[j] = (value[j]*k+arr[i])%mods[j];
+//			}
+//		}
+//		for(int i = 0; i<m; i++) {
+//			if(value[i]!=0) {
+//				pw.println("No");
+//				return;
+//			}
+//		}
+//		pw.println("Yes");
 			for(int i = 0; i<n; i++) {
-				for(int j = 0; j<m; j++) {
-					value[j] = (value[j]*k+arr[i])%mods[j];
+				if(k<0&&Utilities.odd(i)) {
+					arr[i] *= -1;
 				}
 			}
-			for(int i = 0; i<m; i++) {
-				if(value[i]!=0) {
-					pw.println("No");
-					return;
+			k = Math.abs(k);
+			if(k==1) {
+				int sum = 0;
+				for(int i = 0; i<n; i++) {
+					sum += arr[i];
 				}
+				pw.println(sum==0 ? "Yes" : "No");
+				return;
 			}
-			pw.println("Yes");
-//		for(int i = 0; i<n; i++) {
-//			if(k<0&&odd(i)) {
-//				arr[i] *= -1;
-//			}
-//		}
-//		k = abs(k);
-//		if(k==1) {
-//			int sum = 0;
-//			for(int i = 0; i<n; i++) {
-//				sum += arr[i];
-//			}
-//			pw.println(sum==0 ? "Yes" : "No");
-//			return;
-//		}
-//		var pos = solve();
-//		for(int i = 0; i<n; i++) {
-//			arr[i] *= -1;
-//		}
-//		var neg = solve();
-//		dbg(pos, neg);
-//		pw.println(pos.equals(neg) ? "Yes" : "No");
+			var pos = solve();
+			for(int i = 0; i<n; i++) {
+				arr[i] *= -1;
+			}
+			var neg = solve();
+//			Utilities.Debug.dbg(pos, neg);
+			pw.println(pos.equals(neg) ? "Yes" : "No");
 		}
 
 	}
@@ -125,6 +135,85 @@ public class Main {
 
 		public static boolean odd(int x) {
 			return (x&1)>0;
+		}
+
+		public static class Debug {
+			public static boolean LOCAL = System.getProperty("ONLINE_JUDGE")==null;
+
+			private static <T> String ts(T t) {
+				if(t==null) {
+					return "null";
+				}
+				try {
+					return ts((Iterable) t);
+				}catch(ClassCastException e) {
+					if(t instanceof int[]) {
+						String s = Arrays.toString((int[]) t);
+						return "{"+s.substring(1, s.length()-1)+"}";
+					}else if(t instanceof long[]) {
+						String s = Arrays.toString((long[]) t);
+						return "{"+s.substring(1, s.length()-1)+"}";
+					}else if(t instanceof char[]) {
+						String s = Arrays.toString((char[]) t);
+						return "{"+s.substring(1, s.length()-1)+"}";
+					}else if(t instanceof double[]) {
+						String s = Arrays.toString((double[]) t);
+						return "{"+s.substring(1, s.length()-1)+"}";
+					}else if(t instanceof boolean[]) {
+						String s = Arrays.toString((boolean[]) t);
+						return "{"+s.substring(1, s.length()-1)+"}";
+					}
+					try {
+						return ts((Object[]) t);
+					}catch(ClassCastException e1) {
+						return t.toString();
+					}
+				}
+			}
+
+			private static <T> String ts(T[] arr) {
+				StringBuilder ret = new StringBuilder();
+				ret.append("{");
+				boolean first = true;
+				for(T t: arr) {
+					if(!first) {
+						ret.append(", ");
+					}
+					first = false;
+					ret.append(ts(t));
+				}
+				ret.append("}");
+				return ret.toString();
+			}
+
+			private static <T> String ts(Iterable<T> iter) {
+				StringBuilder ret = new StringBuilder();
+				ret.append("{");
+				boolean first = true;
+				for(T t: iter) {
+					if(!first) {
+						ret.append(", ");
+					}
+					first = false;
+					ret.append(ts(t));
+				}
+				ret.append("}");
+				return ret.toString();
+			}
+
+			public static void dbg(Object... o) {
+				if(LOCAL) {
+					System.err.print("Line #"+Thread.currentThread().getStackTrace()[2].getLineNumber()+": [");
+					for(int i = 0; i<o.length; i++) {
+						if(i!=0) {
+							System.err.print(", ");
+						}
+						System.err.print(ts(o[i]));
+					}
+					System.err.println("]");
+				}
+			}
+
 		}
 
 	}

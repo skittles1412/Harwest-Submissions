@@ -2043,6 +2043,22 @@
     ],
     "timestamp": "Jan/19/2021 07:40"
   },
+  "CF104939188": {
+    "contest_id": 676,
+    "language": "Java 11",
+    "path": "codeforces\\676\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "The Last Fight Between Human and AI",
+    "problem_url": "https://codeforces.com/contest/676/problem/E",
+    "submission_id": "CF104939188",
+    "submission_url": "https://codeforces.com/contest/676/submission/104939188",
+    "tags": [
+      "math",
+      "*2400"
+    ],
+    "timestamp": "Jan/20/2021 14:21"
+  },
   "CF104939452": {
     "contest_id": 676,
     "language": "Java 11",
