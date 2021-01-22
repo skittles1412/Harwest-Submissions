@@ -2075,6 +2075,26 @@
     ],
     "timestamp": "Jan/20/2021 14:29"
   },
+  "CF105090090": {
+    "contest_id": 990,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\990\\G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "GCD Counting",
+    "problem_url": "https://codeforces.com/contest/990/problem/G",
+    "submission_id": "CF105090090",
+    "submission_url": "https://codeforces.com/contest/990/submission/105090090",
+    "tags": [
+      "divide and conquer",
+      "dp",
+      "dsu",
+      "number theory",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Jan/22/2021 10:08"
+  },
   "CF78604241": {
     "contest_id": 785,
     "language": "Java 11",
