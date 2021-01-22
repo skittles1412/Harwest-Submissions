@@ -12,7 +12,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-714 | [E - Sonya and Matrix Beauty](https://codeforces.com/contest/1080/problem/E) | [Java 11](./codeforces/1080/E.java) | `strings` `*2400` | Jan/22/2021 17:06 | 
+715 | [E - Sonya and Matrix Beauty](https://codeforces.com/contest/1080/problem/E) | [Java 11](./codeforces/1080/E.java) | `strings` `*2400` | Jan/22/2021 17:06 | 
+714 | [E - Chips Puzzle](https://codeforces.com/contest/1054/problem/E) | [Java 11](./codeforces/1054/E.java) | `constructive algorithms` `implementation` `math` `*2400` | Jan/22/2021 15:18 | 
 713 | [G - GCD Counting](https://codeforces.com/contest/990/problem/G) | [GNU C++17 (64)](./codeforces/990/G.cpp) | `divide and conquer` `dp` `dsu` `number theory` `trees` `*2400` | Jan/22/2021 10:08 | 
 712 | [E - The Last Fight Between Human and AI](https://codeforces.com/contest/676/problem/E) | [Java 11](./codeforces/676/E.java) | `math` `*2400` | Jan/20/2021 14:29 | 
 711 | [D - Cleaning](https://codeforces.com/contest/1474/problem/D) | [Java 11](./codeforces/1474/D.java) | `brute force` `dp` `greedy` `math` | Jan/19/2021 07:40 | 

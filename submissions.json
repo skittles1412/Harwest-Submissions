@@ -2095,6 +2095,24 @@
     ],
     "timestamp": "Jan/22/2021 10:08"
   },
+  "CF105107492": {
+    "contest_id": 1054,
+    "language": "Java 11",
+    "path": "codeforces\\1054\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Chips Puzzle",
+    "problem_url": "https://codeforces.com/contest/1054/problem/E",
+    "submission_id": "CF105107492",
+    "submission_url": "https://codeforces.com/contest/1054/submission/105107492",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "math",
+      "*2400"
+    ],
+    "timestamp": "Jan/22/2021 15:18"
+  },
   "CF105109740": {
     "contest_id": 1080,
     "language": "Java 11",
