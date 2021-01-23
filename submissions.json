@@ -2095,6 +2095,22 @@
     ],
     "timestamp": "Jan/22/2021 10:08"
   },
+  "CF105109740": {
+    "contest_id": 1080,
+    "language": "Java 11",
+    "path": "codeforces\\1080\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Sonya and Matrix Beauty",
+    "problem_url": "https://codeforces.com/contest/1080/problem/E",
+    "submission_id": "CF105109740",
+    "submission_url": "https://codeforces.com/contest/1080/submission/105109740",
+    "tags": [
+      "strings",
+      "*2400"
+    ],
+    "timestamp": "Jan/22/2021 17:06"
+  },
   "CF78604241": {
     "contest_id": 785,
     "language": "Java 11",
