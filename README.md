@@ -12,9 +12,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-718 | [B - Space Isaac](https://codeforces.com/contest/1045/problem/B) | [Java 11](./codeforces/1045/B.java) | `hashing` `number theory` `*2400` | Jan/29/2021 10:36 | 
-717 | [C - Delivering Carcinogen](https://codeforces.com/contest/198/problem/C) | [Java 11](./codeforces/198/C.java) | `binary search` `geometry` `*2400` | Jan/25/2021 09:37 | 
-716 | [D - Cooperative Game](https://codeforces.com/contest/1137/problem/D) | [Java 11](./codeforces/1137/D.java) | `constructive algorithms` `interactive` `number theory` `*2400` | Jan/23/2021 07:43 | 
+719 | [B - Space Isaac](https://codeforces.com/contest/1045/problem/B) | [Java 11](./codeforces/1045/B.java) | `hashing` `number theory` `*2400` | Jan/29/2021 10:36 | 
+718 | [C - Delivering Carcinogen](https://codeforces.com/contest/198/problem/C) | [Java 11](./codeforces/198/C.java) | `binary search` `geometry` `*2400` | Jan/25/2021 09:37 | 
+717 | [D - Cooperative Game](https://codeforces.com/contest/1137/problem/D) | [Java 11](./codeforces/1137/D.java) | `constructive algorithms` `interactive` `number theory` `*2400` | Jan/23/2021 07:43 | 
+716 | [C - Palindromic Paths](https://codeforces.com/contest/1205/problem/C) | [Java 11](./codeforces/1205/C.java) | `implementation` `interactive` `*2400` | Jan/22/2021 19:15 | 
 715 | [E - Sonya and Matrix Beauty](https://codeforces.com/contest/1080/problem/E) | [Java 11](./codeforces/1080/E.java) | `strings` `*2400` | Jan/22/2021 17:06 | 
 714 | [E - Chips Puzzle](https://codeforces.com/contest/1054/problem/E) | [Java 11](./codeforces/1054/E.java) | `constructive algorithms` `implementation` `math` `*2400` | Jan/22/2021 15:18 | 
 713 | [G - GCD Counting](https://codeforces.com/contest/990/problem/G) | [GNU C++17 (64)](./codeforces/990/G.cpp) | `divide and conquer` `dp` `dsu` `number theory` `trees` `*2400` | Jan/22/2021 10:08 | 

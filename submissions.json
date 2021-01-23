@@ -2129,6 +2129,23 @@
     ],
     "timestamp": "Jan/22/2021 17:06"
   },
+  "CF105113957": {
+    "contest_id": 1205,
+    "language": "Java 11",
+    "path": "codeforces\\1205\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Palindromic Paths",
+    "problem_url": "https://codeforces.com/contest/1205/problem/C",
+    "submission_id": "CF105113957",
+    "submission_url": "https://codeforces.com/contest/1205/submission/105113957",
+    "tags": [
+      "implementation",
+      "interactive",
+      "*2400"
+    ],
+    "timestamp": "Jan/22/2021 19:15"
+  },
   "CF105164866": {
     "contest_id": 1137,
     "language": "Java 11",
