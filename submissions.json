@@ -2129,6 +2129,23 @@
     ],
     "timestamp": "Jan/22/2021 17:06"
   },
+  "CF105405655": {
+    "contest_id": 198,
+    "language": "Java 11",
+    "path": "codeforces\\198\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Delivering Carcinogen",
+    "problem_url": "https://codeforces.com/contest/198/problem/C",
+    "submission_id": "CF105405655",
+    "submission_url": "https://codeforces.com/contest/198/submission/105405655",
+    "tags": [
+      "binary search",
+      "geometry",
+      "*2400"
+    ],
+    "timestamp": "Jan/25/2021 09:37"
+  },
   "CF105953842": {
     "contest_id": 1045,
     "language": "Java 11",
