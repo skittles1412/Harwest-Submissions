@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+716 | [B - Space Isaac](https://codeforces.com/contest/1045/problem/B) | [Java 11](./codeforces/1045/B.java) | `hashing` `number theory` `*2400` | Jan/29/2021 10:36 | 
 715 | [E - Sonya and Matrix Beauty](https://codeforces.com/contest/1080/problem/E) | [Java 11](./codeforces/1080/E.java) | `strings` `*2400` | Jan/22/2021 17:06 | 
 714 | [E - Chips Puzzle](https://codeforces.com/contest/1054/problem/E) | [Java 11](./codeforces/1054/E.java) | `constructive algorithms` `implementation` `math` `*2400` | Jan/22/2021 15:18 | 
 713 | [G - GCD Counting](https://codeforces.com/contest/990/problem/G) | [GNU C++17 (64)](./codeforces/990/G.cpp) | `divide and conquer` `dp` `dsu` `number theory` `trees` `*2400` | Jan/22/2021 10:08 | 

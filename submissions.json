@@ -2129,6 +2129,23 @@
     ],
     "timestamp": "Jan/22/2021 17:06"
   },
+  "CF105953842": {
+    "contest_id": 1045,
+    "language": "Java 11",
+    "path": "codeforces\\1045\\B.java",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Space Isaac",
+    "problem_url": "https://codeforces.com/contest/1045/problem/B",
+    "submission_id": "CF105953842",
+    "submission_url": "https://codeforces.com/contest/1045/submission/105953842",
+    "tags": [
+      "hashing",
+      "number theory",
+      "*2400"
+    ],
+    "timestamp": "Jan/29/2021 10:36"
+  },
   "CF78604241": {
     "contest_id": 785,
     "language": "Java 11",
