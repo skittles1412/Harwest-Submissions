@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+720 | [H - Self-exploration](https://codeforces.com/contest/1045/problem/H) | [Java 11](./codeforces/1045/H.java) | `math` `*2400` | Jan/29/2021 19:05 | 
 719 | [B - Space Isaac](https://codeforces.com/contest/1045/problem/B) | [Java 11](./codeforces/1045/B.java) | `hashing` `number theory` `*2400` | Jan/29/2021 10:36 | 
 718 | [C - Delivering Carcinogen](https://codeforces.com/contest/198/problem/C) | [Java 11](./codeforces/198/C.java) | `binary search` `geometry` `*2400` | Jan/25/2021 09:37 | 
 717 | [D - Cooperative Game](https://codeforces.com/contest/1137/problem/D) | [Java 11](./codeforces/1137/D.java) | `constructive algorithms` `interactive` `number theory` `*2400` | Jan/23/2021 07:43 | 
