@@ -2248,6 +2248,24 @@
     ],
     "timestamp": "Jan/30/2021 09:24"
   },
+  "CF106050038": {
+    "contest_id": 342,
+    "language": "Java 11",
+    "path": "codeforces\\342\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Xenia and Tree",
+    "problem_url": "https://codeforces.com/contest/342/problem/E",
+    "submission_id": "CF106050038",
+    "submission_url": "https://codeforces.com/contest/342/submission/106050038",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Jan/30/2021 11:01"
+  },
   "CF106052363": {
     "contest_id": 321,
     "language": "Java 11",
