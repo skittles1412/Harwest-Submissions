@@ -12,8 +12,9 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-724 | [E - Avoid Rainbow Cycles](https://codeforces.com/contest/1408/problem/E) | [Java 11](./codeforces/1408/E.java) | `data structures` `dsu` `graphs` `greedy` `sortings` `trees` `*2400` | Jan/31/2021 13:43 | 
-723 | [E - Palindromes in a Tree](https://codeforces.com/contest/914/problem/E) | [Java 11](./codeforces/914/E.java) | `bitmasks` `data structures` `divide and conquer` `trees` `*2400` | Jan/31/2021 11:38 | 
+725 | [E - Avoid Rainbow Cycles](https://codeforces.com/contest/1408/problem/E) | [Java 11](./codeforces/1408/E.java) | `data structures` `dsu` `graphs` `greedy` `sortings` `trees` `*2400` | Jan/31/2021 13:43 | 
+724 | [E - Palindromes in a Tree](https://codeforces.com/contest/914/problem/E) | [Java 11](./codeforces/914/E.java) | `bitmasks` `data structures` `divide and conquer` `trees` `*2400` | Jan/31/2021 11:38 | 
+723 | [D - Distance in Tree](https://codeforces.com/contest/161/problem/D) | [Java 11](./codeforces/161/D.java) | `dfs and similar` `dp` `trees` `*1800` | Jan/30/2021 13:11 | 
 722 | [E - Inversions After Shuffle](https://codeforces.com/contest/749/problem/E) | [Java 11](./codeforces/749/E.java) | `data structures` `probabilities` `*2400` | Jan/30/2021 09:24 | 
 721 | [H - Self-exploration](https://codeforces.com/contest/1045/problem/H) | [Java 11](./codeforces/1045/H.java) | `math` `*2400` | Jan/29/2021 19:05 | 
 720 | [A - K-divisible Sum](https://codeforces.com/contest/1476/problem/A) | [GNU C++17 (64)](./codeforces/1476/A.cpp) | `binary search` `constructive algorithms` `math` | Jan/29/2021 14:46 | 
