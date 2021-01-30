@@ -2231,6 +2231,23 @@
     ],
     "timestamp": "Jan/29/2021 19:05"
   },
+  "CF106042925": {
+    "contest_id": 749,
+    "language": "Java 11",
+    "path": "codeforces\\749\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Inversions After Shuffle",
+    "problem_url": "https://codeforces.com/contest/749/problem/E",
+    "submission_id": "CF106042925",
+    "submission_url": "https://codeforces.com/contest/749/submission/106042925",
+    "tags": [
+      "data structures",
+      "probabilities",
+      "*2400"
+    ],
+    "timestamp": "Jan/30/2021 09:24"
+  },
   "CF78604241": {
     "contest_id": 785,
     "language": "Java 11",
