@@ -85,11 +85,9 @@ public class Main {
 				System.out.println(System.currentTimeMillis()-start);
 				return;
 			}
-			StringBuilder sb = new StringBuilder();
 			for(int i = 0; i<n; i++) {
-				sb.append((char) (rank[i]+'A')).append(" ");
+				pw.print((char) (rank[i]+'A')+" ");
 			}
-			System.out.println(sb.toString());
 		}
 
 	}
@@ -227,6 +225,4 @@ public class Main {
 
 	}
 }
-
-
 
