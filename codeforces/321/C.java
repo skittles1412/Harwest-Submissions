@@ -7,7 +7,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.InputMismatchException;
 
 /**
@@ -86,12 +85,11 @@ public class Main {
 				System.out.println(System.currentTimeMillis()-start);
 				return;
 			}
-			char[] ans = new char[2*n];
-			Arrays.fill(ans, ' ');
+			StringBuilder sb = new StringBuilder();
 			for(int i = 0; i<n; i++) {
-				ans[i*2] = (char) (rank[i]+'A');
+				sb.append((char) (rank[i]+'A')).append(" ");
 			}
-			System.out.println(ans);
+			System.out.println(sb.toString());
 		}
 
 	}
@@ -182,20 +180,6 @@ public class Main {
 			}
 		}
 
-		public void println(Object... o) {
-			for(int i = 0; i<o.length; i++) {
-				if(i!=0) {
-					print(" ");
-				}
-				print(String.valueOf(o[i]));
-			}
-			println();
-		}
-
-		public void println() {
-			sb.append(lineSeparator);
-		}
-
 		private void flushToBuffer() {
 			try {
 				os.write(sb.toString().getBytes());
@@ -243,10 +227,6 @@ public class Main {
 
 	}
 }
-
-
-
-
 
 
 
