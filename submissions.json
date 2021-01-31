@@ -2248,6 +2248,25 @@
     ],
     "timestamp": "Jan/30/2021 09:24"
   },
+  "CF106136119": {
+    "contest_id": 914,
+    "language": "Java 11",
+    "path": "codeforces\\914\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Palindromes in a Tree",
+    "problem_url": "https://codeforces.com/contest/914/problem/E",
+    "submission_id": "CF106136119",
+    "submission_url": "https://codeforces.com/contest/914/submission/106136119",
+    "tags": [
+      "bitmasks",
+      "data structures",
+      "divide and conquer",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Jan/31/2021 11:38"
+  },
   "CF106141458": {
     "contest_id": 1408,
     "language": "Java 11",
