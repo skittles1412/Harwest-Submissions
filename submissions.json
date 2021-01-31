@@ -2248,6 +2248,27 @@
     ],
     "timestamp": "Jan/30/2021 09:24"
   },
+  "CF106141458": {
+    "contest_id": 1408,
+    "language": "Java 11",
+    "path": "codeforces\\1408\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Avoid Rainbow Cycles",
+    "problem_url": "https://codeforces.com/contest/1408/problem/E",
+    "submission_id": "CF106141458",
+    "submission_url": "https://codeforces.com/contest/1408/submission/106141458",
+    "tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "greedy",
+      "sortings",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Jan/31/2021 13:43"
+  },
   "CF78604241": {
     "contest_id": 785,
     "language": "Java 11",
