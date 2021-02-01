@@ -12,6 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+728 | [F - Zublicanes and Mumocrates](https://codeforces.com/contest/581/problem/F) | [Java 11](./codeforces/581/F.java) | `dp` `trees` `two pointers` `*2400` | Jan/31/2021 18:03 | 
 727 | [E - Avoid Rainbow Cycles](https://codeforces.com/contest/1408/problem/E) | [Java 11](./codeforces/1408/E.java) | `data structures` `dsu` `graphs` `greedy` `sortings` `trees` `*2400` | Jan/31/2021 13:43 | 
 726 | [E - Palindromes in a Tree](https://codeforces.com/contest/914/problem/E) | [Java 11](./codeforces/914/E.java) | `bitmasks` `data structures` `divide and conquer` `trees` `*2400` | Jan/31/2021 11:38 | 
 725 | [D - Distance in Tree](https://codeforces.com/contest/161/problem/D) | [Java 11](./codeforces/161/D.java) | `dfs and similar` `dp` `trees` `*1800` | Jan/30/2021 13:11 | 

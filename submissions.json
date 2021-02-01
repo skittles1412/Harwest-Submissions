@@ -2424,6 +2424,24 @@
     ],
     "timestamp": "Jan/31/2021 13:43"
   },
+  "CF106149627": {
+    "contest_id": 581,
+    "language": "Java 11",
+    "path": "codeforces\\581\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Zublicanes and Mumocrates",
+    "problem_url": "https://codeforces.com/contest/581/problem/F",
+    "submission_id": "CF106149627",
+    "submission_url": "https://codeforces.com/contest/581/submission/106149627",
+    "tags": [
+      "dp",
+      "trees",
+      "two pointers",
+      "*2400"
+    ],
+    "timestamp": "Jan/31/2021 18:03"
+  },
   "CF78604241": {
     "contest_id": 785,
     "language": "Java 11",
