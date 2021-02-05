@@ -2442,6 +2442,24 @@
     ],
     "timestamp": "Jan/31/2021 18:03"
   },
+  "CF106630595": {
+    "contest_id": 980,
+    "language": "Java 11",
+    "path": "codeforces\\980\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "The Number Games",
+    "problem_url": "https://codeforces.com/contest/980/problem/E",
+    "submission_id": "CF106630595",
+    "submission_url": "https://codeforces.com/contest/980/submission/106630595",
+    "tags": [
+      "data structures",
+      "greedy",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "Feb/05/2021 15:06"
+  },
   "CF106632937": {
     "contest_id": 1114,
     "language": "Java 11",
