@@ -2480,6 +2480,25 @@
     ],
     "timestamp": "Feb/05/2021 16:42"
   },
+  "CF106697618": {
+    "contest_id": 1166,
+    "language": "Java 11",
+    "path": "codeforces\\1166\\F.java",
+    "platform": "Codeforces",
+    "problem_index": "F",
+    "problem_name": "Vicky's Delivery Service",
+    "problem_url": "https://codeforces.com/contest/1166/problem/F",
+    "submission_id": "CF106697618",
+    "submission_url": "https://codeforces.com/contest/1166/submission/106697618",
+    "tags": [
+      "data structures",
+      "dsu",
+      "graphs",
+      "hashing",
+      "*2400"
+    ],
+    "timestamp": "Feb/06/2021 10:48"
+  },
   "CF106708302": {
     "contest_id": 1251,
     "language": "Java 11",
