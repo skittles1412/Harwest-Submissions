@@ -2480,6 +2480,24 @@
     ],
     "timestamp": "Feb/05/2021 16:42"
   },
+  "CF106708309": {
+    "contest_id": 1251,
+    "language": "Java 11",
+    "path": "codeforces\\1251\\E2.java",
+    "platform": "Codeforces",
+    "problem_index": "E2",
+    "problem_name": "Voting (Hard Version)",
+    "problem_url": "https://codeforces.com/contest/1251/problem/E2",
+    "submission_id": "CF106708309",
+    "submission_url": "https://codeforces.com/contest/1251/submission/106708309",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "*2400"
+    ],
+    "timestamp": "Feb/06/2021 16:56"
+  },
   "CF106772169": {
     "contest_id": 1479,
     "language": "Java 11",
