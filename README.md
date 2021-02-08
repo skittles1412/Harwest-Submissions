@@ -12,9 +12,10 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-733 | [B - The Great Hero](https://codeforces.com/contest/1480/problem/B) | [Java 11](./codeforces/1480/B.java) | `greedy` `implementation` `sortings` | Feb/08/2021 10:46 | 
-732 | [A - Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | [Java 11](./codeforces/1480/A.java) | `games` `greedy` `strings` | Feb/08/2021 10:34 | 
-731 | [C - Continuous City](https://codeforces.com/contest/1479/problem/C) | [Java 11](./codeforces/1479/C.java) | `bitmasks` `constructive algorithms` `greedy` `*2500` | Feb/08/2021 10:29 | 
+734 | [B - The Great Hero](https://codeforces.com/contest/1480/problem/B) | [Java 11](./codeforces/1480/B.java) | `greedy` `implementation` `sortings` | Feb/08/2021 10:46 | 
+733 | [A - Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | [Java 11](./codeforces/1480/A.java) | `games` `greedy` `strings` | Feb/08/2021 10:34 | 
+732 | [C - Continuous City](https://codeforces.com/contest/1479/problem/C) | [Java 11](./codeforces/1479/C.java) | `bitmasks` `constructive algorithms` `greedy` `*2500` | Feb/08/2021 10:29 | 
+731 | [B2 - Painting the Array II](https://codeforces.com/contest/1479/problem/B2) | [Java 11](./codeforces/1479/B2.java) | `constructive algorithms` `data structures` `dp` `greedy` `implementation` `*2100` | Feb/08/2021 08:05 | 
 730 | [F - Please, another Queries on Array?](https://codeforces.com/contest/1114/problem/F) | [Java 11](./codeforces/1114/F.java) | `bitmasks` `data structures` `divide and conquer` `math` `number theory` `*2400` | Feb/05/2021 16:42 | 
 729 | [E - The Number Games](https://codeforces.com/contest/980/problem/E) | [Java 11](./codeforces/980/E.java) | `data structures` `greedy` `trees` `*2200` | Feb/05/2021 15:06 | 
 728 | [F - Zublicanes and Mumocrates](https://codeforces.com/contest/581/problem/F) | [Java 11](./codeforces/581/F.java) | `dp` `trees` `two pointers` `*2400` | Jan/31/2021 18:03 | 
