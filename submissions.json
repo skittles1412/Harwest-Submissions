@@ -2480,6 +2480,23 @@
     ],
     "timestamp": "Feb/05/2021 16:42"
   },
+  "CF106933210": {
+    "contest_id": 1480,
+    "language": "Java 11",
+    "path": "codeforces\\1480\\A.java",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Yet Another String Game",
+    "problem_url": "https://codeforces.com/contest/1480/problem/A",
+    "submission_id": "CF106933210",
+    "submission_url": "https://codeforces.com/contest/1480/submission/106933210",
+    "tags": [
+      "games",
+      "greedy",
+      "strings"
+    ],
+    "timestamp": "Feb/08/2021 10:34"
+  },
   "CF106933830": {
     "contest_id": 1480,
     "language": "Java 11",
