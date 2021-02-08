@@ -2480,6 +2480,24 @@
     ],
     "timestamp": "Feb/05/2021 16:42"
   },
+  "CF106932930": {
+    "contest_id": 1479,
+    "language": "Java 11",
+    "path": "codeforces\\1479\\C.java",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Continuous City",
+    "problem_url": "https://codeforces.com/contest/1479/problem/C",
+    "submission_id": "CF106932930",
+    "submission_url": "https://codeforces.com/contest/1479/submission/106932930",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "*2500"
+    ],
+    "timestamp": "Feb/08/2021 10:29"
+  },
   "CF106933210": {
     "contest_id": 1480,
     "language": "Java 11",
