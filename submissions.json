@@ -2644,6 +2644,24 @@
     ],
     "timestamp": "Feb/08/2021 10:46"
   },
+  "CF107092324": {
+    "contest_id": 835,
+    "language": "Java 11",
+    "path": "codeforces\\835\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "The penguin's game",
+    "problem_url": "https://codeforces.com/contest/835/problem/E",
+    "submission_id": "CF107092324",
+    "submission_url": "https://codeforces.com/contest/835/submission/107092324",
+    "tags": [
+      "binary search",
+      "constructive algorithms",
+      "interactive",
+      "*2400"
+    ],
+    "timestamp": "Feb/10/2021 15:31"
+  },
   "CF107192825": {
     "contest_id": 1485,
     "language": "Java 11",

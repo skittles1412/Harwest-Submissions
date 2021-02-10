@@ -12,13 +12,14 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-746 | [C - Package Delivery](https://codeforces.com/contest/627/problem/C) | [Java 11](./codeforces/627/C.java) | `data structures` `divide and conquer` `greedy` `*2200` | Feb/23/2021 16:12 | 
-745 | [E - Two Types of Spells](https://codeforces.com/contest/1398/problem/E) | [Java 11](./codeforces/1398/E.java) | `binary search` `data structures` `greedy` `implementation` `math` `sortings` `*2200` | Feb/23/2021 08:02 | 
-744 | [E - LIS of Sequence](https://codeforces.com/contest/486/problem/E) | [Java 11](./codeforces/486/E.java) | `data structures` `dp` `greedy` `hashing` `math` `*2200` | Feb/22/2021 22:04 | 
-743 | [D - Nature Reserve](https://codeforces.com/contest/1059/problem/D) | [Java 11](./codeforces/1059/D.java) | `binary search` `geometry` `ternary search` `*2200` | Feb/22/2021 17:19 | 
-742 | [C - Floor and Mod](https://codeforces.com/contest/1485/problem/C) | [Java 11](./codeforces/1485/C.java) | `binary search` `brute force` `math` `number theory` `*1700` | Feb/12/2021 08:19 | 
-741 | [B - Replace and Keep Sorted](https://codeforces.com/contest/1485/problem/B) | [Java 11](./codeforces/1485/B.java) | `dp` `implementation` `math` `*1200` | Feb/12/2021 07:13 | 
-740 | [A - Add and Divide](https://codeforces.com/contest/1485/problem/A) | [Java 11](./codeforces/1485/A.java) | `brute force` `greedy` `math` `number theory` `*1000` | Feb/12/2021 06:54 | 
+747 | [C - Package Delivery](https://codeforces.com/contest/627/problem/C) | [Java 11](./codeforces/627/C.java) | `data structures` `divide and conquer` `greedy` `*2200` | Feb/23/2021 16:12 | 
+746 | [E - Two Types of Spells](https://codeforces.com/contest/1398/problem/E) | [Java 11](./codeforces/1398/E.java) | `binary search` `data structures` `greedy` `implementation` `math` `sortings` `*2200` | Feb/23/2021 08:02 | 
+745 | [E - LIS of Sequence](https://codeforces.com/contest/486/problem/E) | [Java 11](./codeforces/486/E.java) | `data structures` `dp` `greedy` `hashing` `math` `*2200` | Feb/22/2021 22:04 | 
+744 | [D - Nature Reserve](https://codeforces.com/contest/1059/problem/D) | [Java 11](./codeforces/1059/D.java) | `binary search` `geometry` `ternary search` `*2200` | Feb/22/2021 17:19 | 
+743 | [C - Floor and Mod](https://codeforces.com/contest/1485/problem/C) | [Java 11](./codeforces/1485/C.java) | `binary search` `brute force` `math` `number theory` `*1700` | Feb/12/2021 08:19 | 
+742 | [B - Replace and Keep Sorted](https://codeforces.com/contest/1485/problem/B) | [Java 11](./codeforces/1485/B.java) | `dp` `implementation` `math` `*1200` | Feb/12/2021 07:13 | 
+741 | [A - Add and Divide](https://codeforces.com/contest/1485/problem/A) | [Java 11](./codeforces/1485/A.java) | `brute force` `greedy` `math` `number theory` `*1000` | Feb/12/2021 06:54 | 
+740 | [E - The penguin's game](https://codeforces.com/contest/835/problem/E) | [Java 11](./codeforces/835/E.java) | `binary search` `constructive algorithms` `interactive` `*2400` | Feb/10/2021 15:31 | 
 739 | [B - The Great Hero](https://codeforces.com/contest/1480/problem/B) | [Java 11](./codeforces/1480/B.java) | `greedy` `implementation` `sortings` | Feb/08/2021 10:46 | 
 738 | [A - Yet Another String Game](https://codeforces.com/contest/1480/problem/A) | [Java 11](./codeforces/1480/A.java) | `games` `greedy` `strings` | Feb/08/2021 10:34 | 
 737 | [C - Continuous City](https://codeforces.com/contest/1479/problem/C) | [Java 11](./codeforces/1479/C.java) | `bitmasks` `constructive algorithms` `greedy` `*2500` | Feb/08/2021 10:29 | 
