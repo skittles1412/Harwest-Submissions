@@ -2644,6 +2644,24 @@
     ],
     "timestamp": "Feb/08/2021 10:46"
   },
+  "CF108215462": {
+    "contest_id": 1059,
+    "language": "Java 11",
+    "path": "codeforces\\1059\\D.java",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Nature Reserve",
+    "problem_url": "https://codeforces.com/contest/1059/problem/D",
+    "submission_id": "CF108215462",
+    "submission_url": "https://codeforces.com/contest/1059/submission/108215462",
+    "tags": [
+      "binary search",
+      "geometry",
+      "ternary search",
+      "*2200"
+    ],
+    "timestamp": "Feb/22/2021 17:19"
+  },
   "CF108226550": {
     "contest_id": 486,
     "language": "Java 11",
