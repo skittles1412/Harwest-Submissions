@@ -1,4 +1,20 @@
 {
+  "AC20608005": {
+    "contest_id": "arc113",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder/arc113/D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Sky Reflector",
+    "problem_url": "https://atcoder.jp/contests/arc113/tasks/arc113_d",
+    "submission_id": "AC20608005",
+    "submission_url": "https://atcoder.jp/contests/arc113/submissions/20608005",
+    "tags": [
+      "AtCoder",
+      "*600"
+    ],
+    "timestamp": "Mar/01/2021 21:59"
+  },
   "CF100006382": {
     "contest_id": 1455,
     "language": "Java 11",
