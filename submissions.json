@@ -2795,6 +2795,28 @@
     ],
     "timestamp": "Feb/23/2021 16:12"
   },
+  "CF110414336": {
+    "contest_id": 766,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\766\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Mahmoud and a xor trip",
+    "problem_url": "https://codeforces.com/contest/766/problem/E",
+    "submission_id": "CF110414336",
+    "submission_url": "https://codeforces.com/contest/766/submission/110414336",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "data structures",
+      "dfs and similar",
+      "dp",
+      "math",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Mar/18/2021 21:16"
+  },
   "CF110982258": {
     "contest_id": 1490,
     "language": "Java 11",
