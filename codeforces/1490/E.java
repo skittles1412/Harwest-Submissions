@@ -43,7 +43,7 @@ public class Main {
 		    }
 		}
 		Arrays.sort(temp);
-		HashSet<Integer> set = new HashSet<>();
+		HashSet<Integer> set = new HashSet<>(n);
 		long[] prefix = new long[n];
 		long sum = 0;	
 		for(int i = 0; i < n; i++){
@@ -56,7 +56,7 @@ public class Main {
 			if(prefix[i] >= temp[i+1]) set.add(temp[i]);
 			else break;
 		}
-		List<Integer> list = new ArrayList<>();
+		List<Integer> list = new ArrayList<>(n);
 		for(int i = 0; i < n; i++){
 			if(set.contains(arr[i])) list.add(i+1);
 		}
