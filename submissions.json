@@ -2795,6 +2795,24 @@
     ],
     "timestamp": "Feb/23/2021 16:12"
   },
+  "CF110982385": {
+    "contest_id": 1490,
+    "language": "Java 11",
+    "path": "codeforces\\1490\\E.java",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Accidental Victory",
+    "problem_url": "https://codeforces.com/contest/1490/problem/E",
+    "submission_id": "CF110982385",
+    "submission_url": "https://codeforces.com/contest/1490/submission/110982385",
+    "tags": [
+      "binary search",
+      "data structures",
+      "greedy",
+      "*1400"
+    ],
+    "timestamp": "Mar/25/2021 06:54"
+  },
   "CF113138050": {
     "contest_id": 1503,
     "language": "GNU C++17 (64)",
