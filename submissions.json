@@ -2795,6 +2795,25 @@
     ],
     "timestamp": "Feb/23/2021 16:12"
   },
+  "CF113269114": {
+    "contest_id": 1508,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces\\1508\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Binary Literature",
+    "problem_url": "https://codeforces.com/contest/1508/problem/A",
+    "submission_id": "CF113269114",
+    "submission_url": "https://codeforces.com/contest/1508/submission/113269114",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "two pointers"
+    ],
+    "timestamp": "Apr/16/2021 12:16"
+  },
   "CF78604241": {
     "contest_id": 785,
     "language": "Java 11",
