@@ -3039,6 +3039,23 @@
     ],
     "timestamp": "Apr/16/2021 12:16"
   },
+  "CF113375750": {
+    "contest_id": 432,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/432/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Prime Swaps",
+    "problem_url": "https://codeforces.com/contest/432/problem/C",
+    "submission_id": "CF113375750",
+    "submission_url": "https://codeforces.com/contest/432/submission/113375750",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Apr/17/2021 20:13"
+  },
   "CF113375986": {
     "contest_id": 476,
     "language": "GNU C++17 (64)",
