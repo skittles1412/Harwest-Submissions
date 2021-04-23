@@ -12,11 +12,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-764 | [C - Travelling Salesman Problem](https://codeforces.com/contest/1503/problem/C) | [GNU C++17 (64)](./codeforces/1503/C.cpp) | `binary search` `data structures` `dp` `greedy` `shortest paths` `sortings` `two pointers` `*2200` | Apr/28/2021 14:55 | 
-763 | [C - Complete the MST](https://codeforces.com/contest/1508/problem/C) | [GNU C++17 (64)](./codeforces/1508/C.cpp) | `bitmasks` `brute force` `data structures` `dfs and similar` `dsu` `graphs` `greedy` `trees` `*2500` | Apr/28/2021 11:03 | 
-762 | [B - Almost Sorted](https://codeforces.com/contest/1508/problem/B) | [GNU C++17 (64)](./codeforces/1508/B.cpp) | `binary search` `combinatorics` `constructive algorithms` `implementation` `*1800` | Apr/28/2021 09:26 | 
-761 | [G - Starry Night Camping](https://codeforces.com/contest/1517/problem/G) | [GNU C++17 (64)](./codeforces/1517/G.cpp) | `constructive algorithms` `flows` `graphs` `*3300` | Apr/27/2021 14:49 | 
-760 | [E - Group Photo](https://codeforces.com/contest/1517/problem/E) | [GNU C++17 (64)](./codeforces/1517/E.cpp) | `binary search` `data structures` `implementation` `two pointers` `*2500` | Apr/24/2021 09:52 | 
+765 | [C - Travelling Salesman Problem](https://codeforces.com/contest/1503/problem/C) | [GNU C++17 (64)](./codeforces/1503/C.cpp) | `binary search` `data structures` `dp` `greedy` `shortest paths` `sortings` `two pointers` `*2200` | Apr/28/2021 14:55 | 
+764 | [C - Complete the MST](https://codeforces.com/contest/1508/problem/C) | [GNU C++17 (64)](./codeforces/1508/C.cpp) | `bitmasks` `brute force` `data structures` `dfs and similar` `dsu` `graphs` `greedy` `trees` `*2500` | Apr/28/2021 11:03 | 
+763 | [B - Almost Sorted](https://codeforces.com/contest/1508/problem/B) | [GNU C++17 (64)](./codeforces/1508/B.cpp) | `binary search` `combinatorics` `constructive algorithms` `implementation` `*1800` | Apr/28/2021 09:26 | 
+762 | [G - Starry Night Camping](https://codeforces.com/contest/1517/problem/G) | [GNU C++17 (64)](./codeforces/1517/G.cpp) | `constructive algorithms` `flows` `graphs` `*3300` | Apr/27/2021 14:49 | 
+761 | [E - Group Photo](https://codeforces.com/contest/1517/problem/E) | [GNU C++17 (64)](./codeforces/1517/E.cpp) | `binary search` `data structures` `implementation` `two pointers` `*2500` | Apr/24/2021 09:52 | 
+760 | [D - Explorer Space](https://codeforces.com/contest/1517/problem/D) | [GNU C++17 (64)](./codeforces/1517/D.cpp) | `dp` `graphs` `shortest paths` `*1800` | Apr/23/2021 16:34 | 
 759 | [A - Binary Literature](https://codeforces.com/contest/1508/problem/A) | [GNU C++17 (64)](./codeforces/1508/A.cpp) | `constructive algorithms` `greedy` `implementation` `math` `two pointers` | Apr/16/2021 12:16 | 
 758 | [B - 3-Coloring](https://codeforces.com/contest/1503/problem/B) | [GNU C++17 (64)](./codeforces/1503/B.cpp) | `constructive algorithms` `games` `interactive` `*1700` | Apr/15/2021 20:05 | 
 757 | [A - Balance the Bits](https://codeforces.com/contest/1503/problem/A) | [GNU C++17 (64)](./codeforces/1503/A.cpp) | `constructive algorithms` `greedy` `*1600` | Apr/15/2021 19:45 | 
