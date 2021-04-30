@@ -5,14 +5,15 @@ Submissions
 ## Introduction
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
-* Codeforces &nbsp; [![Codeforces](https://run.kaist.ac.kr/badges/codeforces/skittles1412.svg)](https://codeforces.com/profile/skittles1412)
-* AtCoder &nbsp; [![AtCoder](https://run.kaist.ac.kr/badges/atcoder/skittles1412.svg)](https://atcoder.jp/users/skittles1412)
+* Codeforces &nbsp; [![Codeforces](https://cp-logo.vercel.app/codeforces/skittles1412)](https://codeforces.com/profile/skittles1412)
+* AtCoder &nbsp; [![AtCoder](https://cp-logo.vercel.app/atcoder/skittles1412)](https://atcoder.jp/users/skittles1412)
 
 
 ## Contents
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+801 | [A - The Fair Nut and the Best Path](https://codeforces.com/contest/1083/problem/A) | [GNU C++17 (64)](./codeforces/1083/A.cpp) | `data structures` `dp` `trees` `*1800` | Apr/30/2021 12:08 | 
 800 | [C - Travelling Salesman Problem](https://codeforces.com/contest/1503/problem/C) | [GNU C++17 (64)](./codeforces/1503/C.cpp) | `binary search` `data structures` `dp` `greedy` `shortest paths` `sortings` `two pointers` `*2200` | Apr/28/2021 14:55 | 
 799 | [C - Complete the MST](https://codeforces.com/contest/1508/problem/C) | [GNU C++17 (64)](./codeforces/1508/C.cpp) | `bitmasks` `brute force` `data structures` `dfs and similar` `dsu` `graphs` `greedy` `trees` `*2500` | Apr/28/2021 11:03 | 
 798 | [B - Almost Sorted](https://codeforces.com/contest/1508/problem/B) | [GNU C++17 (64)](./codeforces/1508/B.cpp) | `binary search` `combinatorics` `constructive algorithms` `implementation` `*1800` | Apr/28/2021 09:26 | 
