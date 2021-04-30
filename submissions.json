@@ -3766,6 +3766,25 @@
     ],
     "timestamp": "Apr/30/2021 13:09"
   },
+  "CF114731230": {
+    "contest_id": 1394,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1394/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Boboniu Walks on Graph",
+    "problem_url": "https://codeforces.com/contest/1394/problem/B",
+    "submission_id": "CF114731230",
+    "submission_url": "https://codeforces.com/contest/1394/submission/114731230",
+    "tags": [
+      "brute force",
+      "dfs and similar",
+      "graphs",
+      "hashing",
+      "*2300"
+    ],
+    "timestamp": "Apr/30/2021 16:58"
+  },
   "CF114732052": {
     "contest_id": 1245,
     "language": "GNU C++17 (64)",
