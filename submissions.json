@@ -3766,6 +3766,26 @@
     ],
     "timestamp": "Apr/30/2021 13:09"
   },
+  "CF114720415": {
+    "contest_id": 1117,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/1117/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Decypher the String",
+    "problem_url": "https://codeforces.com/contest/1117/problem/E",
+    "submission_id": "CF114720415",
+    "submission_url": "https://codeforces.com/contest/1117/submission/114720415",
+    "tags": [
+      "bitmasks",
+      "chinese remainder theorem",
+      "constructive algorithms",
+      "interactive",
+      "math",
+      "*2200"
+    ],
+    "timestamp": "Apr/30/2021 13:43"
+  },
   "CF114731230": {
     "contest_id": 1394,
     "language": "GNU C++17 (64)",
