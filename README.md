@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+808 | [D - Bear and Contribution](https://codeforces.com/contest/639/problem/D) | [GNU C++17 (64)](./codeforces/639/D.cpp) | `data structures` `greedy` `sortings` `two pointers` `*2400` | May/01/2021 11:16 | 
 807 | [G - Fence Divercity](https://codeforces.com/contest/659/problem/G) | [GNU C++17 (64)](./codeforces/659/G.cpp) | `combinatorics` `dp` `number theory` `*2300` | Apr/30/2021 20:23 | 
 806 | [C - Mice problem](https://codeforces.com/contest/793/problem/C) | [GNU C++17 (64)](./codeforces/793/C.cpp) | `geometry` `implementation` `math` `sortings` `*2300` | Apr/30/2021 17:47 | 
 805 | [F - Daniel and Spring Cleaning](https://codeforces.com/contest/1245/problem/F) | [GNU C++17 (64)](./codeforces/1245/F.cpp) | `bitmasks` `brute force` `combinatorics` `dp` `*2300` | Apr/30/2021 17:31 | 
