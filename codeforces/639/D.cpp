@@ -77,7 +77,6 @@ void solve() {
 	long arr[n];
 	for(int i = 0; i < n; i++) {
 		cin >> arr[i];
-		assert(arr[i] >= -1e9);
 		arr[i] += 1e9 + 5;
 	}
 
