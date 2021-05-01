@@ -3861,6 +3861,25 @@
     ],
     "timestamp": "Apr/30/2021 20:23"
   },
+  "CF114793969": {
+    "contest_id": 639,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/639/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Bear and Contribution",
+    "problem_url": "https://codeforces.com/contest/639/problem/D",
+    "submission_id": "CF114793969",
+    "submission_url": "https://codeforces.com/contest/639/submission/114793969",
+    "tags": [
+      "data structures",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*2400"
+    ],
+    "timestamp": "May/01/2021 10:10"
+  },
   "CF114794040": {
     "contest_id": 639,
     "language": "GNU C++17 (64)",

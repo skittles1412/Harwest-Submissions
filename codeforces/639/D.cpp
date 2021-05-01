@@ -77,7 +77,8 @@ void solve() {
 	long arr[n];
 	for(int i = 0; i < n; i++) {
 		cin >> arr[i];
-		arr[i] += 1e9;
+		assert(arr[i] >= -1e9);
+		arr[i] += 1e9 + 5;
 	}
 
 	sort(arr, arr + n);
@@ -87,7 +88,7 @@ void solve() {
 	long ans = LLONG_MAX;
 	for(int i = 0; i < 5; i++) {
 		DS ds(k);
-		long prev = -1;
+		long prev = 0;
 
 		for(int j = 0; j < n; j++) {
 			long next = ((arr[j] / 5) * 5) + i;
