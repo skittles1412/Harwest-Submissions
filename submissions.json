@@ -3766,6 +3766,25 @@
     ],
     "timestamp": "Apr/30/2021 13:09"
   },
+  "CF114732437": {
+    "contest_id": 793,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/793/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Mice problem",
+    "problem_url": "https://codeforces.com/contest/793/problem/C",
+    "submission_id": "CF114732437",
+    "submission_url": "https://codeforces.com/contest/793/submission/114732437",
+    "tags": [
+      "geometry",
+      "implementation",
+      "math",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Apr/30/2021 17:47"
+  },
   "CF78604241": {
     "contest_id": 785,
     "language": "Java 11",

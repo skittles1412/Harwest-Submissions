@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+803 | [C - Mice problem](https://codeforces.com/contest/793/problem/C) | [GNU C++17 (64)](./codeforces/793/C.cpp) | `geometry` `implementation` `math` `sortings` `*2300` | Apr/30/2021 17:47 | 
 802 | [E - Infinite Inversions](https://codeforces.com/contest/540/problem/E) | [GNU C++17 (64)](./codeforces/540/E.cpp) | `binary search` `data structures` `implementation` `sortings` `trees` `*2100` | Apr/30/2021 13:09 | 
 801 | [A - The Fair Nut and the Best Path](https://codeforces.com/contest/1083/problem/A) | [GNU C++17 (64)](./codeforces/1083/A.cpp) | `data structures` `dp` `trees` `*1800` | Apr/30/2021 12:08 | 
 800 | [C - Travelling Salesman Problem](https://codeforces.com/contest/1503/problem/C) | [GNU C++17 (64)](./codeforces/1503/C.cpp) | `binary search` `data structures` `dp` `greedy` `shortest paths` `sortings` `two pointers` `*2200` | Apr/28/2021 14:55 | 
