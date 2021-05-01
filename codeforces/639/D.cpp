@@ -45,7 +45,7 @@ struct DS: set<pair<long, int>> {
 		x -= lazy;
 		pair<long, int> p(x, ind++);
 		insert(p);
-		if(size() <= n) {
+		if(size() < n) {
 			sum += p.first;
 			if(size() == n) {
 				cur = *(--end());
@@ -87,7 +87,7 @@ void solve() {
 	long ans = LLONG_MAX;
 	for(int i = 0; i < 5; i++) {
 		DS ds(k);
-		long prev = 0;
+		long prev = -1;
 
 		for(int j = 0; j < n; j++) {
 			long next = ((arr[j] / 5) * 5) + i;
