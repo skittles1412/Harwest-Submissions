@@ -13,6 +13,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
+810 | [F - Progress Monitoring](https://codeforces.com/contest/509/problem/F) | [GNU C++17 (64)](./codeforces/509/F.cpp) | `dp` `trees` `*2300` | May/01/2021 17:49 | 
 809 | [D - Bear and Contribution](https://codeforces.com/contest/639/problem/D) | [GNU C++17 (64)](./codeforces/639/D.cpp) | `data structures` `greedy` `sortings` `two pointers` `*2400` | May/01/2021 11:16 | 
 808 | [A - The Artful Expedient](https://codeforces.com/contest/869/problem/A) | [Node.js](./codeforces/869/A.js) | `brute force` `implementation` `*1100` | May/01/2021 10:16 | 
 807 | [G - Fence Divercity](https://codeforces.com/contest/659/problem/G) | [GNU C++17 (64)](./codeforces/659/G.cpp) | `combinatorics` `dp` `number theory` `*2300` | Apr/30/2021 20:23 | 
