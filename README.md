@@ -13,12 +13,13 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-816 | [G - To Go Or Not To Go?](https://codeforces.com/contest/1520/problem/G) | [GNU C++17 (64)](./codeforces/1520/G.cpp) | `brute force` `dfs and similar` `graphs` `greedy` `shortest paths` `*2200` | May/06/2021 09:33 | 
-815 | [F - Phoenix and Earthquake](https://codeforces.com/contest/1515/problem/F) | [GNU C++17 (64)](./codeforces/1515/F.cpp) | `constructive algorithms` `dfs and similar` `dsu` `graphs` `greedy` `trees` `*2600` | May/05/2021 20:28 | 
-814 | [E - Phoenix and Computers](https://codeforces.com/contest/1515/problem/E) | [GNU C++17 (64)](./codeforces/1515/E.cpp) | `combinatorics` `dp` `math` `*2200` | May/04/2021 13:05 | 
-813 | [D - Jamie and To-do List](https://codeforces.com/contest/916/problem/D) | [GNU C++17 (64)](./codeforces/916/D.cpp) | `data structures` `interactive` `trees` `*2200` | May/03/2021 07:06 | 
-812 | [D - Phoenix and Socks](https://codeforces.com/contest/1515/problem/D) | [GNU C++17 (64)](./codeforces/1515/D.cpp) | `greedy` `sortings` `two pointers` `*1500` | May/02/2021 15:46 | 
-811 | [C - Phoenix and Towers](https://codeforces.com/contest/1515/problem/C) | [GNU C++17 (64)](./codeforces/1515/C.cpp) | `constructive algorithms` `data structures` `greedy` `*1400` | May/02/2021 15:40 | 
+817 | [G - To Go Or Not To Go?](https://codeforces.com/contest/1520/problem/G) | [GNU C++17 (64)](./codeforces/1520/G.cpp) | `brute force` `dfs and similar` `graphs` `greedy` `shortest paths` `*2200` | May/06/2021 09:33 | 
+816 | [F - Phoenix and Earthquake](https://codeforces.com/contest/1515/problem/F) | [GNU C++17 (64)](./codeforces/1515/F.cpp) | `constructive algorithms` `dfs and similar` `dsu` `graphs` `greedy` `trees` `*2600` | May/05/2021 20:28 | 
+815 | [E - Phoenix and Computers](https://codeforces.com/contest/1515/problem/E) | [GNU C++17 (64)](./codeforces/1515/E.cpp) | `combinatorics` `dp` `math` `*2200` | May/04/2021 13:05 | 
+814 | [D - Jamie and To-do List](https://codeforces.com/contest/916/problem/D) | [GNU C++17 (64)](./codeforces/916/D.cpp) | `data structures` `interactive` `trees` `*2200` | May/03/2021 07:06 | 
+813 | [D - Phoenix and Socks](https://codeforces.com/contest/1515/problem/D) | [GNU C++17 (64)](./codeforces/1515/D.cpp) | `greedy` `sortings` `two pointers` `*1500` | May/02/2021 15:46 | 
+812 | [C - Phoenix and Towers](https://codeforces.com/contest/1515/problem/C) | [GNU C++17 (64)](./codeforces/1515/C.cpp) | `constructive algorithms` `data structures` `greedy` `*1400` | May/02/2021 15:40 | 
+811 | [B - Phoenix and Puzzle](https://codeforces.com/contest/1515/problem/B) | [GNU C++17 (64)](./codeforces/1515/B.cpp) | `brute force` `geometry` `math` `number theory` `*1000` | May/02/2021 15:16 | 
 810 | [F - Progress Monitoring](https://codeforces.com/contest/509/problem/F) | [GNU C++17 (64)](./codeforces/509/F.cpp) | `dp` `trees` `*2300` | May/01/2021 17:49 | 
 809 | [D - Bear and Contribution](https://codeforces.com/contest/639/problem/D) | [GNU C++17 (64)](./codeforces/639/D.cpp) | `data structures` `greedy` `sortings` `two pointers` `*2400` | May/01/2021 11:16 | 
 808 | [A - The Artful Expedient](https://codeforces.com/contest/869/problem/A) | [Node.js](./codeforces/869/A.js) | `brute force` `implementation` `*1100` | May/01/2021 10:16 | 
