@@ -1,4 +1,4 @@
-#pragma GCC optimize("unroll-loops")
+#pragma GCC optimize("Ofast")
 
 #include "bits/extc++.h"
 
