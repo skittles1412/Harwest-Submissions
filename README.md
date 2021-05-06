@@ -13,7 +13,8 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-811 | [G - To Go Or Not To Go?](https://codeforces.com/contest/1520/problem/G) | [GNU C++17 (64)](./codeforces/1520/G.cpp) | `brute force` `dfs and similar` `graphs` `greedy` `shortest paths` `*2200` | May/06/2021 09:33 | 
+812 | [G - To Go Or Not To Go?](https://codeforces.com/contest/1520/problem/G) | [GNU C++17 (64)](./codeforces/1520/G.cpp) | `brute force` `dfs and similar` `graphs` `greedy` `shortest paths` `*2200` | May/06/2021 09:33 | 
+811 | [F - Phoenix and Earthquake](https://codeforces.com/contest/1515/problem/F) | [GNU C++17 (64)](./codeforces/1515/F.cpp) | `constructive algorithms` `dfs and similar` `dsu` `graphs` `greedy` `trees` `*2600` | May/05/2021 20:28 | 
 810 | [F - Progress Monitoring](https://codeforces.com/contest/509/problem/F) | [GNU C++17 (64)](./codeforces/509/F.cpp) | `dp` `trees` `*2300` | May/01/2021 17:49 | 
 809 | [D - Bear and Contribution](https://codeforces.com/contest/639/problem/D) | [GNU C++17 (64)](./codeforces/639/D.cpp) | `data structures` `greedy` `sortings` `two pointers` `*2400` | May/01/2021 11:16 | 
 808 | [A - The Artful Expedient](https://codeforces.com/contest/869/problem/A) | [Node.js](./codeforces/869/A.js) | `brute force` `implementation` `*1100` | May/01/2021 10:16 | 
