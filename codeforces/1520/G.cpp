@@ -36,37 +36,6 @@ cerr << endl
 
 #define sz(x) int((x).size())
 
-// https://github.com/bqi343/USACO/blob/master/Implementations/content/various/FastIO.h
-namespace FastIO {
-	const int BSZ = 1 << 15; ////// INPUT
-	char ibuf[BSZ];
-	int ipos, ilen;
-
-	inline char nc() { // next char
-		if(ipos == ilen) {
-			ipos = 0;
-			ilen = fread(ibuf, 1, BSZ, stdin);
-			if(!ilen)
-				return EOF;
-		}
-		return ibuf[ipos++];
-	}
-
-	template<class T>
-	inline void ri(T &x) { // read int or ll
-		char ch;
-		int sgn = 1;
-		while(!isdigit(ch = nc()))
-			if(ch == '-')
-				sgn *= -1;
-		x = ch - '0';
-		while(isdigit(ch = nc()))
-			x = x * 10 + (ch - '0');
-		x *= sgn;
-	}
-}
-using namespace FastIO;
-
 const int maxn = 2e3 + 2, inf = 0x7f7f7f7f;
 const long linf = 1e18;
 const int dx[4] {0, 1, 0, -1}, dy[4] {1, 0, -1, 0};
@@ -116,12 +85,10 @@ void bfs2() {
 
 void solve() {
 	memset(arr, -1, sizeof(arr));
-	ri(n);
-	ri(m);
-	ri(w);
+	cin >> n >> m >> w;
 	for(int i = 1; i <= n; i++) {
 		for(int j = 1; j <= m; j++) {
-			ri(arr[i][j]);
+			cin >> arr[i][j];
 		}
 	}
 	bfs1();
