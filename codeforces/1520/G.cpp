@@ -1,5 +1,3 @@
-#pragma GCC optimize("Ofast")
-
 #include "bits/extc++.h"
 
 using namespace std;
@@ -36,26 +34,29 @@ cerr << endl
 
 #define sz(x) int((x).size())
 
-const int maxn = 2e3 + 2, inf = 0x7f7f7f7f;
-const long linf = 1e18;
+const int maxn = 2e3;
 const int dx[4] {0, 1, 0, -1}, dy[4] {1, 0, -1, 0};
 
 int n, m;
 long w;
 int qx[maxn * maxn], qy[maxn * maxn], dist1[maxn][maxn], dist2[maxn][maxn], arr[maxn][maxn];
 
-void bfs1() {
-	memset(dist1, 0x7f, sizeof(dist1));
-	qx[0] = qy[0] = 1;
+inline bool ibs(int x, int y) {
+	return 0 <= x && x < n && 0 <= y && y < m;
+}
+
+inline void bfs1() {
+	memset(dist1, -1, sizeof(dist1));
+	qx[0] = qy[0] = 0;
 	int l = 0, r = 1;
-	dist1[1][1] = 0;
+	dist1[0][0] = 0;
 	while(l < r) {
-		int x = qx[l], y = qy[l++], d = dist1[x][y] + 1;
+		int x = qx[l], y = qy[l++], d = dist1[x][y];
 		for(int i = 0; i < 4; i++) {
 			int cx = x + dx[i];
 			int cy = y + dy[i];
-			if(arr[cx][cy] != -1 && dist1[cx][cy] == inf) {
-				dist1[cx][cy] = d;
+			if(ibs(cx, cy) && arr[cx][cy] != -1 && dist1[cx][cy] == -1) {
+				dist1[cx][cy] = d + 1;
 				qx[r] = cx;
 				qy[r++] = cy;
 			}
@@ -63,19 +64,19 @@ void bfs1() {
 	}
 }
 
-void bfs2() {
-	memset(dist2, 0x7f, sizeof(dist2));
-	qx[0] = n;
-	qy[0] = m;
+inline void bfs2() {
+	memset(dist2, -1, sizeof(dist2));
+	qx[0] = n - 1;
+	qy[0] = m - 1;
 	int l = 0, r = 1;
-	dist2[n][m] = 0;
+	dist2[n - 1][m - 1] = 0;
 	while(l < r) {
-		int x = qx[l], y = qy[l++], d = dist2[x][y] + 1;
+		int x = qx[l], y = qy[l++], d = dist2[x][y];
 		for(int i = 0; i < 4; i++) {
 			int cx = x + dx[i];
 			int cy = y + dy[i];
-			if(arr[cx][cy] != -1 && dist2[cx][cy] == inf) {
-				dist2[cx][cy] = d;
+			if(ibs(cx, cy) && arr[cx][cy] != -1 && dist2[cx][cy] == -1) {
+				dist2[cx][cy] = d + 1;
 				qx[r] = cx;
 				qy[r++] = cy;
 			}
@@ -84,36 +85,35 @@ void bfs2() {
 }
 
 void solve() {
-	memset(arr, -1, sizeof(arr));
 	cin >> n >> m >> w;
-	for(int i = 1; i <= n; i++) {
-		for(int j = 1; j <= m; j++) {
+	for(int i = 0; i < n; i++) {
+		for(int j = 0; j < m; j++) {
 			cin >> arr[i][j];
 		}
 	}
 	bfs1();
 	bfs2();
-	long ports = linf, porte = linf;
-	for(int i = 0; i < maxn; i++) {
-		for(int j = 0; j < maxn; j++) {
+	long ports = 1e18, porte = 1e18;
+	for(int i = 0; i < n; i++) {
+		for(int j = 0; j < m; j++) {
 			if(arr[i][j] > 0) {
-				if(dist1[i][j] != inf) {
-					ports = min(ports, arr[i][j] + w * dist1[i][j]);
+				if(dist1[i][j] != -1) {
+					ports = min(ports, arr[i][j] + dist1[i][j] * w);
 				}
-				if(dist2[i][j] != inf) {
-					porte = min(porte, arr[i][j] + w * dist2[i][j]);
+				if(dist2[i][j] != -1) {
+					porte = min(porte, arr[i][j] + dist2[i][j] * w);
 				}
 			}
 		}
 	}
-	if(max(ports, porte) == linf && dist2[1][1] == inf) {
+	if(max(ports, porte) == 1e18 && dist2[0][0] == -1) {
 		cout << -1 << endl;
 	}else {
-		long ans = linf;
-		ans = min(ans, w * dist2[1][1]);
-		dbg(ans);
+		long ans = 1e18;
+		if(dist2[0][0] != -1) {
+			ans = min(ans, dist2[0][0] * w);
+		}
 		ans = min(ans, ports + porte);
-		dbg(ans);
 		cout << ans << endl;
 	}
 }
